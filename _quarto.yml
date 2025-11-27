@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: ""
+  search: false
+  
+  navbar:
+    background: primary
+    foreground: light
+    logo: images/logos/bibliometrix-logo.png
+    logo-alt: "Bibliometrix Logo"
+    title: " "
+    left:
+      - text: "HOME"
+        href: index.qmd
+      - text: "PROGRAMMA"
+        href: programma.qmd
+      - text: "ORGANIZZAZIONE"
+        href: organizzazione1.qmd
+      - text: "VENUE"
+        href: venue.qmd
+      - text: "REGISTRAZIONE"
+        href: registrazione.qmd
+  
+  page-footer:
+    left: |
+      <img src="images/logos/bibliometrix-logo.png"
+           alt="Bibliometrix"
+           style="height: 50px; filter: brightness(0) invert(1);">
+    center: |
+      <div class="footer nav-footer-center">
+        © 2025 K-Synth Srl, Academic Spin-Off of the University of Naples Federico II. All Rights Reserved.
+      </div>
+    right: |
+      <div class="footer-socials">
+        <a href="mailto:sssm@bibliometrix.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
+        <a href="#" target="_blank" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: 
+      - styles.css
+    toc: false
+    toc-depth: 3
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-newwindow: true
+    link-external-icon: false
+    code-copy: false
+    code-overflow: wrap
+    grid:
+      sidebar-width: 0px
+      body-width: 1200px
+      margin-width: 0px
+    page-layout: full

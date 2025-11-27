@@ -1,0 +1,376 @@
+---
+title: "Programma"
+format: html
+---
+
+La Summer School si articola in **5 giornate intensive** di formazione teorica e pratica sui principali aspetti della bibliometria e del Science Mapping, con particolare focus sulle novità di **Bibliometrix 5.0**, **TALL (Text Analysis for All)** e **Content Analysis**.
+
+::: {.info-box}
+📥 **Scarica il programma completo:** [Programma SSSM 2026 (PDF)](#)
+
+📧 **Per informazioni:** sssm@bibliometrix.com
+:::
+
+## Giorno 1 - Lunedì 25 Maggio 2026
+
+::: {.day-program}
+::: {.day-title}
+🎓 Introduzione alla Bibliometria e SAAS Workflow
+:::
+
+::: {.session}
+::: {.session-time}
+11:30 - 13:00
+:::
+::: {.session-content}
+**Apertura lavori e introduzione**
+
+- Saluti istituzionali
+- Presentazione del programma e dei partecipanti
+- Data Science per la bibliometria
+- SAAS workflow: tipologie di Systematic Literature Review
+- **Novità Bibliometrix 5.0** e panoramica Biblioshiny
+- Biblioshiny vs altri software di science mapping
+
+<!-- **Docenti:** Prof. Massimo Aria, Prof. Corrado Cuccurullo -->
+:::
+:::
+
+::: {.session}
+::: {.session-time}
+14:00 - 17:30
+:::
+::: {.session-content}
+**Database bibliografici e strategie di ricerca**
+
+- I Metadati: struttura e tipologie
+- Principali database bibliografici a confronto (Scopus, Web of Science, OpenAlex, etc.)
+- Query e criteri di inclusione/esclusione
+- Biblioshiny: Overview e Filtri
+- **Esercitazione pratica:** Costruire query efficaci
+
+<!-- **Docenti:** Prof. Massimo Aria, Prof.ssa Maria Spano -->
+:::
+:::
+
+::: {.session}
+::: {.session-time}
+19:00
+:::
+::: {.session-content}
+🍹 **Aperitivo di Benvenuto Napoletano**
+:::
+:::
+:::
+
+## Giorno 2 - Martedì 26 Maggio 2026
+
+::: {.day-program}
+::: {.day-title}
+📊 Analisi del Dominio e Metriche
+:::
+
+::: {.session}
+::: {.session-time}
+9:00 - 13:00
+:::
+::: {.session-content}
+**Focus on Domain: Analisi descrittiva**
+
+- Sources analysis: riviste più influenti
+- Authors analysis: produttività e impatto
+- Documents analysis: articoli più citati
+- Metriche bibliometriche: h-index, g-index, m-index
+- Impact factor e indicatori alternativi
+- **Novità Bibliometrix 5.0:** nuovi indicatori e visualizzazioni
+
+<!-- **Docenti:** Prof. Corrado Cuccurullo, Prof. Michelangelo Misuraca -->
+:::
+:::
+
+::: {.session}
+::: {.session-time}
+14:00 - 17:30
+:::
+::: {.session-content}
+**Esercitazioni pratiche**
+
+- Strutturare una query di ricerca completa
+- Collection overview: analisi esplorativa del dataset
+- Identificazione di trend e pattern
+- **Laboratorio:** Analisi guidata su casi reali
+
+<!-- **Docenti:** Dott.ssa Alessandra Belfiore, Dott. Luca D'Aniello -->
+:::
+:::
+:::
+
+## Giorno 3 - Mercoledì 27 Maggio 2026
+
+::: {.day-program}
+::: {.day-title}
+🕸️ Network Analysis e Strutture Concettuali
+:::
+
+::: {.session}
+::: {.session-time}
+9:00 - 13:00
+:::
+::: {.session-content}
+**Network Analysis e visualizzazioni**
+
+- Fondamenti di network analysis
+- Co-citation analysis
+- Bibliographic coupling
+- Collaboration networks
+- **Algoritmi di clustering** e community detection
+- Strutture e strategie linguistiche per scrivere una SLR
+
+<!-- **Docenti:** Prof. Massimo Aria, Prof. Walter Giordano -->
+:::
+:::
+
+::: {.session}
+::: {.session-time}
+14:00 - 16:00
+:::
+::: {.session-content}
+**Strutture Concettuali di Conoscenza**
+
+- Co-word network: keyword co-occurrence
+- Thematic maps e evolution
+- Factorial analysis (CA, MCA)
+- **Mixed approach:** integrazione tecniche qualitative e quantitative
+
+<!-- **Docenti:** Prof. Corrado Cuccurullo, Dott.ssa Maria Spano -->
+:::
+:::
+
+::: {.session}
+::: {.session-time}
+16:00 - 19:00
+:::
+::: {.session-content}
+🏛️ **Visita culturale:** .....
+
+🍝 **Social Dinner** (ore 20:00)
+:::
+:::
+:::
+
+## Giorno 4 - Giovedì 28 Maggio 2026
+
+::: {.day-program}
+::: {.day-title}
+📝 TALL e Content Analysis - Le Nuove Frontiere
+:::
+
+::: {.session}
+::: {.session-time}
+9:00 - 13:00
+:::
+::: {.session-content}
+**Strutture Intellettuali e Sociali**
+
+- Intellectual structure: co-citation e historiograph
+- Social structure: collaboration patterns
+- **Da Biblioshiny a TALL (Text Analysis for All)**
+- Introduzione al text mining e NLP per la bibliometria
+- **Content Analysis:** analisi qualitativa dei contenuti
+
+<!-- **Docenti:** Prof. Massimo Aria, Prof. Michelangelo Misuraca -->
+:::
+:::
+
+::: {.session}
+::: {.session-time}
+14:00 - 17:30
+:::
+::: {.session-content}
+**Laboratorio TALL e Content Analysis**
+
+- **Esercitazione guidata:** uso di TALL per text analysis
+- Content analysis applicata: workflow completo
+- **Integrazione Bibliometrix + TALL:** pipeline avanzate
+- Focus sui progetti di ricerca dei partecipanti
+
+**Guest speakers:**
+- Prof. Alessandro Cirillo (Università Federico II)
+- Prof. Giulio Fortuna (Università di Salerno)
+
+<!-- **Docenti:** Prof. Corrado Cuccurullo, Dott. Agostino Gnasso -->
+:::
+:::
+:::
+
+## Giorno 5 - Venerdì 29 Maggio 2026
+
+::: {.day-program}
+::: {.day-title}
+🎯 Progetti Finali e Chiusura
+:::
+
+::: {.session}
+::: {.session-time}
+9:00 - 13:00
+:::
+::: {.session-content}
+**Presentazione lavori di gruppo**
+
+- Esposizione progetti sviluppati durante la settimana
+- Discussione e feedback
+- Q&A finale
+- **Best practices** per pubblicare una SLR
+- Risorse e community Bibliometrix
+- Consegna attestati di partecipazione
+
+<!-- **Docenti:** Prof. Massimo Aria, Prof. Corrado Cuccurullo, tutto lo staff -->
+:::
+:::
+:::
+
+---
+
+## 👥 Docenti
+
+::: {.staff-mini}
+**Prof. Massimo Aria**
+Professore Ordinario di Statistica Sociale
+Dipartimento di Scienze Economiche e Statistiche (DiSES)
+Università degli Studi di Napoli Federico II
+[massimo.aria@unina.it](mailto:massimo.aria@unina.it)
+
+**Prof. Corrado Cuccurullo**
+Professore Ordinario di Economia Aziendale
+Dipartimento di Scienze Economiche e Statistiche (DiSES)
+Università degli Studi di Napoli Federico II
+[cuccurullocorrado@gmail.com](mailto:cuccurullocorrado@gmail.com)
+:::
+
+::: {.staff-mini}
+**Prof. Walter Giordano**
+Professore di Lingua Inglese e Traduzione
+Università degli Studi di Napoli Federico II
+
+**Prof. Michelangelo Misuraca**
+Professore Associato di Statistica Sociale
+Università degli Studi di Salerno
+
+**Dott.ssa Maria Spano**
+Ricercatore di Statistica Sociale
+Università degli Studi di Napoli Federico II
+:::
+
+---
+
+## 📚 Materiali del Corso
+
+I partecipanti riceveranno:
+
+- 📖 Slides delle lezioni
+- 💾 Dataset per le esercitazioni
+<!-- - 💻 Script R e tutorial -->
+- 📋 Bibliografia di riferimento
+- 🎓 Certificato di partecipazione (40 ore) + OpenBadge rilasciato da Bestr
+- 🔗 Accesso alla community Bibliometrix
+
+---
+
+## 🎯 Obiettivi di Apprendimento
+
+Al termine della Summer School i partecipanti saranno in grado di:
+
+✅ Condurre una Systematic Literature Review completa
+✅ Utilizzare Bibliometrix e Biblioshiny in modo professionale
+✅ Applicare le novità di **Bibliometrix 5.0**
+✅ Utilizzare **TALL** per analisi testuali avanzate
+✅ Implementare **Content Analysis** nei propri progetti
+✅ Creare network analysis e visualizzazioni efficaci
+✅ Interpretare metriche bibliometriche
+✅ Pubblicare risultati in riviste scientifiche
+
+---
+
+## 💡 Novità 2026
+
+::: {.alert}
+**🆕 Quest'anno focus speciale su:**
+
+- **Bibliometrix 5.0** - Nuove funzionalità e miglioramenti
+- **TALL (Text Analysis for All)** - Il nuovo pacchetto per text mining
+- **Content Analysis** - Tecniche avanzate di analisi qualitativa
+- **OpenAlex** - Il nuovo database open access
+- **AI e bibliometria** - Applicazioni dell'intelligenza artificiale
+:::
+
+---
+
+## 📝 Note Organizzative
+
+- **Lingua:** Italiano
+- **Certificato:** Attestato di partecipazione (40 ore)
+- **Requisiti:** Laptop personale con R e RStudio installati
+- **Coffee break:** Inclusi mattina e pomeriggio
+- **Pranzi:** Inclusi tutti i giorni
+- **Eventi sociali:** Aperitivo di benvenuto, visita culturale, social dinner
+
+---
+
+## 📧 Contatti
+
+Per informazioni sul programma:
+
+**Email:** sssm@bibliometrix.com
+**Coordinatrice:** Dott.ssa Maria Spano
+
+---
+
+::: {.info-box}
+💡 **Il programma potrebbe subire lievi modifiche** per ottimizzare l'esperienza didattica in base al livello e agli interessi dei partecipanti.
+:::
+
+```{=html}
+<script>
+// Inserisce i loghi UNINA e DiSES nella navbar con link
+(function() {
+  window.addEventListener('load', function() {
+    const navbar = document.querySelector('.navbar-container');
+    
+    if (navbar) {
+      const logosDiv = document.createElement('div');
+      logosDiv.className = 'navbar-right-logos';
+      
+      // PRIMO: DiSES (con link)
+      const linkDises = document.createElement('a');
+      linkDises.href = 'https://www.dises.unina.it';
+      linkDises.target = '_blank';
+      linkDises.rel = 'noopener noreferrer';
+      
+      const logoDises = document.createElement('img');
+      logoDises.src = 'images/logos/dises.svg';
+      logoDises.alt = 'DiSES';
+      
+      linkDises.appendChild(logoDises);
+      
+      // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
+      
+      const logoUnina = document.createElement('img');
+      logoUnina.src = 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
+      
+      linkUnina.appendChild(logoUnina);
+      
+      // Aggiungi in ordine: prima DiSES, poi UNINA
+      logosDiv.appendChild(linkDises);
+      logosDiv.appendChild(linkUnina);
+      
+      navbar.appendChild(logosDiv);
+    }
+  });
+})();
+</script>
+```

@@ -1,0 +1,290 @@
+---
+title: "Registrazione e Informazioni sui Costi"
+format: html
+---
+
+::: {.info-box}
+📅 **Scadenza Iscrizioni:** 30 Aprile 2026
+
+👥 **Posti Limitati:** La Summer School accetta un numero massimo di partecipanti per garantire un'esperienza formativa ottimale.
+:::
+
+## 📋 Procedura di Iscrizione
+
+La procedura di iscrizione si articola in **4 step fondamentali**:
+
+::: {style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); padding: 40px; border-radius: 15px; margin: 30px 0;"}
+
+### **STEP 1 - Compilazione Form di Pre-Iscrizione** 📝
+
+Compila il form online con i tuoi dati:
+
+[🔗 **Compila il Form di Pre-Iscrizione**](https://forms.gle/LINK_DA_INSERIRE){style="display: inline-block; background: #054577; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 16px; margin: 20px 0;"}
+
+**Informazioni richieste:**
+- Nome e Cognome
+- Email
+- Affiliazione (Università/Ente)
+- Ruolo/Posizione
+- Tipo di quota richiesta (Ridotta/Standard)
+- Recapito telefonico
+
+---
+
+### **STEP 2 - Attesa Conferma di Ammissione** ⏳
+
+Dopo aver inviato il form:
+
+✅ Il comitato organizzatore valuterà la tua richiesta  
+✅ Riceverai una **email di ammissione** entro **5-7 giorni lavorativi**  
+✅ L'email conterrà le istruzioni per procedere con il pagamento
+
+::: {.alert style="background: #fff3cd; border-left: 5px solid #ffc107; padding: 20px; margin: 20px 0; border-radius: 10px;"}
+**⚠️ Importante:** Solo dopo aver ricevuto l'email di ammissione potrai procedere con il bonifico.
+:::
+
+---
+
+### **STEP 3 - Effettua il Bonifico Bancario** 💳
+
+Una volta ricevuta l'**email di ammissione**, effettua il bonifico secondo le modalità indicate nella sezione [Coordinate Bancarie](#coordinate-bancarie).
+
+---
+
+### **STEP 4 - Invio Ricevuta di Pagamento** 📧
+
+Invia la ricevuta del bonifico via email a **sssm@bibliometrix.com** seguendo le istruzioni nella sezione [Invio Ricevuta](#invio-ricevuta).
+
+**✅ Conferma finale:** Riceverai una email di conferma definitiva entro 3-5 giorni lavorativi.
+
+:::
+
+---
+
+## 💰 Quote di Partecipazione
+
+La Summer School offre due categorie di quote per garantire l'accessibilità a diverse figure professionali.
+
+::: {.pricing-container}
+::: {.price-card}
+::: {.price-type}
+💎 Quota Ridotta
+:::
+
+::: {.price-amount}
+600€
+:::
+
+::: {.price-vat}
+\+ IVA 22% (132€) = **732€**
+:::
+
+::: {.price-includes}
+**👥 Destinatari:**
+
+- 🎓 Dottorandi
+- 🎓 Dottori di ricerca
+- 📚 Assegnisti di ricerca
+- 🔬 RTD-A (Ricercatori a Tempo Determinato tipo A)
+:::
+
+*Per accedere alla quota ridotta è necessario presentare documentazione che attesti lo status.*
+:::
+
+::: {.price-card style="border: 3px solid #054577;"}
+::: {.price-type}
+🌟 Quota Standard
+:::
+
+::: {.price-amount}
+900€
+:::
+
+::: {.price-vat}
+\+ IVA 22% (198€) = **1.098€**
+:::
+
+::: {.price-includes}
+**👥 Destinatari:**
+
+- 🔬 RTD-B (Ricercatori a Tempo Determinato tipo B)
+- 🏛️ Ricercatori a tempo indeterminato
+- 👨‍🏫 Professori Associati
+- 👨‍🎓 Professori Ordinari
+- 💼 Professionals e professionisti del settore
+:::
+:::
+:::
+
+::: {.info-box style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); margin-top: 50px;"}
+### ✨ La Quota di Iscrizione Include:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; margin-top: 10px;"}
+::: {}
+**📚 Materiali Didattici**
+
+Slides, dataset, script R, bibliografia selezionata
+:::
+
+::: {}
+**🎓 Certificato di Partecipazione**
+
+40 ore di formazione + OpenBadge Bestr
+:::
+
+::: {}
+**🍽️ Servizi di Ristorazione**
+
+Pranzi completi e coffee break quotidiani
+:::
+
+::: {}
+**🎉 Eventi Sociali**
+
+Aperitivo di benvenuto, visita culturale, social dinner
+:::
+
+::: {}
+**🚌 Servizio Navetta**
+
+Trasporto da/per il centro di Napoli
+:::
+
+::: {}
+**👥 Community Access**
+
+Accesso alla community Bibliometrix
+:::
+:::
+:::
+
+---
+
+## 💳 Modalità di Pagamento {#coordinate-bancarie}
+
+::: {.alert style="background: #fff3cd; border-left: 5px solid #ffc107; padding: 25px; margin: 30px 0; border-radius: 10px;"}
+**⚠️ Attenzione:** Effettua il bonifico **SOLO dopo aver ricevuto l'email di ammissione** dal comitato organizzatore.
+:::
+
+::: {.info-box style="background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%); border: 3px solid #054577; padding: 40px;"}
+### 🏦 Coordinate Bancarie
+
+| | |
+|---|---|
+| **Intestatario:** | K-SYNTH SRL |
+| **IBAN:** | `IT17L0514240304CC1266029779` |
+| **Codice BIC/SWIFT:** | `BCPTITNNXXX` |
+| **Causale:** | **NOME COGNOME - SSSM 2026** |
+
+:::
+
+
+---
+
+## 📧 Invio Ricevuta di Pagamento {#invio-ricevuta}
+
+Dopo aver effettuato il bonifico, è **obbligatorio** inviare la ricevuta via email per completare l'iscrizione:
+
+::: {.info-box style="background: #e0f2fe; border-left: 5px solid #0891b2; margin: 30px 0;"}
+**📬 Indirizzo Email:** [sssm@bibliometrix.com](mailto:sssm@bibliometrix.com)
+
+**✉️ Oggetto Email:**
+```
+Ricevuta bonifico SSSM2026 - [TUO NOME E COGNOME]
+```
+
+**📎 Allegati richiesti:**
+
+1. **Ricevuta del bonifico bancario** (PDF o immagine)
+
+**📝 Corpo dell'email - Informazioni da includere:**
+
+- Nome e Cognome completo
+- Affiliazione (Università/Ente di ricerca)
+- Ruolo/Posizione
+- Tipo di quota (Ridotta/Standard)
+- Recapito telefonico
+:::
+
+::: {.alert style="background: #d1fae5; border-left: 5px solid #10b981; padding: 25px; margin: 40px 0; border-radius: 10px;"}
+**✅ Conferma Iscrizione Definitiva:** Riceverete una email di conferma entro **3-5 giorni lavorativi** dall'invio della ricevuta. La conferma includerà tutte le informazioni necessarie per la partecipazione alla Summer School.
+:::
+
+## 📞 Hai Bisogno di Assistenza?
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0;"}
+::: {.info-box style="text-align: center;"}
+### 📧
+### Informazioni Generali
+
+**Email:** [sssm@bibliometrix.com](mailto:sssm@bibliometrix.com)
+
+*Risposta entro 24-48 ore*
+:::
+
+::: {.info-box style="text-align: center;"}
+### 👩‍💼
+### Coordinatrice
+
+**Dott.ssa Maria Spano**
+
+[maria.spano@unina.it](mailto:maria.spano@unina.it)
+:::
+:::
+---
+
+::: {style="background: linear-gradient(135deg, #0066cc 0%, #00ccff 30%, #7ee8ff 100%); color: white; padding: 50px 30px; border-radius: 20px; text-align: center; margin: 40px 0;"}
+## Inizia Ora il Tuo Percorso!
+
+Non perdere l'opportunità di partecipare alla IV Edizione della Summer School in Science Mapping!
+
+**Posti limitati** - Scadenza iscrizioni: **30 Aprile 2026**
+
+[📝 Compila il Form di Pre-Iscrizione](https://forms.gle/LINK_DA_INSERIRE){style="display: inline-block; background: white; color: #054577; padding: 20px 50px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 18px; margin-top: 30px;"}
+:::
+
+```{=html}
+<script>
+// Inserisce i loghi UNINA e DiSES nella navbar con link
+(function() {
+  window.addEventListener('load', function() {
+    const navbar = document.querySelector('.navbar-container');
+    
+    if (navbar) {
+      const logosDiv = document.createElement('div');
+      logosDiv.className = 'navbar-right-logos';
+      
+      // PRIMO: DiSES (con link)
+      const linkDises = document.createElement('a');
+      linkDises.href = 'https://www.dises.unina.it';
+      linkDises.target = '_blank';
+      linkDises.rel = 'noopener noreferrer';
+      
+      const logoDises = document.createElement('img');
+      logoDises.src = 'images/logos/dises.svg';
+      logoDises.alt = 'DiSES';
+      
+      linkDises.appendChild(logoDises);
+      
+      // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
+      
+      const logoUnina = document.createElement('img');
+      logoUnina.src = 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
+      
+      linkUnina.appendChild(logoUnina);
+      
+      // Aggiungi in ordine: prima DiSES, poi UNINA
+      logosDiv.appendChild(linkDises);
+      logosDiv.appendChild(linkUnina);
+      
+      navbar.appendChild(logosDiv);
+    }
+  });
+})();
+</script>
+```

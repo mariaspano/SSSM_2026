@@ -1,0 +1,294 @@
+---
+title: "Venue"
+format: html
+---
+
+## Sede della Summer School
+
+::: {style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; margin: 40px 0;"}
+::: {}
+### Dipartimento di Scienze Economiche e Statistiche
+
+**Università degli Studi di Napoli Federico II**  
+Complesso Universitario di Monte Sant'Angelo  
+Via Cinthia n°21, 80126 - Napoli
+
+Il Complesso dista circa 10 minuti di autobus dalla stazione metropolitana di Napoli Campi Flegrei e circa 35 minuti dal centro città.
+
+[📍 Visualizza su Google Maps](https://www.google.com/maps/place/Complesso+Universitario+di+Monte+Sant'Angelo/@40.8385,14.1844,17z){style="display: inline-block; background: #054577; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: 600; margin-top: 20px;"}
+:::
+
+::: {}
+![Complesso Universitario Monte Sant'Angelo](images/venue/msa-complesso.jpg){.venue-image}
+:::
+:::
+
+::: {style="margin: 40px 0;"}
+![Murales Scientiarium Magister - Monte Sant'Angelo](images/venue/msa-murales.jpg){style="width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(5, 69, 119, 0.2);"}
+:::
+
+---
+
+## Come Raggiungerci
+
+### 🛬 Dall'Aeroporto Internazionale di Capodichino
+
+::: {.info-box}
+Il Complesso Universitario di Monte Sant'Angelo dista **12km** dall'Aeroporto Internazionale di Napoli.
+
+**Con il bus Alibus:**
+
+1. Prendi il pullman della linea [Alibus](https://www.anm.it) di fronte all'uscita degli Arrivi
+2. Scendi alla fermata **Piazza Garibaldi** (Stazione Centrale)
+3. Entra nella Stazione Centrale e prendi la **Metropolitana Linea 2** direzione Pozzuoli
+4. Scendi alla fermata **Campi Flegrei**
+5. Prendi uno degli autobus: **R6, 180, 51**
+6. In 15 minuti arrivi al Complesso di Monte Sant'Angelo
+
+[📍 Aeroporto Capodichino](https://www.google.com/maps/place/Aeroporto+di+Napoli-Capodichino/@40.8860,14.2908,15z){.map-link}
+
+**Con il taxi:**
+
+Stazionamento taxi di fronte agli Arrivi. Tariffa prestabilita: circa **25€**
+:::
+
+---
+
+### 🚆 Dalla Stazione Centrale di Napoli (Piazza Garibaldi)
+
+::: {.info-box}
+Il Complesso di Monte Sant'Angelo dista **13km** dalla Stazione Centrale.
+
+**Con la metropolitana:**
+
+1. Dalla Stazione Centrale prendi la **Metropolitana Linea 2** direzione Pozzuoli
+2. Scendi alla fermata **Campi Flegrei**
+3. Prendi uno degli autobus: **R6, 180, 51**
+4. In 15 minuti arrivi al Complesso
+
+[📍 Stazione Centrale Napoli](https://www.google.com/maps/place/Napoli+Centrale/@40.8528,14.2769,17z){.map-link}
+
+**Con taxi:**
+
+Stazionamento all'uscita della Stazione Centrale. Chiedere tariffa prestabilita.
+:::
+
+---
+
+### 🚗 Con l'auto
+
+::: {.info-box}
+**Da Autostrada A1:**
+
+1. Segui indicazioni per **Tangenziale** (direzione Pozzuoli)
+2. Prendi l'uscita **10 - Fuorigrotta**
+3. Al casello mantieni la destra per **Via Cinthia**
+4. Il Complesso di Monte Sant'Angelo è sulla sinistra dopo circa 300m
+
+[📍 Indicazioni stradali](https://www.google.com/maps/dir//Complesso+Universitario+di+Monte+Sant'Angelo,+Via+Cinthia,+21,+80126+Napoli){.map-link}
+:::
+
+---
+
+## 🚌 Servizio Navetta
+
+La Scuola offre ai partecipanti il **servizio navetta gratuito** a/r da Piazza Vittoria al Complesso Universitario.
+
+::: {.alert style="background: #d1fae5; border-left: 5px solid #10b981; padding: 25px; margin: 30px 0; border-radius: 10px;"}
+**✅ Il servizio sarà attivo da Lunedì 25 Maggio dopo la sessione pomeridiana.**
+:::
+
+### 📍 Punto di partenza
+
+[Piazza Vittoria, Napoli](https://www.google.com/maps/place/Piazza+Vittoria,+Napoli/@40.8273,14.2137,17z) - Centro città
+
+### ⏰ Orari Navetta
+
+Gli orari dettagliati del servizio navetta saranno comunicati ai partecipanti prima dell'inizio della scuola.
+
+- **Andata:** Partenza da Piazza Vittoria la mattina
+- **Ritorno:** Partenza dal Complesso Universitario al termine delle sessioni
+
+---
+
+## 🏨 Alloggi
+
+Le strutture convenzionate sono situate nel **centro di Napoli**, a pochi minuti a piedi da Piazza Vittoria (punto di partenza navetta).
+
+::: {.info-box style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); padding: 35px;"}
+### 📞 Contatti per prenotazioni alloggi
+
+Per maggiori informazioni e prenotazioni, contattare:
+
+**Paolo Gaeta** - Referente strutture convenzionate
+
+📧 Email: [paologaeta4@libero.it](mailto:paologaeta4@libero.it)  
+📱 Cell: +39 333 812 3130
+:::
+
+---
+
+## 🎨 Cosa Visitare a Napoli
+
+Napoli offre innumerevoli attrazioni culturali, storiche e gastronomiche. Ecco alcuni suggerimenti per il tempo libero:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin: 40px 0;"}
+
+::: {.info-box}
+### 🏛️ Centro Storico
+
+- **Spaccanapoli:** La famosa strada che divide il centro storico
+- **San Gregorio Armeno:** Via degli artigiani del presepe
+- **Duomo di Napoli:** Con la Cappella del Tesoro di San Gennaro
+- **Cappella Sansevero:** Con il Cristo Velato
+:::
+
+::: {.info-box}
+### 🖼️ Musei
+
+- **Museo Archeologico Nazionale:** Uno dei più importanti al mondo
+- **Museo di Capodimonte:** Arte italiana dal XIII al XVIII secolo
+- **MADRE:** Museo d'Arte Contemporanea
+:::
+
+::: {.info-box}
+### 🌅 Luoghi Panoramici
+
+- **Castel dell'Ovo:** Castello sul lungomare
+- **Certosa di San Martino:** Vista panoramica sulla città
+- **Posillipo:** Quartiere collinare con vista sul golfo
+:::
+
+::: {.info-box}
+### 🗺️ Escursioni nei dintorni
+
+- **Pompei ed Ercolano:** Città romane sepolte dal Vesuvio
+- **Vesuvio:** Il vulcano attivo
+- **Costiera Amalfitana:** Tra le più belle coste del mondo
+- **Isole:** Capri, Ischia, Procida
+:::
+
+:::
+
+---
+
+## 🍕 Gastronomia Napoletana
+
+Non perdere l'occasione di assaggiare:
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 30px 0;"}
+::: {style="text-align: center; padding: 20px; background: var(--gray-50); border-radius: 10px;"}
+🍕 **Pizza Napoletana**
+
+L'autentica pizza margherita
+:::
+
+::: {style="text-align: center; padding: 20px; background: var(--gray-50); border-radius: 10px;"}
+🥐 **Sfogliatella**
+
+Il dolce simbolo di Napoli
+:::
+
+::: {style="text-align: center; padding: 20px; background: var(--gray-50); border-radius: 10px;"}
+☕ **Caffè Napoletano**
+
+Espresso cremoso e intenso
+:::
+
+::: {style="text-align: center; padding: 20px; background: var(--gray-50); border-radius: 10px;"}
+🍰 **Babà**
+
+Dolce al rum irresistibile
+:::
+
+::: {style="text-align: center; padding: 20px; background: var(--gray-50); border-radius: 10px;"}
+🍝 **Pasta e Fagioli**
+
+Piatto tradizionale partenopeo
+:::
+
+::: {style="text-align: center; padding: 20px; background: var(--gray-50); border-radius: 10px;"}
+🐟 **Frittura di Paranza**
+
+Pesce fritto della tradizione
+:::
+:::
+
+---
+
+## ℹ️ Informazioni Pratiche
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0;"}
+
+::: {.info-box}
+### 🌤️ Clima a Maggio
+
+A maggio, Napoli gode di un clima primaverile mite:
+
+- 🌡️ **Temperature:** 18-24°C
+- ☀️ **Meteo:** Generalmente soleggiato
+- 👕 **Abbigliamento:** A strati consigliato
+:::
+
+::: {.info-box}
+### 🚇 Trasporti Pubblici
+
+Napoli dispone di:
+
+- **Metropolitana:** Linea 1 e Linea 2
+- **Autobus e tram:** Rete ANM
+- **Funicolari:** 4 linee per zone collinari
+- **Taxi e NCC:** Disponibili ovunque
+
+[🔗 Info trasporti ANM](https://www.anm.it)
+:::
+
+:::
+
+
+
+```{=html}
+<script>
+// Inserisce i loghi UNINA e DiSES nella navbar con link
+(function() {
+  window.addEventListener('load', function() {
+    const navbar = document.querySelector('.navbar-container');
+    
+    if (navbar) {
+      const logosDiv = document.createElement('div');
+      logosDiv.className = 'navbar-right-logos';
+      
+      // PRIMO: DiSES (con link)
+      const linkDises = document.createElement('a');
+      linkDises.href = 'https://www.dises.unina.it';
+      linkDises.target = '_blank';
+      linkDises.rel = 'noopener noreferrer';
+      
+      const logoDises = document.createElement('img');
+      logoDises.src = 'images/logos/dises.svg';
+      logoDises.alt = 'DiSES';
+      
+      linkDises.appendChild(logoDises);
+      
+      // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
+      
+      const logoUnina = document.createElement('img');
+      logoUnina.src = 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
+      
+      linkUnina.appendChild(logoUnina);
+      
+      // Aggiungi in ordine: prima DiSES, poi UNINA
+      logosDiv.appendChild(linkDises);
+      logosDiv.appendChild(linkUnina);
+      
+      navbar.appendChild(logosDiv);
+    }
+  });
+})();
+</script>
+```

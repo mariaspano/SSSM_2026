@@ -1,0 +1,31 @@
+<script>
+  // Inserisce i loghi nella navbar al caricamento della pagina
+  document.addEventListener('DOMContentLoaded', function() {
+    // Trova la navbar
+    const navbar = document.querySelector('.navbar');
+    const navbarCollapse = document.querySelector('.navbar-collapse');
+    
+    if (navbar && navbarCollapse) {
+      // Crea il container per i loghi
+      const logosDiv = document.createElement('div');
+      logosDiv.className = 'navbar-right-logos';
+      
+      // Crea logo UNINA
+      const logoUnina = document.createElement('img');
+      logoUnina.src = 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
+      
+      // Crea logo DiSES
+      const logoDises = document.createElement('img');
+      logoDises.src = 'images/logos/dises.svg';
+      logoDises.alt = 'DiSES';
+      
+      // Aggiungi i loghi al container
+      logosDiv.appendChild(logoUnina);
+      logosDiv.appendChild(logoDises);
+      
+      // Inserisci dopo il collapse navbar
+      navbarCollapse.parentNode.insertBefore(logosDiv, navbarCollapse.nextSibling);
+    }
+  });
+  </script>

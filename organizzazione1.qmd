@@ -1,0 +1,290 @@
+---
+title: "Organizzazione"
+format: html
+---
+
+## Partners
+::: {.partner}
+::: {.partner-header}
+::: {.partner-logo}
+![](images/logos/dises.svg)
+:::
+::: {.partner-title}
+### DIPARTIMENTO DI SCIENZE ECONOMICHE E STATISTICHE
+:::
+:::
+
+Il Dipartimento di Scienze Economiche e Statistiche (DiSES) dell'Università degli Studi di Napoli Federico II coordina le attività di ricerca e di formazione nell'area dell'economia teorica ed applicata, della finanza e delle discipline statistiche e quantitative. Ha ottenuto dal Ministero dell'Università e della Ricerca il riconoscimento come Dipartimento d'Eccellenza per i quinquenni 2018-2022 e 2023-2027.
+
+**Website:** [DiSES](https://www.dises.unina.it)
+:::
+
+
+::: {.partner}
+::: {.partner-header}
+::: {.partner-logo}
+![](images/logos/K-SYNTH_LOGO_SQUARE_09.jpg)
+:::
+::: {.partner-title}
+### K-SYNTH - BIBLIOMETRIX
+:::
+:::
+
+K-Synth è uno spin-off accademico dell'Università degli Studi di Napoli Federico II. È specializzato nella ricerca, consulenza e produzione di "conoscenza", estratta e analizzata da una pluralità eterogenea di grandi volumi di dati, attraverso modelli quantitativi, statistici e di scienza dei dati. Il suo prodotto principale è Bibliometrix. Sviluppato da Massimo Aria e Corrado Cuccurullo, Bibliometrix è tra gli strumenti open-source i principali software più utilizzati al mondo per il Science Mapping & Knowledge Synthesis.
+
+**Websites:** [K-Synth](https://www.k-synth.com) - [Bibliometrix](https://www.bibliometrix.org)
+:::
+
+---
+
+## Docenti 
+
+::: {.staff-grid}
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/massimo-aria.jpg)
+:::
+::: {.staff-name}
+Massimo Aria
+:::
+::: {.staff-role}
+Professore Ordinario di Statistica Sociale
+:::
+::: {.staff-role}
+Dipartimento di Scienze Economiche e Statistiche
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+[massimo.aria@unina.it](mailto:massimo.aria@unina.it){.staff-contact}
+:::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/corrado-cuccurullo.jpeg)
+:::
+::: {.staff-name}
+Corrado Cuccurullo
+:::
+::: {.staff-role}
+Professore Ordinario di Economia Aziendale
+:::
+::: {.staff-role}
+Dipartimento di Scienze Economiche e Statistiche
+:::
+::: {.staff-role}
+Università degli Studi della Campania "Luigi Vanvitelli"
+:::
+[cuccurullocorrado@gmail.com](mailto:cuccurullocorrado@gmail.com){.staff-contact}
+:::
+:::
+
+---
+
+::: {.staff-grid}
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/walter-giordano.jpg)
+:::
+::: {.staff-name}
+Walter Giordano
+:::
+::: {.staff-role}
+Professore Associato di Business English
+:::
+::: {.staff-role}
+Dipartimento di Scienze Economiche e Statistiche
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+[walter.giordano@unina.it](mailto:walter.giordano@unina.it){.staff-contact}
+:::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/michelangelo-misuraca.jpg)
+:::
+::: {.staff-name}
+Michelangelo Misuraca
+:::
+::: {.staff-role}
+Professore Associato di Statistica Sociale
+:::
+::: {.staff-role}
+Dipartimento di Scienze Aziendali - Management & Innovation Systems/DISA-MIS
+:::
+::: {.staff-role}
+Università degli Studi di Salerno
+:::
+[m.misuraca@unisa.it](mailto:m.misuraca@unisa.it){.staff-contact}
+:::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/maria-spano.jpg)
+:::
+::: {.staff-name}
+Maria Spano
+:::
+::: {.staff-role}
+Ricercatore di Statistica Sociale
+:::
+::: {.staff-role}
+Dipartimento di Scienze Economiche e Statistiche
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+[maria.spano@unina.it](mailto:maria.spano@unina.it){.staff-contact}
+:::
+:::
+
+---
+
+## Comitato Organizzatore
+
+::: {.info-box}
+**Coordinatrice:** Prof.ssa Maria Spano
+:::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/luca-daniello.jpg)
+:::
+::: {.staff-name}
+Luca D'Aniello
+:::
+::: {.staff-role}
+Ricercatore in Scienze Sociali e Statistiche
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+:::
+
+::: {.staff-grid}
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/alessandra-belfiore.jpg)
+:::
+::: {.staff-name}
+Alessandra Belfiore
+:::
+::: {.staff-role}
+Ricercatrice in Economia Aziendale
+:::
+::: {.staff-role}
+Università Telematica Pegaso
+:::
+:::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/carlo-alabiso.jpeg)
+:::
+::: {.staff-name}
+Carlo Alabiso
+:::
+::: {.staff-role}
+Assegnista di ricerca
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+:::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/agostino-gnasso.jpg)
+:::
+::: {.staff-name}
+Agostino Gnasso
+:::
+::: {.staff-role}
+Dottorando in Economia
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+:::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/dario-sacco.jpg)
+:::
+::: {.staff-name}
+Dario Sacco
+:::
+::: {.staff-role}
+Dottorando
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+:::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/alessandra-dalessio.png)
+:::
+::: {.staff-name}
+Alessandra D'Alessio
+:::
+::: {.staff-role}
+Dottoranda
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+:::
+:::
+
+---
+
+
+```{=html}
+<script>
+// Inserisce i loghi UNINA e DiSES nella navbar con link
+(function() {
+  window.addEventListener('load', function() {
+    const navbar = document.querySelector('.navbar-container');
+    
+    if (navbar) {
+      const logosDiv = document.createElement('div');
+      logosDiv.className = 'navbar-right-logos';
+      
+      // PRIMO: DiSES (con link)
+      const linkDises = document.createElement('a');
+      linkDises.href = 'https://www.dises.unina.it';
+      linkDises.target = '_blank';
+      linkDises.rel = 'noopener noreferrer';
+      
+      const logoDises = document.createElement('img');
+      logoDises.src = 'images/logos/dises.svg';
+      logoDises.alt = 'DiSES';
+      
+      linkDises.appendChild(logoDises);
+      
+      // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
+      
+      const logoUnina = document.createElement('img');
+      logoUnina.src = 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
+      
+      linkUnina.appendChild(logoUnina);
+      
+      // Aggiungi in ordine: prima DiSES, poi UNINA
+      logosDiv.appendChild(linkDises);
+      logosDiv.appendChild(linkUnina);
+      
+      navbar.appendChild(logosDiv);
+    }
+  });
+})();
+</script>
+```

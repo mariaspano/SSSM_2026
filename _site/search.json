@@ -1,0 +1,282 @@
+[
+  {
+    "objectID": "programma.html",
+    "href": "programma.html",
+    "title": "Programma",
+    "section": "",
+    "text": "La Summer School si articola in 5 giornate intensive di formazione teorica e pratica sui principali aspetti della bibliometria e del Science Mapping, con particolare focus sulle novità di Bibliometrix 5.0, TALL (Text Analysis for All) e Content Analysis."
+  },
+  {
+    "objectID": "programma.html#giorno-1---lunedì-25-maggio-2026",
+    "href": "programma.html#giorno-1---lunedì-25-maggio-2026",
+    "title": "Programma",
+    "section": "Giorno 1 - Lunedì 25 Maggio 2026",
+    "text": "Giorno 1 - Lunedì 25 Maggio 2026\n\n\n🎓 Introduzione alla Bibliometria e SAAS Workflow\n\n\n\n11:30 - 13:00\n\n\nApertura lavori e introduzione\n\nSaluti istituzionali\nPresentazione del programma e dei partecipanti\nData Science per la bibliometria\nSAAS workflow: tipologie di Systematic Literature Review\nNovità Bibliometrix 5.0 e panoramica Biblioshiny\nBiblioshiny vs altri software di science mapping\n\n\n\n\n\n\n14:00 - 17:30\n\n\nDatabase bibliografici e strategie di ricerca\n\nI Metadati: struttura e tipologie\nPrincipali database bibliografici a confronto (Scopus, Web of Science, OpenAlex, etc.)\nQuery e criteri di inclusione/esclusione\nBiblioshiny: Overview e Filtri\nEsercitazione pratica: Costruire query efficaci\n\n\n\n\n\n\n19:00\n\n\n🍹 Aperitivo di Benvenuto Napoletano"
+  },
+  {
+    "objectID": "programma.html#giorno-2---martedì-26-maggio-2026",
+    "href": "programma.html#giorno-2---martedì-26-maggio-2026",
+    "title": "Programma",
+    "section": "Giorno 2 - Martedì 26 Maggio 2026",
+    "text": "Giorno 2 - Martedì 26 Maggio 2026\n\n\n📊 Analisi del Dominio e Metriche\n\n\n\n9:00 - 13:00\n\n\nFocus on Domain: Analisi descrittiva\n\nSources analysis: riviste più influenti\nAuthors analysis: produttività e impatto\nDocuments analysis: articoli più citati\nMetriche bibliometriche: h-index, g-index, m-index\nImpact factor e indicatori alternativi\nNovità Bibliometrix 5.0: nuovi indicatori e visualizzazioni\n\n\n\n\n\n\n14:00 - 17:30\n\n\nEsercitazioni pratiche\n\nStrutturare una query di ricerca completa\nCollection overview: analisi esplorativa del dataset\nIdentificazione di trend e pattern\nLaboratorio: Analisi guidata su casi reali"
+  },
+  {
+    "objectID": "programma.html#giorno-3---mercoledì-27-maggio-2026",
+    "href": "programma.html#giorno-3---mercoledì-27-maggio-2026",
+    "title": "Programma",
+    "section": "Giorno 3 - Mercoledì 27 Maggio 2026",
+    "text": "Giorno 3 - Mercoledì 27 Maggio 2026\n\n\n🕸️ Network Analysis e Strutture Concettuali\n\n\n\n9:00 - 13:00\n\n\nNetwork Analysis e visualizzazioni\n\nFondamenti di network analysis\nCo-citation analysis\nBibliographic coupling\nCollaboration networks\nAlgoritmi di clustering e community detection\nStrutture e strategie linguistiche per scrivere una SLR\n\n\n\n\n\n\n14:00 - 16:00\n\n\nStrutture Concettuali di Conoscenza\n\nCo-word network: keyword co-occurrence\nThematic maps e evolution\nFactorial analysis (CA, MCA)\nMixed approach: integrazione tecniche qualitative e quantitative\n\n\n\n\n\n\n16:00 - 19:00\n\n\n🏛️ Visita culturale: …..\n🍝 Social Dinner (ore 20:00)"
+  },
+  {
+    "objectID": "programma.html#giorno-4---giovedì-28-maggio-2026",
+    "href": "programma.html#giorno-4---giovedì-28-maggio-2026",
+    "title": "Programma",
+    "section": "Giorno 4 - Giovedì 28 Maggio 2026",
+    "text": "Giorno 4 - Giovedì 28 Maggio 2026\n\n\n📝 TALL e Content Analysis - Le Nuove Frontiere\n\n\n\n9:00 - 13:00\n\n\nStrutture Intellettuali e Sociali\n\nIntellectual structure: co-citation e historiograph\nSocial structure: collaboration patterns\nDa Biblioshiny a TALL (Text Analysis for All)\nIntroduzione al text mining e NLP per la bibliometria\nContent Analysis: analisi qualitativa dei contenuti\n\n\n\n\n\n\n14:00 - 17:30\n\n\nLaboratorio TALL e Content Analysis\n\nEsercitazione guidata: uso di TALL per text analysis\nContent analysis applicata: workflow completo\nIntegrazione Bibliometrix + TALL: pipeline avanzate\nFocus sui progetti di ricerca dei partecipanti\n\nGuest speakers: - Prof. Alessandro Cirillo (Università Federico II) - Prof. Giulio Fortuna (Università di Salerno)"
+  },
+  {
+    "objectID": "programma.html#giorno-5---venerdì-29-maggio-2026",
+    "href": "programma.html#giorno-5---venerdì-29-maggio-2026",
+    "title": "Programma",
+    "section": "Giorno 5 - Venerdì 29 Maggio 2026",
+    "text": "Giorno 5 - Venerdì 29 Maggio 2026\n\n\n🎯 Progetti Finali e Chiusura\n\n\n\n9:00 - 13:00\n\n\nPresentazione lavori di gruppo\n\nEsposizione progetti sviluppati durante la settimana\nDiscussione e feedback\nQ&A finale\nBest practices per pubblicare una SLR\nRisorse e community Bibliometrix\nConsegna attestati di partecipazione"
+  },
+  {
+    "objectID": "programma.html#docenti",
+    "href": "programma.html#docenti",
+    "title": "Programma",
+    "section": "👥 Docenti",
+    "text": "👥 Docenti\n\nProf. Massimo Aria Professore Ordinario di Statistica Sociale Dipartimento di Scienze Economiche e Statistiche (DiSES) Università degli Studi di Napoli Federico II massimo.aria@unina.it\nProf. Corrado Cuccurullo Professore Ordinario di Economia Aziendale Dipartimento di Scienze Economiche e Statistiche (DiSES) Università degli Studi di Napoli Federico II cuccurullocorrado@gmail.com\n\n\nProf. Walter Giordano Professore di Lingua Inglese e Traduzione Università degli Studi di Napoli Federico II\nProf. Michelangelo Misuraca Professore Associato di Statistica Sociale Università degli Studi di Salerno\nDott.ssa Maria Spano Ricercatore di Statistica Sociale Università degli Studi di Napoli Federico II"
+  },
+  {
+    "objectID": "programma.html#materiali-del-corso",
+    "href": "programma.html#materiali-del-corso",
+    "title": "Programma",
+    "section": "📚 Materiali del Corso",
+    "text": "📚 Materiali del Corso\nI partecipanti riceveranno:\n\n📖 Slides delle lezioni\n💾 Dataset per le esercitazioni \n📋 Bibliografia di riferimento\n🎓 Certificato di partecipazione (40 ore) + OpenBadge rilasciato da Bestr\n🔗 Accesso alla community Bibliometrix"
+  },
+  {
+    "objectID": "programma.html#obiettivi-di-apprendimento",
+    "href": "programma.html#obiettivi-di-apprendimento",
+    "title": "Programma",
+    "section": "🎯 Obiettivi di Apprendimento",
+    "text": "🎯 Obiettivi di Apprendimento\nAl termine della Summer School i partecipanti saranno in grado di:\n✅ Condurre una Systematic Literature Review completa ✅ Utilizzare Bibliometrix e Biblioshiny in modo professionale ✅ Applicare le novità di Bibliometrix 5.0 ✅ Utilizzare TALL per analisi testuali avanzate ✅ Implementare Content Analysis nei propri progetti ✅ Creare network analysis e visualizzazioni efficaci ✅ Interpretare metriche bibliometriche ✅ Pubblicare risultati in riviste scientifiche"
+  },
+  {
+    "objectID": "programma.html#novità-2026",
+    "href": "programma.html#novità-2026",
+    "title": "Programma",
+    "section": "💡 Novità 2026",
+    "text": "💡 Novità 2026\n\n🆕 Quest’anno focus speciale su:\n\nBibliometrix 5.0 - Nuove funzionalità e miglioramenti\nTALL (Text Analysis for All) - Il nuovo pacchetto per text mining\nContent Analysis - Tecniche avanzate di analisi qualitativa\nOpenAlex - Il nuovo database open access\nAI e bibliometria - Applicazioni dell’intelligenza artificiale"
+  },
+  {
+    "objectID": "programma.html#note-organizzative",
+    "href": "programma.html#note-organizzative",
+    "title": "Programma",
+    "section": "📝 Note Organizzative",
+    "text": "📝 Note Organizzative\n\nLingua: Italiano\nCertificato: Attestato di partecipazione (40 ore)\nRequisiti: Laptop personale con R e RStudio installati\nCoffee break: Inclusi mattina e pomeriggio\nPranzi: Inclusi tutti i giorni\nEventi sociali: Aperitivo di benvenuto, visita culturale, social dinner"
+  },
+  {
+    "objectID": "programma.html#contatti",
+    "href": "programma.html#contatti",
+    "title": "Programma",
+    "section": "📧 Contatti",
+    "text": "📧 Contatti\nPer informazioni sul programma:\nEmail: sssm@bibliometrix.com Coordinatrice: Dott.ssa Maria Spano\n\n\n💡 Il programma potrebbe subire lievi modifiche per ottimizzare l’esperienza didattica in base al livello e agli interessi dei partecipanti."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "",
+    "text": "AI-Enhanced Knowledge Synthesis: SLR, Content Analysis e Text Mining in un unico ecosistema\n\n\n\nIV Edizione Italiana\n\n\n\n\nDate\n\n\n25-29 Maggio 2026\n\n\n\n\nSede\n\n\nNapoli\n\n\n\n\n\nIscriviti Ora"
+  },
+  {
+    "objectID": "index.html#la-scuola",
+    "href": "index.html#la-scuola",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "La Scuola",
+    "text": "La Scuola\nLa IV Edizione Italiana della Summer School in Science Mapping (SSSM 2026) è organizzata dallo spin-off accademico K-Synth e dal Dipartimento d’Eccellenza di Scienze Economiche e Statistiche dell’Università degli Studi di Napoli Federico II.\nLa direzione scientifica è affidata ai Professori Massimo Aria e Corrado Cuccurullo, fondatori del team K-Synth e autori dell’ecosistema software composto da Bibliometrix, Biblioshiny, ContentAnalysis e TALL, oggi dotati di componenti avanzate basate su Artificial Intelligence (AI).\n\n\n  \n\n\nL’edizione 2026 introduce un ampliamento significativo delle prospettive di analisi. Accanto ai metodi consolidati di bibliometria e science mapping, la scuola integra:\n\nContent Analysis automatizzata (ContentAnalysis)\nText Mining avanzato e semantic networks (TALL)\nSystematic Literature Review (SLR) con workflow integrati\nModuli AI-enhanced per supportare categorizzazione, sintesi e interpretazione dei contenuti\n\nLa scuola ha una durata di cinque giorni e offre una formazione intensiva che combina bibliometria, analisi del contenuto e text mining, con l’obiettivo di produrre review sistematiche e analisi integrate a supporto della ricerca scientifica.\n\nPrincipali Temi Trattati\n\nKnowledge Synthesis: modelli e tipologie di Systematic Literature Review\nSAAS Workflow per l’evidence synthesis\nBibliometrix & Biblioshiny AI-enhanced\nContentAnalysis AI-enhanced: codifica, categorie, analisi automatizzata\nTALL AI-enhanced: text mining, embedding, semantic networks\nPrincipali database bibliografici\nMetriche di impatto e indicatori avanzati\nMetodologie statistiche per il Science Mapping\nNetwork Analysis\nKnowledge Structures: concettuale, intellettuale, sociale\nIntegrazione tra Bibliometria, Content Analysis e Text Mining\n\n\n\nA Chi è Rivolta\nLa SSSM 2026 è rivolta a:\n\nDottorandi\nRicercatori\nPost-doc\nProfessionisti\nEnti di ricerca pubblici e privati\n\nche intendono sviluppare competenze avanzate di analisi bibliometriche, content analysis e text mining per la knowledge synthesis.\n\n\nRequisiti\nLa didattica della SSSM 2026 è erogata in lingua italiana.\nAi partecipanti è richiesta:\n\nConoscenza base del linguaggio di programmazione R e del software RStudio\nPartecipazione alle lezioni dotati del proprio computer\nConoscenza base della bibliometria (consigliata ma non obbligatoria)"
+  },
+  {
+    "objectID": "index.html#perché-partecipare",
+    "href": "index.html#perché-partecipare",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "Perché Partecipare",
+    "text": "Perché Partecipare\n\n\n🎓 Formazione d’Eccellenza\nApprendi dai creatori di Bibliometrix e dai massimi esperti italiani di science mapping e knowledge synthesis.\n\n\n🤖 AI-Enhanced Tools\nScopri le nuove funzionalità AI integrate in Bibliometrix 5.0, TALL e ContentAnalysis.\n\n\n🔬 Approccio Pratico\n5 giorni intensivi con esercitazioni hands-on, casi reali e progetti guidati.\n\n\n🌐 Networking\nConfrontati con ricercatori, dottorandi e professionisti da tutta Italia.\n\n\n📜 Certificazione\nAttestato di partecipazione (40 ore) + OpenBadge rilasciato da Bestr.\n\n\n🍕 Esperienza Completa\nPranzi, coffee break, aperitivo di benvenuto, social dinner e visita culturale inclusi."
+  },
+  {
+    "objectID": "index.html#cosa-imparerai",
+    "href": "index.html#cosa-imparerai",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "Cosa Imparerai",
+    "text": "Cosa Imparerai\nAlla fine della Summer School sarai in grado di:\n\n✅ Condurre Systematic Literature Review complete\n✅ Utilizzare Bibliometrix, Biblioshiny, TALL e ContentAnalysis\n✅ Applicare le novità di Bibliometrix 5.0 con moduli AI\n✅ Implementare workflow SAAS per evidence synthesis\n✅ Creare network analysis e visualizzazioni avanzate\n✅ Interpretare metriche bibliometriche e indicatori di impatto\n✅ Integrare Content Analysis e Text Mining nei tuoi progetti\n✅ Pubblicare risultati in riviste scientifiche"
+  },
+  {
+    "objectID": "index.html#il-programma-in-breve",
+    "href": "index.html#il-programma-in-breve",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "Il Programma in Breve",
+    "text": "Il Programma in Breve\n\n\n📅 Giorno 1 - Lunedì 25 Maggio\nIntroduzione alla Bibliometria e SAAS Workflow - Saluti istituzionali e presentazione - SAAS workflow e tipologie di SLR - Novità Bibliometrix 5.0 e panoramica Biblioshiny - Database bibliografici e query - 🍹 Aperitivo di benvenuto napoletano\n\n\n📅 Giorno 2 - Martedì 26 Maggio\nAnalisi del Dominio e Metriche - Sources, Authors e Documents analysis - Metriche bibliometriche avanzate - Novità Bibliometrix 4.0 - Laboratorio pratico\n\n\n📅 Giorno 3 - Mercoledì 27 Maggio\nNetwork Analysis e Strutture Concettuali - Network analysis e visualizzazioni - Co-citation, bibliographic coupling, collaboration networks - Strutture concettuali di conoscenza - 🏛️ Visita culturale + 🍝 Social Dinner\n\n\n📅 Giorno 4 - Giovedì 28 Maggio\nTALL e Content Analysis - Le Nuove Frontiere - TALL (Text Analysis for All): text mining avanzato - Content Analysis: analisi qualitativa automatizzata - Integrazione Bibliometrix + TALL + ContentAnalysis - Guest speakers\n\n\n📅 Giorno 5 - Venerdì 29 Maggio\nProgetti Finali e Best Practices - Presentazione lavori di gruppo - Best practices per pubblicare SLR - Consegna attestati\n\n\nVedi programma dettagliato"
+  },
+  {
+    "objectID": "index.html#docenti",
+    "href": "index.html#docenti",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "Docenti",
+    "text": "Docenti\n\nProf. Massimo Aria - Professore Ordinario di Statistica Sociale, Università Federico II\nProf. Corrado Cuccurullo - Professore Ordinario di Economia Aziendale, Università Federico II\nProf. Walter Giordano - Professore Associato di Business English, Università Federico II\nProf. Michelangelo Misuraca - Professore Associato di Statistica Sociale, Università di Salerno\nDott.ssa Maria Spano - Ricercatore di Statistica Sociale, Università Federico II\nScopri tutto lo staff"
+  },
+  {
+    "objectID": "index.html#informazioni-pratiche",
+    "href": "index.html#informazioni-pratiche",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "Informazioni Pratiche",
+    "text": "Informazioni Pratiche\n\n\n📍 Sede\nComplesso Universitario Monte Sant’Angelo\nVia Cinthia 21, Napoli\nDipartimento di Scienze Economiche e Statistiche\n\n\n🏨 Alloggio\nStrutture convenzionate nel centro di Napoli\nServizio navetta incluso da Piazza Vittoria\n\n\n🍽️ Ristorazione\nPranzi e coffee break inclusi\nAperitivo di benvenuto\nSocial dinner (Giorno 3)\n\n\n🎉 Eventi Sociali\nVisita culturale a Napoli\nNetworking informale\nCommunity Bibliometrix"
+  },
+  {
+    "objectID": "index.html#costi-e-iscrizione",
+    "href": "index.html#costi-e-iscrizione",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "Costi e Iscrizione",
+    "text": "Costi e Iscrizione\n\n\nQuota Ridotta\n€600 + IVA (22%)\nDottorandi, Dottori di ricerca, Assegnisti, RTD-A\nIscriviti\n\n\nQuota Standard\n€900 + IVA (22%)\nRTD-B, Ricercatori, Professori, Professionisti\nIscriviti\n\n\nLa quota include: Materiali didattici, certificato, pranzi, coffee breaks, eventi sociali, servizio navetta\nScadenza iscrizioni: 30 Aprile 2026\nTutte le informazioni"
+  },
+  {
+    "objectID": "index.html#contatti",
+    "href": "index.html#contatti",
+    "title": "SUMMER SCHOOL IN SCIENCE MAPPING",
+    "section": "Contatti",
+    "text": "Contatti\n\n\n📧 Informazioni Generali\nEmail: sssm@bibliometrix.com\n\n\n👩‍💼 Coordinatrice\nDott.ssa Maria Spano\nmaria.spano@unina.it\n\n\n🏨 Alloggi\nPaolo Gaeta\nTel: +39 333 812 3130\npaologaeta4@libero.it"
+  },
+  {
+    "objectID": "venue.html",
+    "href": "venue.html",
+    "title": "Venue",
+    "section": "",
+    "text": "Università degli Studi di Napoli Federico II\nComplesso Universitario di Monte Sant’Angelo\nVia Cinthia n°21, 80126 - Napoli\nIl Complesso dista circa 10 minuti di autobus dalla stazione metropolitana di Napoli Campi Flegrei e circa 35 minuti dal centro città.\n📍 Visualizza su Google Maps\n\n\n\n\n\nComplesso Universitario Monte Sant’Angelo\n\n\n\n\n\n\n\n\nMurales Scientiarium Magister - Monte Sant’Angelo"
+  },
+  {
+    "objectID": "venue.html#sede-della-summer-school",
+    "href": "venue.html#sede-della-summer-school",
+    "title": "Venue",
+    "section": "",
+    "text": "Università degli Studi di Napoli Federico II\nComplesso Universitario di Monte Sant’Angelo\nVia Cinthia n°21, 80126 - Napoli\nIl Complesso dista circa 10 minuti di autobus dalla stazione metropolitana di Napoli Campi Flegrei e circa 35 minuti dal centro città.\n📍 Visualizza su Google Maps\n\n\n\n\n\nComplesso Universitario Monte Sant’Angelo\n\n\n\n\n\n\n\n\nMurales Scientiarium Magister - Monte Sant’Angelo"
+  },
+  {
+    "objectID": "venue.html#come-raggiungerci",
+    "href": "venue.html#come-raggiungerci",
+    "title": "Venue",
+    "section": "Come Raggiungerci",
+    "text": "Come Raggiungerci\n\n🛬 Dall’Aeroporto Internazionale di Capodichino\n\nIl Complesso Universitario di Monte Sant’Angelo dista 12km dall’Aeroporto Internazionale di Napoli.\nCon il bus Alibus:\n\nPrendi il pullman della linea Alibus di fronte all’uscita degli Arrivi\nScendi alla fermata Piazza Garibaldi (Stazione Centrale)\nEntra nella Stazione Centrale e prendi la Metropolitana Linea 2 direzione Pozzuoli\nScendi alla fermata Campi Flegrei\nPrendi uno degli autobus: R6, 180, 51\nIn 15 minuti arrivi al Complesso di Monte Sant’Angelo\n\n📍 Aeroporto Capodichino\nCon il taxi:\nStazionamento taxi di fronte agli Arrivi. Tariffa prestabilita: circa 25€\n\n\n\n\n🚆 Dalla Stazione Centrale di Napoli (Piazza Garibaldi)\n\nIl Complesso di Monte Sant’Angelo dista 13km dalla Stazione Centrale.\nCon la metropolitana:\n\nDalla Stazione Centrale prendi la Metropolitana Linea 2 direzione Pozzuoli\nScendi alla fermata Campi Flegrei\nPrendi uno degli autobus: R6, 180, 51\nIn 15 minuti arrivi al Complesso\n\n📍 Stazione Centrale Napoli\nCon taxi:\nStazionamento all’uscita della Stazione Centrale. Chiedere tariffa prestabilita.\n\n\n\n\n🚗 Con l’auto\n\nDa Autostrada A1:\n\nSegui indicazioni per Tangenziale (direzione Pozzuoli)\nPrendi l’uscita 10 - Fuorigrotta\nAl casello mantieni la destra per Via Cinthia\nIl Complesso di Monte Sant’Angelo è sulla sinistra dopo circa 300m\n\n📍 Indicazioni stradali"
+  },
+  {
+    "objectID": "venue.html#servizio-navetta",
+    "href": "venue.html#servizio-navetta",
+    "title": "Venue",
+    "section": "🚌 Servizio Navetta",
+    "text": "🚌 Servizio Navetta\nLa Scuola offre ai partecipanti il servizio navetta gratuito a/r da Piazza Vittoria al Complesso Universitario.\n\n✅ Il servizio sarà attivo da Lunedì 25 Maggio dopo la sessione pomeridiana.\n\n\n📍 Punto di partenza\nPiazza Vittoria, Napoli - Centro città\n\n\n⏰ Orari Navetta\nGli orari dettagliati del servizio navetta saranno comunicati ai partecipanti prima dell’inizio della scuola.\n\nAndata: Partenza da Piazza Vittoria la mattina\nRitorno: Partenza dal Complesso Universitario al termine delle sessioni"
+  },
+  {
+    "objectID": "venue.html#alloggi",
+    "href": "venue.html#alloggi",
+    "title": "Venue",
+    "section": "🏨 Alloggi",
+    "text": "🏨 Alloggi\nLe strutture convenzionate sono situate nel centro di Napoli, a pochi minuti a piedi da Piazza Vittoria (punto di partenza navetta).\n\n📞 Contatti per prenotazioni alloggi\nPer maggiori informazioni e prenotazioni, contattare:\nPaolo Gaeta - Referente strutture convenzionate\n📧 Email: paologaeta4@libero.it\n📱 Cell: +39 333 812 3130"
+  },
+  {
+    "objectID": "venue.html#cosa-visitare-a-napoli",
+    "href": "venue.html#cosa-visitare-a-napoli",
+    "title": "Venue",
+    "section": "🎨 Cosa Visitare a Napoli",
+    "text": "🎨 Cosa Visitare a Napoli\nNapoli offre innumerevoli attrazioni culturali, storiche e gastronomiche. Ecco alcuni suggerimenti per il tempo libero:\n\n\n🏛️ Centro Storico\n\nSpaccanapoli: La famosa strada che divide il centro storico\nSan Gregorio Armeno: Via degli artigiani del presepe\nDuomo di Napoli: Con la Cappella del Tesoro di San Gennaro\nCappella Sansevero: Con il Cristo Velato\n\n\n\n🖼️ Musei\n\nMuseo Archeologico Nazionale: Uno dei più importanti al mondo\nMuseo di Capodimonte: Arte italiana dal XIII al XVIII secolo\nMADRE: Museo d’Arte Contemporanea\n\n\n\n🌅 Luoghi Panoramici\n\nCastel dell’Ovo: Castello sul lungomare\nCertosa di San Martino: Vista panoramica sulla città\nPosillipo: Quartiere collinare con vista sul golfo\n\n\n\n🗺️ Escursioni nei dintorni\n\nPompei ed Ercolano: Città romane sepolte dal Vesuvio\nVesuvio: Il vulcano attivo\nCostiera Amalfitana: Tra le più belle coste del mondo\nIsole: Capri, Ischia, Procida"
+  },
+  {
+    "objectID": "venue.html#gastronomia-napoletana",
+    "href": "venue.html#gastronomia-napoletana",
+    "title": "Venue",
+    "section": "🍕 Gastronomia Napoletana",
+    "text": "🍕 Gastronomia Napoletana\nNon perdere l’occasione di assaggiare:\n\n\n🍕 Pizza Napoletana\nL’autentica pizza margherita\n\n\n🥐 Sfogliatella\nIl dolce simbolo di Napoli\n\n\n☕ Caffè Napoletano\nEspresso cremoso e intenso\n\n\n🍰 Babà\nDolce al rum irresistibile\n\n\n🍝 Pasta e Fagioli\nPiatto tradizionale partenopeo\n\n\n🐟 Frittura di Paranza\nPesce fritto della tradizione"
+  },
+  {
+    "objectID": "venue.html#ℹ-informazioni-pratiche",
+    "href": "venue.html#ℹ-informazioni-pratiche",
+    "title": "Venue",
+    "section": "ℹ️ Informazioni Pratiche",
+    "text": "ℹ️ Informazioni Pratiche\n\n\n🌤️ Clima a Maggio\nA maggio, Napoli gode di un clima primaverile mite:\n\n🌡️ Temperature: 18-24°C\n☀️ Meteo: Generalmente soleggiato\n👕 Abbigliamento: A strati consigliato\n\n\n\n🚇 Trasporti Pubblici\nNapoli dispone di:\n\nMetropolitana: Linea 1 e Linea 2\nAutobus e tram: Rete ANM\nFunicolari: 4 linee per zone collinari\nTaxi e NCC: Disponibili ovunque\n\n🔗 Info trasporti ANM"
+  },
+  {
+    "objectID": "organizzazione1.html",
+    "href": "organizzazione1.html",
+    "title": "Organizzazione",
+    "section": "",
+    "text": "Il Dipartimento di Scienze Economiche e Statistiche (DiSES) dell’Università degli Studi di Napoli Federico II coordina le attività di ricerca e di formazione nell’area dell’economia teorica ed applicata, della finanza e delle discipline statistiche e quantitative. Ha ottenuto dal Ministero dell’Università e della Ricerca il riconoscimento come Dipartimento d’Eccellenza per i quinquenni 2018-2022 e 2023-2027.\nWebsite: DiSES\n\n\n\n\n\n\n\n\n\n\nK-Synth è uno spin-off accademico dell’Università degli Studi di Napoli Federico II. È specializzato nella ricerca, consulenza e produzione di “conoscenza”, estratta e analizzata da una pluralità eterogenea di grandi volumi di dati, attraverso modelli quantitativi, statistici e di scienza dei dati. Il suo prodotto principale è Bibliometrix. Sviluppato da Massimo Aria e Corrado Cuccurullo, Bibliometrix è tra gli strumenti open-source i principali software più utilizzati al mondo per il Science Mapping & Knowledge Synthesis.\nWebsites: K-Synth - Bibliometrix"
+  },
+  {
+    "objectID": "organizzazione1.html#partners",
+    "href": "organizzazione1.html#partners",
+    "title": "Organizzazione",
+    "section": "",
+    "text": "Il Dipartimento di Scienze Economiche e Statistiche (DiSES) dell’Università degli Studi di Napoli Federico II coordina le attività di ricerca e di formazione nell’area dell’economia teorica ed applicata, della finanza e delle discipline statistiche e quantitative. Ha ottenuto dal Ministero dell’Università e della Ricerca il riconoscimento come Dipartimento d’Eccellenza per i quinquenni 2018-2022 e 2023-2027.\nWebsite: DiSES\n\n\n\n\n\n\n\n\n\n\nK-Synth è uno spin-off accademico dell’Università degli Studi di Napoli Federico II. È specializzato nella ricerca, consulenza e produzione di “conoscenza”, estratta e analizzata da una pluralità eterogenea di grandi volumi di dati, attraverso modelli quantitativi, statistici e di scienza dei dati. Il suo prodotto principale è Bibliometrix. Sviluppato da Massimo Aria e Corrado Cuccurullo, Bibliometrix è tra gli strumenti open-source i principali software più utilizzati al mondo per il Science Mapping & Knowledge Synthesis.\nWebsites: K-Synth - Bibliometrix"
+  },
+  {
+    "objectID": "organizzazione1.html#docenti",
+    "href": "organizzazione1.html#docenti",
+    "title": "Organizzazione",
+    "section": "Docenti",
+    "text": "Docenti\n\n\n\n\n\n\nMassimo Aria\n\n\nProfessore Ordinario di Statistica Sociale\n\n\nDipartimento di Scienze Economiche e Statistiche\n\n\nUniversità degli Studi di Napoli Federico II\n\nmassimo.aria@unina.it\n\n\n\n\n\n\nCorrado Cuccurullo\n\n\nProfessore Ordinario di Economia Aziendale\n\n\nDipartimento di Scienze Economiche e Statistiche\n\n\nUniversità degli Studi della Campania “Luigi Vanvitelli”\n\ncuccurullocorrado@gmail.com\n\n\n\n\n\n\n\n\n\nWalter Giordano\n\n\nProfessore Associato di Business English\n\n\nDipartimento di Scienze Economiche e Statistiche\n\n\nUniversità degli Studi di Napoli Federico II\n\nwalter.giordano@unina.it\n\n\n\n\n\n\nMichelangelo Misuraca\n\n\nProfessore Associato di Statistica Sociale\n\n\nDipartimento di Scienze Aziendali - Management & Innovation Systems/DISA-MIS\n\n\nUniversità degli Studi di Salerno\n\nm.misuraca@unisa.it\n\n\n\n\n\n\nMaria Spano\n\n\nRicercatore di Statistica Sociale\n\n\nDipartimento di Scienze Economiche e Statistiche\n\n\nUniversità degli Studi di Napoli Federico II\n\nmaria.spano@unina.it"
+  },
+  {
+    "objectID": "organizzazione1.html#comitato-organizzatore",
+    "href": "organizzazione1.html#comitato-organizzatore",
+    "title": "Organizzazione",
+    "section": "Comitato Organizzatore",
+    "text": "Comitato Organizzatore\n\nCoordinatrice: Prof.ssa Maria Spano\n\n\n\n\n\n\nLuca D’Aniello\n\n\nRicercatore in Scienze Sociali e Statistiche\n\n\nUniversità degli Studi di Napoli Federico II\n\n\n\n\n\n\n\n\nAlessandra Belfiore\n\n\nRicercatrice in Economia Aziendale\n\n\nUniversità Telematica Pegaso\n\n\n\n\n\n\n\nCarlo Alabiso\n\n\nAssegnista di ricerca\n\n\nUniversità degli Studi di Napoli Federico II\n\n\n\n\n\n\n\nAgostino Gnasso\n\n\nDottorando in Economia\n\n\nUniversità degli Studi di Napoli Federico II\n\n\n\n\n\n\n\nDario Sacco\n\n\nDottorando\n\n\nUniversità degli Studi di Napoli Federico II\n\n\n\n\n\n\n\nAlessandra D’Alessio\n\n\nDottoranda\n\n\nUniversità degli Studi di Napoli Federico II"
+  },
+  {
+    "objectID": "registrazione.html",
+    "href": "registrazione.html",
+    "title": "Registrazione e Informazioni sui Costi",
+    "section": "",
+    "text": "📅 Scadenza Iscrizioni: 30 Aprile 2026\n👥 Posti Limitati: La Summer School accetta un numero massimo di partecipanti per garantire un’esperienza formativa ottimale."
+  },
+  {
+    "objectID": "registrazione.html#procedura-di-iscrizione",
+    "href": "registrazione.html#procedura-di-iscrizione",
+    "title": "Registrazione e Informazioni sui Costi",
+    "section": "📋 Procedura di Iscrizione",
+    "text": "📋 Procedura di Iscrizione\nLa procedura di iscrizione si articola in 4 step fondamentali:\n\n\nSTEP 1 - Compilazione Form di Pre-Iscrizione 📝\nCompila il form online con i tuoi dati:\n🔗 Compila il Form di Pre-Iscrizione\nInformazioni richieste: - Nome e Cognome - Email - Affiliazione (Università/Ente) - Ruolo/Posizione - Tipo di quota richiesta (Ridotta/Standard) - Recapito telefonico\n\n\n\nSTEP 2 - Attesa Conferma di Ammissione ⏳\nDopo aver inviato il form:\n✅ Il comitato organizzatore valuterà la tua richiesta\n✅ Riceverai una email di ammissione entro 5-7 giorni lavorativi\n✅ L’email conterrà le istruzioni per procedere con il pagamento\n\n⚠️ Importante: Solo dopo aver ricevuto l’email di ammissione potrai procedere con il bonifico.\n\n\n\n\nSTEP 3 - Effettua il Bonifico Bancario 💳\nUna volta ricevuta l’email di ammissione, effettua il bonifico secondo le modalità indicate nella sezione Coordinate Bancarie.\n\n\n\nSTEP 4 - Invio Ricevuta di Pagamento 📧\nInvia la ricevuta del bonifico via email a sssm@bibliometrix.com seguendo le istruzioni nella sezione Invio Ricevuta.\n✅ Conferma finale: Riceverai una email di conferma definitiva entro 3-5 giorni lavorativi."
+  },
+  {
+    "objectID": "registrazione.html#quote-di-partecipazione",
+    "href": "registrazione.html#quote-di-partecipazione",
+    "title": "Registrazione e Informazioni sui Costi",
+    "section": "💰 Quote di Partecipazione",
+    "text": "💰 Quote di Partecipazione\nLa Summer School offre due categorie di quote per garantire l’accessibilità a diverse figure professionali.\n\n\n\n💎 Quota Ridotta\n\n\n600€\n\n\n+ IVA 22% (132€) = 732€\n\n\n👥 Destinatari:\n\n🎓 Dottorandi\n🎓 Dottori di ricerca\n📚 Assegnisti di ricerca\n🔬 RTD-A (Ricercatori a Tempo Determinato tipo A)\n\n\nPer accedere alla quota ridotta è necessario presentare documentazione che attesti lo status.\n\n\n\n🌟 Quota Standard\n\n\n900€\n\n\n+ IVA 22% (198€) = 1.098€\n\n\n👥 Destinatari:\n\n🔬 RTD-B (Ricercatori a Tempo Determinato tipo B)\n🏛️ Ricercatori a tempo indeterminato\n👨‍🏫 Professori Associati\n👨‍🎓 Professori Ordinari\n💼 Professionals e professionisti del settore\n\n\n\n\n\n✨ La Quota di Iscrizione Include:\n\n\n📚 Materiali Didattici\nSlides, dataset, script R, bibliografia selezionata\n\n\n🎓 Certificato di Partecipazione\n40 ore di formazione + OpenBadge Bestr\n\n\n🍽️ Servizi di Ristorazione\nPranzi completi e coffee break quotidiani\n\n\n🎉 Eventi Sociali\nAperitivo di benvenuto, visita culturale, social dinner\n\n\n🚌 Servizio Navetta\nTrasporto da/per il centro di Napoli\n\n\n👥 Community Access\nAccesso alla community Bibliometrix"
+  },
+  {
+    "objectID": "registrazione.html#coordinate-bancarie",
+    "href": "registrazione.html#coordinate-bancarie",
+    "title": "Registrazione e Informazioni sui Costi",
+    "section": "💳 Modalità di Pagamento",
+    "text": "💳 Modalità di Pagamento\n\n⚠️ Attenzione: Effettua il bonifico SOLO dopo aver ricevuto l’email di ammissione dal comitato organizzatore.\n\n\n🏦 Coordinate Bancarie\n\n\n\nIntestatario:\nK-SYNTH SRL\n\n\nIBAN:\nIT17L0514240304CC1266029779\n\n\nCodice BIC/SWIFT:\nBCPTITNNXXX\n\n\nCausale:\nNOME COGNOME - SSSM 2026"
+  },
+  {
+    "objectID": "registrazione.html#invio-ricevuta",
+    "href": "registrazione.html#invio-ricevuta",
+    "title": "Registrazione e Informazioni sui Costi",
+    "section": "📧 Invio Ricevuta di Pagamento",
+    "text": "📧 Invio Ricevuta di Pagamento\nDopo aver effettuato il bonifico, è obbligatorio inviare la ricevuta via email per completare l’iscrizione:\n\n📬 Indirizzo Email: sssm@bibliometrix.com\n✉️ Oggetto Email:\nRicevuta bonifico SSSM2026 - [TUO NOME E COGNOME]\n📎 Allegati richiesti:\n\nRicevuta del bonifico bancario (PDF o immagine)\n\n📝 Corpo dell’email - Informazioni da includere:\n\nNome e Cognome completo\nAffiliazione (Università/Ente di ricerca)\nRuolo/Posizione\nTipo di quota (Ridotta/Standard)\nRecapito telefonico\n\n\n\n✅ Conferma Iscrizione Definitiva: Riceverete una email di conferma entro 3-5 giorni lavorativi dall’invio della ricevuta. La conferma includerà tutte le informazioni necessarie per la partecipazione alla Summer School."
+  },
+  {
+    "objectID": "registrazione.html#hai-bisogno-di-assistenza",
+    "href": "registrazione.html#hai-bisogno-di-assistenza",
+    "title": "Registrazione e Informazioni sui Costi",
+    "section": "📞 Hai Bisogno di Assistenza?",
+    "text": "📞 Hai Bisogno di Assistenza?\n\n\n\n📧\n\n\nInformazioni Generali\nEmail: sssm@bibliometrix.com\nRisposta entro 24-48 ore\n\n\n\n\n👩‍💼\n\n\nCoordinatrice\nDott.ssa Maria Spano\nmaria.spano@unina.it"
+  },
+  {
+    "objectID": "registrazione.html#inizia-ora-il-tuo-percorso",
+    "href": "registrazione.html#inizia-ora-il-tuo-percorso",
+    "title": "Registrazione e Informazioni sui Costi",
+    "section": "Inizia Ora il Tuo Percorso!",
+    "text": "Inizia Ora il Tuo Percorso!\nNon perdere l’opportunità di partecipare alla IV Edizione della Summer School in Science Mapping!\nPosti limitati - Scadenza iscrizioni: 30 Aprile 2026\n📝 Compila il Form di Pre-Iscrizione"
+  }
+]

@@ -1,0 +1,1864 @@
+/* =============================================
+   SSSM 2026 - Summer School in Science Mapping
+   Design System: Elegant Blue (#054577) + Gradient Logo
+   ============================================= */
+
+/* =============================================
+   1. RESET E CONFIGURAZIONI BASE
+   ============================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* PALETTE COLORI PRINCIPALE - Questi sono i colori che usiamo */
+    --primary-blue: #054577;           /* Blu principale - navbar, titoli, bottoni */
+    --primary-blue-dark: #033554;      /* Blu scuro - gradienti, hover scuri */
+    --primary-blue-light: #0766a3;     /* Blu chiaro - hover, link */
+    --accent-blue: #1e90ff;            /* Azzurro accento - evidenziazioni */
+    --gradient-start: #0066cc;         /* Inizio gradiente - effetti speciali */
+    --gradient-end: #00ccff;           /* Fine gradiente - effetti speciali, cyan */
+    
+    /* COLORI NEUTRI - Per sfondi e testi */
+    --white: #ffffff;                  /* Bianco puro */
+    --gray-50: #f9fafb;               /* Grigio chiarissimo - sfondi cards */
+    --gray-100: #f3f4f6;              /* Grigio molto chiaro - sfondi alternati */
+    --gray-200: #e5e7eb;              /* Grigio chiaro - bordi */
+    --gray-300: #d1d5db;              /* Grigio medio-chiaro - bordi hover */
+    --gray-600: #4b5563;              /* Grigio medio - testi secondari */
+    --gray-700: #374151;              /* Grigio medio-scuro - testi */
+    --gray-800: #1f2937;              /* Grigio scuro - testo principale */
+    --gray-900: #111827;              /* Grigio molto scuro - testi enfatizzati */
+    
+    /* SPACING */
+    --spacing-xs: 0.2rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 0.5rem;
+    --spacing-lg: 1rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 3rem;
+    
+    /* TYPOGRAPHY */
+    --font-sans: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-display: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+    
+    /* TRANSITIONS */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    /* SHADOWS */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px rgba(5, 69, 119, 0.1);
+    --shadow-lg: 0 10px 15px rgba(5, 69, 119, 0.15);
+    --shadow-xl: 0 20px 25px rgba(5, 69, 119, 0.2);
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+/* BODY - Modifica qui il colore di sfondo generale del sito */
+body {
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    color: var(--gray-800);              /* COLORE TESTO: Grigio scuro per leggibilità */
+    background: var(--gray-50);          /* SFONDO PAGINA: Grigio chiarissimo invece di bianco puro */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0 !important;
+}
+
+body.nav-fixed {
+    padding-top: 0 !important;                  /* Spazio per navbar fixed */
+}
+
+#quarto-content {
+    flex: 1;
+    padding-top: 100px;
+}
+
+/* =============================================
+   2. NAVBAR - Modifica qui i colori della barra di navigazione
+   ============================================= */
+
+#quarto-header {
+    background: linear-gradient(135deg, var(--primary-blue) 10%, var(--primary-blue-light) 70%);
+    /* SFONDO NAVBAR: Gradiente blu - cambia i colori qui se vuoi navbar diversa */
+    
+    box-shadow: 0 6px 20px rgba(5, 69, 119, 0.4);
+    /* OMBRA NAVBAR: Aumenta/riduci il 0.4 per ombra più/meno pronunciata */
+    
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    /* BORDO NAVBAR: Linea bianca sotto la navbar */
+    
+    transition: all var(--transition-normal);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#quarto-header.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+#quarto-header.headroom--pinned {
+    transform: translateY(0);
+}
+
+.navbar {
+    padding: calc(var(--spacing-md) * 1) 0;
+    width: 100%;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--spacing-lg);
+}
+
+.navbar-brand-container {
+    margin: 0 !important;
+}
+
+/* LOGO NAVBAR - Modifica dimensione e colore del logo */
+.navbar-logo {
+    height: 3500px;                        /* DIMENSIONE LOGO: Aumenta/riduci qui */
+    width: auto;
+    transition: transform var(--transition-normal), filter var(--transition-normal);
+    /* filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(255, 255, 255, 0.3)); */
+    /* COLORE LOGO: brightness(0) invert(1) = bianco. Rimuovi per colore originale */
+}
+
+.navbar-logo:hover {
+    transform: scale(1.08);              /* EFFETTO HOVER: Ingrandimento */
+    filter: brightness(0) invert(1) drop-shadow(0 4px 12px rgba(255, 255, 255, 0.5));
+}
+
+/* LINK NAVIGAZIONE - Modifica qui i colori e stili dei link nella navbar */
+.navbar-nav {
+    gap: var(--spacing-sm);
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-link {
+    background: transparent;
+    color: var(--white) !important;      /* COLORE TESTO LINK: Bianco */
+    padding: 12px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    transition: all var(--transition-normal);
+    border: 2px solid transparent;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* EFFETTO HOVER LINK - Cosa succede quando passi il mouse sui link */
+.navbar-nav .nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left var(--transition-slow);
+}
+
+.navbar-nav .nav-link:hover::before {
+    left: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);   /* SFONDO HOVER: Bianco semitrasparente */
+    border-color: rgba(255, 255, 255, 0.3);  /* BORDO HOVER */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* LINK ATTIVO - Pagina corrente */
+.navbar-nav .nav-link.active {
+    background: rgba(255, 255, 255, 0.2);    /* SFONDO LINK ATTIVO */
+    border-color: rgba(255, 255, 255, 0.4);  /* BORDO LINK ATTIVO */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-toggler {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navbar-collapse {
+    flex-grow: 1;
+}
+
+.navbar-title::after {
+    content: "Summer School in\AScience Mapping\A2026";
+    white-space: pre;
+    font-variant: small-caps;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+/* =============================================
+   3. HERO SECTION - Modifica qui la sezione principale homepage
+   ============================================= */
+
+.hero {
+    position: relative;
+    background: transparent;
+    /* SFONDO HERO: Gradiente blu - questo è il grande banner in homepage */
+    
+    padding: 0px 0px 0px;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NETWORK BACKGROUND - Logo trasparente sullo sfondo */
+.hero::after {
+    content: '';
+    position: fixed;
+    top: -80px;
+    left: -15px;
+    right: 0;
+    bottom: 0;
+    background-image: url('./network-background.svg');
+    background-size: contain;       /* mantiene proporzioni ottime */
+    background-repeat: no-repeat;
+    background-position: top center;
+    transform: translateX(-50%);    /* centra perfettamente */
+    width: 70%;                    /* un po’ più larga del container */
+    /* height: auto; */
+    opacity: 0.25;                       /* OPACITÀ NETWORK: Aumenta per più visibile (max 0.3) */
+    z-index: 0;
+    pointer-events: none;
+    animation: networkPulse 15s ease-in-out infinite;
+}
+
+
+@keyframes networkPulse {
+    0%, 100% { 
+        opacity: 0.15;
+        transform: scale(1);
+    }
+    50% { 
+        opacity: 0.22;                   /* OPACITÀ MASSIMA NETWORK nell'animazione */
+        transform: scale(1.03);
+    }
+}
+
+/* Pattern esagonale animato - RIMOSSO per design più pulito */
+
+/* SFERE GRADIENT ANIMATE - Effetti decorativi sullo sfondo */
+.gradient-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(60px);
+    opacity: 0.3;
+    animation: orbFloat 15s ease-in-out infinite;
+}
+
+.orb-1 {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    /* COLORE SFERA 1: Gradiente blu-cyan */
+    top: -100px;
+    right: -100px;
+    animation-delay: 0s;
+}
+
+.orb-2 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, var(--accent-blue), var(--gradient-start));
+    /* COLORE SFERA 2: Gradiente azzurro-blu */
+    bottom: -50px;
+    left: -50px;
+    animation-delay: 5s;
+}
+
+.orb-3 {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(135deg, var(--gradient-end), var(--accent-blue));
+    /* COLORE SFERA 3: Gradiente cyan-azzurro */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-delay: 10s;
+}
+
+@keyframes orbFloat {
+    0%, 100% { 
+        transform: translate(0, 0) scale(1);
+        opacity: 0.3;
+    }
+    33% { 
+        transform: translate(50px, -50px) scale(1.1);
+        opacity: 0.4;
+    }
+    66% { 
+        transform: translate(-50px, 50px) scale(0.9);
+        opacity: 0.2;
+    }
+}
+
+/* HERO CONTAINER - Contenitore principale hero */
+.hero-container {
+    max-width: 2000px;               /* LARGHEZZA MASSIMA HERO */
+    margin: 10 ;
+    text-align: left;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+    width: 85%;
+    padding: 0 3;
+}
+
+.hero-edition {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    display: inline-block;
+}
+
+/* LOGHI HERO - I tre loghi in alto */
+.hero-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.hero-logo {
+    height: 100px;                   /* DIMENSIONE LOGHI: Aumenta/riduci qui */
+    width: auto;
+    transition: all var(--transition-slow);
+    animation: logoFloat 3s ease-in-out infinite;
+}
+
+.hero-logo:nth-child(1) {
+    filter: brightness(0) invert(1) drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+    /* LOGO 1 (UNINA): Bianco con ombra */
+    animation-delay: 0s;
+}
+
+.hero-logo:nth-child(2) {
+    animation-delay: 1s;
+    /* LOGO 2 (BIBLIOMETRIX): Mantiene colore originale */
+}
+
+.hero-logo:nth-child(3) {
+    filter: brightness(0) invert(1) drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+    /* LOGO 3 (DISES): Bianco con ombra */
+    animation-delay: 2s;
+}
+
+@keyframes logoFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.hero-logo:hover {
+    transform: scale(1.15) rotate(5deg);
+    filter: brightness(1.2) drop-shadow(0 8px 16px rgba(255, 255, 255, 0.3));
+}
+
+/* LOGO BIBLIOMETRIX - Più grande con effetto speciale */
+.hero-logo.bibliometrix {
+    height: 140px;                   /* DIMENSIONE LOGO BIBLIOMETRIX: Molto più grande */
+    filter: drop-shadow(0 10px 30px rgba(0, 204, 255, 0.5));
+    /* ALONE LOGO: Colore cyan intorno al logo */
+    animation: gradientPulse 3s ease-in-out infinite;
+}
+
+@keyframes gradientPulse {
+    0%, 100% { 
+        filter: drop-shadow(0 10px 30px rgba(0, 204, 255, 0.5));
+        transform: scale(1);
+    }
+    50% { 
+        filter: drop-shadow(0 15px 40px rgba(0, 204, 255, 0.7));
+        transform: scale(1.08);
+    }
+}
+
+/* TITOLO HERO - Il grande titolo */
+.hero-title {
+    font-family: var(--font-display);
+    font-size: 64px;
+    font-weight: 900;
+    color: var(--white);
+    margin-bottom: 0px;
+    line-height: 1.2;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    letter-spacing: -1px;
+    text-align: left;
+    max-width: 900px;
+}
+
+.title-line-1, .title-line-2 {
+    display: block;
+    background: linear-gradient(135deg, var(--white) 0%, var(--gradient-end) 100%);
+    /* GRADIENTE TITOLO: Da bianco a cyan */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: titleShimmer 4s ease-in-out infinite;
+}
+
+@keyframes titleShimmer {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.85; }
+}
+
+/* SOTTOTITOLO HERO */
+.hero-subtitle {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 0 !important;
+    font-weight: 400;
+    line-height: 1.6;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    max-width: 800px;
+    text-align: left;
+}
+
+/* Container per IV Edizione + Info inline */
+.hero-edition-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 0 !important;
+}
+
+/* Container per mettere IV Edizione, Date e Sede sulla stessa riga */
+.hero-edition-row {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+
+.hero-info {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* INFO CARDS HERO - Le tre card con edizione/date/sede */
+.hero-info {
+    display: flex;
+    justify-content: flex-start;  /* Allineati a sinistra */
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.hero-info-item {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(20px);
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    min-width: 160px;
+}
+
+.hero-info-item:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-3px);
+}
+
+.hero-info-label {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.hero-info-value {
+    font-size: 22px;
+    color: var(--white);
+    font-weight: 700;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* BOTTONE CTA HERO - Il grande bottone "Iscriviti Ora" */
+.hero-cta {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;  /* Bottone allineato */
+}
+
+.hero-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    background: var(--white);
+    color: var(--primary-blue);
+    padding: 18px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: center;
+    overflow: hidden;
+}
+
+.hero-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s ease, height 0.6s ease;
+    z-index: -1;
+}
+
+.hero-button:hover::before {
+    width: 400px;
+    height: 400px;
+}
+
+.hero-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+    color: var(--white);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 968px) {
+    .hero {
+        min-height: auto;
+        padding: 100px 20px 80px;
+    }
+    
+    .hero-title {
+        font-size: 48px;
+    }
+    
+    .hero-edition {
+        font-size: 18px;
+        padding: 8px 25px;
+    }
+    
+    .hero-subtitle {
+        font-size: 20px;
+    }
+    
+    .hero-info {
+        justify-content: center;
+    }
+    
+    .hero-cta {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .hero-container {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hero-title,
+    .hero-subtitle {
+        text-align: center;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero-title {
+        font-size: 36px;
+    }
+    
+    .hero-edition {
+        font-size: 16px;
+    }
+    
+    .hero-subtitle {
+        font-size: 18px;
+    }
+    
+    .hero-button {
+        padding: 16px 35px;
+        font-size: 16px;
+    }
+}
+
+/* =============================================
+   4. ANIMAZIONI DI INGRESSO
+   ============================================= */
+
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease forwards;
+}
+
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.4s; }
+.delay-3 { animation-delay: 0.6s; }
+.delay-4 { animation-delay: 0.8s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* =============================================
+   5. CONTENT SECTIONS - Sezioni contenuto pagine
+   ============================================= */
+
+.content {
+    max-width: 1600px;                   /* LARGHEZZA CONTENUTO: Aumenta/riduci */
+    margin: 0 auto 0 auto;
+    padding: 2rem;
+    width: 100%;
+    background: var(--white);            /* SFONDO CONTENUTO: Bianco */
+    box-shadow: var(--shadow-md);
+    border-radius: 20px;
+}
+
+/* TITOLI - H1 e H2 */
+h1, h2 {
+    color: var(--primary-blue);          /* COLORE TITOLI: Blu principale */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    border-bottom: 3px solid var(--primary-blue);
+    padding-bottom: 15px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: var(--font-display);
+    position: relative;
+}
+
+h1::after, h2::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    /* SOTTOLINEATURA TITOLI: Gradiente blu-cyan */
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* TITOLI H3 */
+h3 {
+    color: var(--primary-blue-dark);     /* COLORE H3: Blu scuro */
+    font-size: 26px;
+    margin: 40px 0 20px 0;
+    font-weight: 600;
+}
+
+/* PARAGRAFI */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.8;
+    color: var(--gray-700);              /* COLORE TESTO: Grigio medio-scuro */
+}
+
+/* LISTE */
+ul, ol {
+    margin-bottom: 25px;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+    line-height: 1.7;
+    color: var(--gray-700);              /* COLORE TESTO LISTE */
+}
+
+/* =============================================
+   6. PRICING CARDS - Card prezzi
+   ============================================= */
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.price-card {
+    background: var(--white);            /* SFONDO CARD PREZZO: Bianco */
+    border: 3px solid var(--primary-blue-light);  /* BORDO CARD: Blu chiaro */
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    transition: all var(--transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.price-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(5, 69, 119, 0.05), transparent);
+    transition: left 0.6s ease;
+}
+
+.price-card:hover::before {
+    left: 100%;
+}
+
+.price-card:hover {
+    border-color: var(--accent-blue);    /* BORDO HOVER: Azzurro */
+    box-shadow: 0 10px 40px rgba(5, 69, 119, 0.15);
+    transform: translateY(-8px);
+}
+
+.price-type {
+    color: var(--primary-blue);          /* TIPO QUOTA: Blu */
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.price-amount {
+    font-size: 56px;
+    font-weight: 800;
+    color: var(--primary-blue-dark);     /* PREZZO: Blu scuro */
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, var(--primary-blue), var(--primary-blue-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.price-vat {
+    color: var(--gray-600);              /* IVA: Grigio medio */
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.price-includes {
+    text-align: left;
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 2px solid var(--gray-200);
+}
+
+/* =============================================
+   7. INFO BOX - Box informativi
+   ============================================= */
+
+.info-box {
+    background: linear-gradient(135deg, var(--gray-50) 0%, var(--white) 100%);
+    /* SFONDO INFO BOX: Gradiente grigio-bianco */
+    padding: 35px;
+    border-radius: 15px;
+    border-left: 5px solid var(--primary-blue);  /* BORDO SINISTRO: Blu */
+    margin: 30px 0;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+}
+
+.info-box:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateX(5px);
+    border-left-color: var(--accent-blue);       /* BORDO HOVER: Azzurro */
+}
+
+/* =============================================
+   8. STAFF & PARTNER SECTIONS
+   ============================================= */
+
+/* PARTNERS - Layout orizzontale semplice */
+.partner {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 30px 40px;
+    margin: 30px 0;
+    box-shadow: var(--shadow-md);
+    border: 2px solid var(--gray-200);
+    transition: all var(--transition-normal);
+}
+
+.partner:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-blue-light);
+}
+
+.partner-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.partner-logo {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray-50);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.partner-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.partner-title {
+    color: var(--primary-blue);
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* STAFF GRID - 3 colonne compatte con foto quadrate */
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    margin: 40px 0;
+    justify-items: center;
+}
+
+.staff-card {
+    background: var(--white);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+    text-align: center;
+    border: 2px solid var(--gray-200);
+    width: 100%;
+    max-width: 320px;
+}
+
+.staff-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--primary-blue-light);
+}
+
+/* FOTO STAFF - quadrate centrate con object-fit */
+.staff-photo {
+    width: 120px;
+    height: 120px;
+    background: var(--gray-100);
+    border-radius: 10px;
+    margin: 0 auto 15px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid var(--primary-blue);
+    transition: all var(--transition-normal);
+    position: relative;
+}
+
+.staff-card:hover .staff-photo {
+    border-color: var(--gradient-end);
+    box-shadow: 0 8px 20px rgba(0, 204, 255, 0.3);
+}
+
+.staff-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    display: block;
+}
+
+.staff-name {
+    color: var(--primary-blue);
+    font-size: 19px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    line-height: 1.3;
+}
+
+.staff-role {
+    color: var(--gray-600);
+    font-size: 13px;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.staff-contact {
+    color: var(--primary-blue-light);
+    font-size: 13px;
+    text-decoration: none;
+    transition: all var(--transition-fast);
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.staff-contact:hover {
+    color: var(--accent-blue);
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    .staff-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .staff-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+    }
+    
+    .partner-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .staff-card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .staff-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =============================================
+   FOOTER - LAYOUT ORIZZONTALE CORRETTO
+   ============================================= */
+
+/* Reset footer */
+footer.footer,
+.footer,
+.page-footer,
+.nav-footer {
+    background: linear-gradient(135deg, #033554 0%, #054577 100%) !important;
+    color: white !important;
+    padding: 30px 20px !important;
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.nav-footer {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 1600px !important;
+    margin: 0 auto !important;
+    gap: 40px !important;
+    flex-wrap: nowrap !important;  /* NON va a capo */
+    padding: 0 40px !important;
+}
+
+/* COLONNA SINISTRA - Logo */
+.nav-footer-left {
+    flex: 0 0 auto !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.nav-footer-left img,
+.footer img[alt="Bibliometrix"] {
+    height: 55px !important;
+    width: auto !important;
+    filter: brightness(0) invert(1) !important;
+    opacity: 0.9 !important;
+    transition: all 0.3s ease !important;
+}
+
+.nav-footer-left img:hover,
+.footer img[alt="Bibliometrix"]:hover {
+    transform: scale(1.05) !important;
+    opacity: 1 !important;
+}
+
+/* COLONNA CENTRO - Copyright (UNA SOLA RIGA) */
+.nav-footer-center {
+    flex: 1 1 auto !important;
+    text-align: center !important;
+    padding: 0 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.nav-footer-center p,
+.nav-footer-center div,
+.footer .nav-footer-center {
+    margin: 0 !important;
+    font-size: 13px !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    line-height: 1.3 !important;
+    white-space: nowrap !important;  /* NON va a capo */
+}
+
+/* COLONNA DESTRA - Social Icons ORIZZONTALI */
+.nav-footer-right {
+    flex: 0 0 auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+}
+
+.footer-socials {
+    display: flex !important;
+    flex-direction: row !important;  /* ORIZZONTALE */
+    gap: 12px !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+}
+
+.footer-socials a {
+    color: white !important;
+    font-size: 20px !important;
+    transition: all 0.3s ease !important;
+    opacity: 0.85 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 50% !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    text-decoration: none !important;
+    flex-shrink: 0 !important;  /* NON si rimpicciolisce */
+}
+
+.footer-socials a:hover {
+    opacity: 1 !important;
+    transform: translateY(-3px) !important;
+    color: #00ccff !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Icone Bootstrap Icons */
+.footer-socials i.bi {
+    font-size: 16px !important;
+    line-height: 1 !important;
+}
+
+/* =============================================
+   RESPONSIVE FOOTER - Solo per mobile
+   ============================================= */
+
+@media (max-width: 1200px) {
+    .nav-footer {
+        padding: 0 30px !important;
+        gap: 30px !important;
+    }
+    
+    .nav-footer-center p,
+    .nav-footer-center div,
+    .footer .nav-footer-center {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 968px) {
+    .nav-footer {
+        flex-wrap: wrap !important;
+        padding: 0 20px !important;
+        gap: 20px !important;
+    }
+    
+    .nav-footer-left {
+        flex: 0 0 100% !important;
+        justify-content: center !important;
+    }
+    
+    .nav-footer-center {
+        flex: 0 0 100% !important;
+        order: 2 !important;
+    }
+    
+    .nav-footer-center p,
+    .nav-footer-center div,
+    .footer .nav-footer-center {
+        white-space: normal !important;  /* Su mobile può andare a capo */
+        font-size: 12px !important;
+    }
+    
+    .nav-footer-right {
+        flex: 0 0 100% !important;
+        order: 1 !important;
+        justify-content: center !important;
+    }
+    
+    .footer-socials {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .footer,
+    footer.footer {
+        padding: 25px 15px !important;
+    }
+    
+    .nav-footer-left img,
+    .footer img[alt="Bibliometrix"] {
+        height: 45px !important;
+    }
+    
+    .nav-footer-center p,
+    .nav-footer-center div,
+    .footer .nav-footer-center {
+        font-size: 11px !important;
+        padding: 0 10px !important;
+    }
+    
+    .footer-socials a {
+        width: 34px !important;
+        height: 34px !important;
+    }
+    
+    .footer-socials i.bi {
+        font-size: 14px !important;
+    }
+}
+/* =============================================
+   10. RESPONSIVE DESIGN
+   ============================================= */
+
+@media (max-width: 968px) {
+    .hero {
+        padding: 30px 10px 30px;
+        min-height: auto;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+
+    .hero-subtitle {
+        font-size: 22px;
+    }
+
+    .hero-info {
+        gap: 20px;
+    }
+
+    .hero-info-item {
+        padding: 25px 30px;
+        min-width: 160px;
+    }
+
+    .hero-info-value {
+        font-size: 22px;
+    }
+
+    .hero-logo {
+        height: 70px;
+    }
+
+    .hero-logo.bibliometrix {
+        height: 110px;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px 22px;
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .staff-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .content {
+        width: 100%;
+        padding: var(--spacing-md);
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .hero-button {
+        padding: 16px 35px;
+        font-size: 16px;
+    }
+
+    .hero-info-item {
+        flex: 1 1 100%;
+    }
+
+    .gradient-orb {
+        width: 200px;
+        height: 200px;
+    }
+
+    .navbar-logo {
+        height: 60px;
+    }
+}
+
+/* =============================================
+   11. UTILITY CLASSES
+   ============================================= */
+
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+/* =============================================
+   12. NUOVE SEZIONI HOMEPAGE
+   ============================================= */
+
+/* FEATURE GRID - Griglia caratteristiche */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.feature-card {
+    background: linear-gradient(135deg, var(--white) 0%, var(--gray-50) 100%);
+    /* SFONDO FEATURE CARD: Gradiente bianco-grigio */
+    padding: 35px;
+    border-radius: 15px;
+    border-left: 5px solid var(--primary-blue);  /* BORDO: Blu */
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-xl);
+    border-left-color: var(--gradient-end);      /* BORDO HOVER: Cyan */
+}
+
+.feature-card h3 {
+    color: var(--primary-blue);          /* TITOLO FEATURE: Blu */
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* SKILLS LIST - Lista competenze */
+.skills-list {
+    background: var(--gray-50);          /* SFONDO LISTA: Grigio chiaro */
+    padding: 40px;
+    border-radius: 15px;
+    margin: 30px 0;
+    line-height: 2.2;
+    border: 2px solid var(--gray-200);
+}
+
+.skills-list strong {
+    color: var(--primary-blue);          /* TESTO ENFATIZZATO: Blu */
+}
+
+/* PROGRAM OVERVIEW - Panoramica programma */
+.program-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin: 40px 0;
+}
+
+.day-summary {
+    background: var(--white);            /* SFONDO GIORNO: Bianco */
+    border: 2px solid var(--gray-200);
+    border-radius: 15px;
+    padding: 30px;
+    transition: all var(--transition-normal);
+}
+
+.day-summary:hover {
+    border-color: var(--primary-blue);   /* BORDO HOVER: Blu */
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-5px);
+}
+
+.day-summary h3 {
+    color: var(--primary-blue);          /* TITOLO GIORNO: Blu */
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* CTA SECTION - Call to action */
+.cta-section {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+    /* SFONDO BOTTONE CTA: Gradiente blu */
+    color: var(--white);
+    padding: 18px 45px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all var(--transition-normal);
+    box-shadow: var(--shadow-md);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-xl);
+    background: linear-gradient(135deg, var(--primary-blue-light) 0%, var(--gradient-end) 100%);
+    /* HOVER: Gradiente blu chiaro-cyan */
+}
+
+.cta-button.large {
+    padding: 25px 60px;
+    font-size: 22px;
+}
+
+.cta-button.pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+/* FACULTY PREVIEW - Preview docenti */
+.faculty-preview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.faculty-member {
+    background: var(--gray-50);          /* SFONDO DOCENTE: Grigio chiaro */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    transition: all var(--transition-normal);
+    border: 2px solid var(--gray-200);
+}
+
+.faculty-member:hover {
+    background: var(--white);
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-5px);
+    border-color: var(--primary-blue-light);
+}
+
+.faculty-member h3 {
+    color: var(--primary-blue);          /* NOME DOCENTE: Blu */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* INFO CARDS - Card informative */
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.info-card {
+    background: linear-gradient(135deg, var(--gray-50) 0%, var(--white) 100%);
+    padding: 35px;
+    border-radius: 15px;
+    border-top: 4px solid var(--primary-blue);   /* BORDO TOP: Blu */
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-top-color: var(--gradient-end);       /* BORDO HOVER: Cyan */
+}
+
+.info-card h3 {
+    color: var(--primary-blue);          /* TITOLO CARD: Blu */
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/* PRICING PREVIEW - Anteprima prezzi */
+.pricing-preview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.price-box {
+    background: var(--white);            /* SFONDO BOX PREZZO: Bianco */
+    border: 3px solid var(--primary-blue);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    transition: all var(--transition-normal);
+}
+
+.price-box:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-xl);
+    border-color: var(--gradient-end);   /* BORDO HOVER: Cyan */
+}
+
+.price-box h3 {
+    color: var(--primary-blue);          /* TITOLO PREZZO: Blu */
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.included-note {
+    background: var(--gray-50);          /* SFONDO NOTA: Grigio chiaro */
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px 0;
+    font-style: italic;
+    border: 2px solid var(--gray-200);
+}
+
+/* PARTNERS SECTION - Sezione partner */
+.partners-section {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.partner-logo-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.partner-logo-grid img {
+    transition: all var(--transition-normal);
+    filter: grayscale(20%);
+}
+
+.partner-logo-grid img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+/* CONTACT SECTION - Sezione contatti */
+.contact-section {
+    background: linear-gradient(135deg, var(--gray-50) 0%, var(--white) 100%);
+    padding: 40px;
+    border-radius: 15px;
+    border-left: 5px solid var(--primary-blue);
+    margin: 40px 0;
+}
+
+.contact-section h3 {
+    color: var(--primary-blue);          /* TITOLO CONTATTI: Blu */
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.contact-section h3:first-child {
+    margin-top: 0;
+}
+
+/* FINAL CTA - CTA finale */
+.final-cta {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+    /* SFONDO CTA FINALE: Gradiente blu */
+    color: var(--white);
+    padding: 80px 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 80px 0;
+}
+
+.final-cta h1 {
+    color: var(--white);                 /* TITOLO CTA: Bianco */
+    border: none;
+    margin-bottom: 30px;
+}
+
+.final-cta h1::after {
+    display: none;
+}
+
+/* ALERT BOX - Box di avviso */
+.alert {
+    padding: 25px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+/* =============================================
+   13. ACCESSIBILITY
+   ============================================= */
+
+/* VENUE PAGE - Stili immagini */
+.venue-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(5, 69, 119, 0.15);
+    transition: all 0.3s ease;
+}
+
+.venue-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(5, 69, 119, 0.25);
+}
+
+.map-link {
+    display: inline-block;
+    color: var(--primary-blue-light);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background: rgba(7, 102, 163, 0.1);
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.map-link:hover {
+    background: var(--primary-blue-light);
+    color: white;
+    transform: translateX(5px);
+}
+
+/* =============================================
+   14. ACCESSIBILITY
+   ============================================= */
+
+:focus {
+    outline: 3px solid var(--accent-blue);       /* FOCUS: Azzurro */
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* =============================================
+   FINE STYLESHEET
+   ============================================= */
+
+/* RIDUZIONE SPACING VERTICALE - Far salire i contenuti */
+.hero {
+    padding: 80px 20px 60px !important;  /* Era 120px top, ora 80px */
+    min-height: 85vh !important;  /* Era 90vh */
+}
+
+.hero-title {
+    margin-bottom: 10px !important;  /* Era 15-20px */
+}
+
+.hero-subtitle {
+    margin-bottom: 0 !important;
+    margin-top: 10px !important;
+}
+
+.hero-edition-row {
+    margin-top: 20px !important;  /* Era 30px */
+    margin-bottom: 30px !important;  /* Era 40px */
+}
+
+.hero-cta {
+    margin-top: 25px !important;  /* Era 30px */
+}
+
+/* BORDI CARD - IV Edizione, Date, Sede */
+.hero-edition {
+    font-size: 18px !important;  /* Ridotto da 22px */
+    padding: 12px 25px !important;  /* Ridotto da 10px 30px */
+    background: rgba(255, 255, 255, 0.15) !important;  /* Più visibile */
+    border: 2px solid rgba(255, 255, 255, 0.4) !important;  /* Bordo più visibile */
+    border-radius: 15px !important;  /* Meno arrotondato */
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Ombra leggera */
+}
+
+.hero-info-item {
+    background: rgba(255, 255, 255, 0.15) !important;  /* Più visibile */
+    border: 2px solid rgba(255, 255, 255, 0.4) !important;  /* Bordo visibile */
+    border-radius: 15px !important;
+    padding: 15px 25px !important;  /* Ridotto da 20px 30px */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Ombra leggera */
+}
+
+.hero-info-label {
+    font-size: 11px !important;  /* Ridotto da 13px */
+    margin-bottom: 5px !important;  /* Ridotto da 8px */
+}
+
+.hero-info-value {
+    font-size: 18px !important;  /* Ridotto da 22px */
+}
+
+/* FORMATTAZIONE SEZIONE "LA SCUOLA" */
+.content h2 {
+    margin-top: 40px !important;  /* Era 60px */
+    margin-bottom: 25px !important;  /* Era 40px */
+}
+
+.content h3 {
+    margin-top: 30px !important;  /* Era 40px */
+    margin-bottom: 15px !important;  /* Era 20px */
+}
+
+.content p {
+    margin-bottom: 15px !important;  /* Era 20px */
+    line-height: 1.7 !important;  /* Più compatto */
+}
+
+/* Liste nella descrizione - con bullet points */
+.content ul {
+    margin: 20px 0 25px 25px !important;
+    padding-left: 20px !important;
+}
+
+.content ul li {
+    margin-bottom: 8px !important;
+    line-height: 1.6 !important;
+    list-style-type: disc !important;  /* Bullet point visibile */
+}
+
+/* Paragrafo introduttivo più compatto */
+.content > p:first-of-type {
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 20px !important;
+}
+
+/* Box bianco contenuto più compatto */
+.content {
+    padding: 2rem !important;  /* Era 3rem */
+    margin: 1.5rem auto !important;  /* Era 2rem */
+}
+
+/* RESPONSIVE */
+@media (max-width: 968px) {
+    .hero {
+        padding: 60px 20px 50px !important;
+    }
+    
+    .hero-edition {
+        font-size: 16px !important;
+        padding: 10px 20px !important;
+    }
+    
+    .hero-info-item {
+        padding: 12px 20px !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero {
+        padding: 50px 15px 40px !important;
+    }
+    
+    .content {
+        padding: 1.5rem !important;
+    }
+}
+/* =====================================================
+   LOGHI AI TOOLS - Aggiungi a styles.css
+   ===================================================== */
+
+/* Sezione loghi AI tools */
+.ai-tools-section {
+    margin: 40px 0;
+    padding: 30px;
+    background: linear-gradient(135deg, rgba(5, 69, 119, 0.03) 0%, rgba(7, 102, 163, 0.05) 100%);
+    border-radius: 20px;
+    border: 2px solid rgba(5, 69, 119, 0.1);
+}
+
+.ai-tools-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.ai-tool-logo {
+    height: auto;
+    max-height: 140px;
+    width: auto;
+    transition: all 0.4s ease;
+    filter: drop-shadow(0 4px 15px rgba(5, 69, 119, 0.15));
+}
+
+.ai-tool-logo:hover {
+    transform: scale(1.1) translateY(-5px);
+    filter: drop-shadow(0 8px 25px rgba(5, 69, 119, 0.3));
+}
+
+/* Animazione ingresso loghi */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ai-tool-logo:nth-child(1) {
+    animation: fadeInUp 0.8s ease 0.2s both;
+}
+
+.ai-tool-logo:nth-child(2) {
+    animation: fadeInUp 0.8s ease 0.4s both;
+}
+
+.ai-tool-logo:nth-child(3) {
+    animation: fadeInUp 0.8s ease 0.6s both;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .ai-tools-section {
+        padding: 25px 20px;
+        margin: 30px 0;
+    }
+    
+    .ai-tools-logos {
+        gap: 35px;
+    }
+    
+    .ai-tool-logo {
+        max-height: 120px;
+    }
+}
+
+@media (max-width: 640px) {
+    .ai-tools-section {
+        padding: 20px 15px;
+        margin: 25px 0;
+    }
+    
+    .ai-tools-logos {
+        gap: 25px;
+        flex-direction: column;
+    }
+    
+    .ai-tool-logo {
+        max-height: 100px;
+    }
+}

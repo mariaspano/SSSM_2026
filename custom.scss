@@ -1,0 +1,394 @@
+/*-- scss:defaults --*/
+
+// =============================================
+// PALETTE COLORI - Definisci qui i colori del tema Quarto
+// =============================================
+
+// COLORI PRINCIPALI
+$primary: #054577 !default;           // Blu principale - navbar, link, bottoni
+$secondary: #6c757d !default;         // Grigio secondario
+$success: #198754 !default;           // Verde successo
+$info: #0dcaf0 !default;             // Azzurro info
+$warning: #ffc107 !default;          // Giallo warning
+$danger: #dc3545 !default;           // Rosso errore
+$light: #f9fafb !default;            // Grigio chiarissimo
+$dark: #033554 !default;             // Blu scuro
+
+// COLORI SPECIFICI SITO
+$blue: #054577 !default;             // Blu principale
+$blue-dark: #033554 !default;        // Blu scuro
+$blue-light: #0766a3 !default;       // Blu chiaro
+$cyan: #00ccff !default;             // Cyan/Azzurro chiaro
+$accent: #1e90ff !default;           // Azzurro accento
+
+// COLORI GRIGI
+$gray-50: #f9fafb !default;
+$gray-100: #f3f4f6 !default;
+$gray-200: #e5e7eb !default;
+$gray-300: #d1d5db !default;
+$gray-600: #4b5563 !default;
+$gray-700: #374151 !default;
+$gray-800: #1f2937 !default;
+$gray-900: #111827 !default;
+
+// COLORI CORPO
+$body-bg: $gray-50 !default;         // Sfondo pagina
+$body-color: $gray-800 !default;     // Colore testo principale
+
+// COLORI LINK
+$link-color: $blue !default;         // Colore link
+$link-decoration: none !default;     // Nessuna sottolineatura
+$link-hover-color: $blue-light !default; // Colore hover link
+$link-hover-decoration: underline !default;
+
+// NAVBAR
+$navbar-bg: $blue !default;          // SFONDO NAVBAR - Cambia qui per navbar diversa
+$navbar-fg: white !default;          // Testo navbar
+$navbar-hl: $cyan !default;          // Highlight navbar
+
+// TIPOGRAFIA
+$font-family-sans-serif: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !default;
+$font-family-monospace: 'Fira Code', 'Courier New', monospace !default;
+$headings-font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif !default;
+$headings-font-weight: 700 !default;
+$headings-color: $blue !default;     // Colore titoli
+
+// DIMENSIONI FONT
+$font-size-base: 1rem !default;
+$h1-font-size: 2.5rem !default;
+$h2-font-size: 2rem !default;
+$h3-font-size: 1.75rem !default;
+
+// BORDI E ARROTONDAMENTI
+$border-radius: 0.5rem !default;
+$border-radius-lg: 1rem !default;
+$border-radius-sm: 0.25rem !default;
+
+// OMBRE
+$box-shadow: 0 0.5rem 1rem rgba($blue, 0.15) !default;
+$box-shadow-sm: 0 0.125rem 0.25rem rgba($blue, 0.075) !default;
+$box-shadow-lg: 0 1rem 3rem rgba($blue, 0.175) !default;
+
+// SPACING
+$spacer: 1rem !default;
+
+/*-- scss:rules --*/
+
+// =============================================
+// REGOLE CSS PERSONALIZZATE
+// =============================================
+
+// NAVBAR - Forza i colori della navbar
+.navbar {
+  background: linear-gradient(135deg, $blue 0%, $blue-dark 100%) !important;
+  box-shadow: 0 6px 20px rgba(5, 69, 119, 0.4);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+  min-height: 90px;
+  
+  .navbar-brand {
+    color: white !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    
+    &:hover, &:focus {
+      background: rgba(255, 255, 255, 0.15) !important;
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+      color: white !important;
+    }
+    
+    &.active {
+      background: rgba(255, 255, 255, 0.2) !important;
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+  }
+  
+  .navbar-logo {
+    height: 70px !important;  /* Dimensione fissa */
+    width: auto !important;
+    max-height: 70px !important;
+     filter: brightness(0) invert(1) drop-shadow(0 2px 8px rgba(255, 255, 255, 0.3));
+    transition: transform 0.3s ease;  /* Animazione solo su hover */
+    
+    &:hover {
+      transform: scale(1.1);  /* Animazione hover */
+    }
+  }
+}
+
+// LOGHI A DESTRA NAVBAR - UNINA e DISES (semplici, senza animazione)
+.navbar-right-logos {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-left: auto;
+  padding-right: 20px;
+  order: 999;
+  
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  img {
+    height: 50px;  /* Stessa dimensione del logo Bibliometrix */
+    width: auto;
+    filter: brightness(0) invert(1);  /* Solo bianco, nessuna ombra */
+    opacity: 1;  /* Opacità fissa */
+    /* NESSUNA ANIMAZIONE */
+  }
+}
+
+// Forza navbar container a usare flexbox
+.navbar-container {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between !important;  /* Distribuisce lo spazio */
+  width: 100%;
+  flex-wrap: nowrap !important;  /* Non va a capo */
+  
+  .navbar-collapse {
+    flex-grow: 0;  /* Non cresce */
+    margin-left: auto;  /* Spinge il resto a destra */
+    margin-right: auto;  /* Centra il menu */
+  }
+}
+
+// Nascondi il search icon e bottone
+#quarto-search,
+.search-button,
+.aa-DetachedSearchButton {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+// TITOLI - Forza colori titoli
+h1, h2, h3, h4, h5, h6 {
+  color: $blue !important;
+  font-family: $headings-font-family;
+}
+
+h1, h2 {
+  border-bottom: 3px solid $blue;
+  padding-bottom: 15px;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, #0066cc, $cyan);
+  }
+}
+
+h3 {
+  color: $blue-dark !important;
+}
+
+// LINK
+a {
+  color: $blue;
+  text-decoration: none;
+  
+  &:hover {
+    color: $blue-light;
+    text-decoration: underline;
+  }
+}
+
+// BOTTONI
+.btn-primary {
+  background: linear-gradient(135deg, $blue 0%, $blue-light 100%);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba($blue, 0.3);
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: linear-gradient(135deg, $blue-light 0%, $cyan 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba($blue, 0.4);
+  }
+}
+
+// CARDS
+.card {
+  border: 2px solid $gray-200;
+  border-radius: $border-radius-lg;
+  box-shadow: $box-shadow-sm;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    border-color: $blue-light;
+    box-shadow: $box-shadow;
+    transform: translateY(-5px);
+  }
+  
+  .card-header {
+    background: linear-gradient(135deg, $blue 0%, $blue-light 100%);
+    color: white;
+    border-bottom: none;
+  }
+}
+
+// CODE BLOCKS
+pre, code {
+  background: $gray-100;
+  border: 1px solid $gray-200;
+  border-radius: $border-radius-sm;
+}
+
+// TABELLE
+table {
+  thead {
+    background: $blue;
+    color: white;
+    
+    th {
+      border-color: $blue-dark;
+    }
+  }
+  
+  tbody tr:hover {
+    background: $gray-50;
+  }
+}
+
+// ALERT BOXES
+.alert {
+  border-radius: $border-radius;
+  border-left: 5px solid;
+  
+  &.alert-primary {
+    border-left-color: $blue;
+    background: lighten($blue, 45%);
+  }
+  
+  &.alert-info {
+    border-left-color: $cyan;
+    background: lighten($cyan, 40%);
+  }
+}
+
+// FOOTER
+.footer {
+  background: linear-gradient(135deg, $blue-dark 0%, $accent 0%);
+  color: white;
+  padding: 40px 20px;
+  margin-top: 30px;
+  
+  a {
+    color: white;
+    
+    &:hover {
+      color: $cyan;
+    }
+  }
+}
+
+// FOCUS STATES
+:focus {
+  outline: 3px solid $accent;
+  outline-offset: 2px;
+}
+
+// CONTENUTO
+.content {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: $border-radius-lg;
+  box-shadow: $box-shadow;
+  margin: 1rem auto;
+  max-width: 1600px;
+  width: 95%;
+}
+
+// BODY
+body {
+  background: $body-bg;
+  color: $body-color;
+  padding-top: 80px;
+}
+
+// RESPONSIVE
+@media (max-width: 968px) {
+  .navbar {
+    min-height: 70px;
+    
+    .navbar-logo {
+      height: 60px;
+    }
+    
+    .navbar-nav .nav-link {
+      padding: 10px 22px;
+      font-size: 12px;
+      margin: 5px 0;
+    }
+  }
+  
+  // Loghi più piccoli su tablet
+  .navbar-right-logos {
+    gap: 15px;
+    padding-right: 10px;
+    
+    img {
+      height: 40px;
+    }
+  }
+  
+  body {
+    padding-top: 80px;
+  }
+  
+  .content {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar .navbar-logo {
+    height: 50px;
+  }
+  
+  // Nascondi loghi su mobile per risparmiare spazio
+  .navbar-right-logos {
+    display: none;
+  }
+  
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+}
