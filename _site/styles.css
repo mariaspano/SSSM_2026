@@ -221,12 +221,12 @@ body.nav-fixed {
 }
 
 .navbar-title::after {
-    content: "Summer School in\AScience Mapping\A2026";
+    content: "Summer School\A in Science Mapping";
     white-space: pre;
     font-variant: small-caps;
     font-size: 15px;
     font-weight: 700;
-    line-height: 1.15;
+    line-height: 0.2;
 }
 
 /* =============================================

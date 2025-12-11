@@ -9,7 +9,7 @@ format: html
 # SUMMER SCHOOL IN SCIENCE MAPPING {.hero-title}
 
 ::: {.hero-subtitle}
-AI-Enhanced Knowledge Synthesis: SLR, Content Analysis e Text Mining in un unico ecosistema
+AI-Enhanced Knowledge Synthesis: SLR, Content Analysis e Text Analysis in un unico ecosistema
 :::
 
 ::: {.hero-edition-row}

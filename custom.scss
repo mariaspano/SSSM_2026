@@ -173,6 +173,19 @@ $spacer: 1rem !default;
   visibility: hidden !important;
 }
 
+// TITOLO NAVBAR - Scritta "Summer School in Science Mapping"
+.navbar-title::after {
+   content: "Summer School\A in Science Mapping" !important;
+    white-space: pre !important;
+    font-variant: small-caps !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    line-height: 1.0 !important;  /* MODIFICA QUESTO PER SPAZIATURA VERTICALE */
+    display: block !important;
+    color: white !important;
+  }
+
+
 // TITOLI - Forza colori titoli
 h1, h2, h3, h4, h5, h6 {
   color: $blue !important;
