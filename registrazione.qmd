@@ -172,7 +172,7 @@ Accesso alla community Bibliometrix
 | | |
 |---|---|
 | **Intestatario:** | K-SYNTH SRL |
-| **IBAN:** | `IT17L0514240304CC1266029779` |
+| **IBAN:** | `IT83N0514240330CC1266029779` |
 | **Codice BIC/SWIFT:** | `BCPTITNNXXX` |
 | **Causale:** | **NOME COGNOME - SSSM 2026** |
 
@@ -266,15 +266,15 @@ Non perdere l'opportunità di partecipare alla IV Edizione della Summer School i
       
       linkDises.appendChild(logoDises);
       
-      // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
-      const linkUnina = document.createElement('a');
-      linkUnina.href = 'https://www.unina.it';
-      linkUnina.target = '_blank';
-      linkUnina.rel = 'noopener noreferrer';
+      // // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
+      // const linkUnina = document.createElement('a');
+      // linkUnina.href = 'https://www.unina.it';
+      // linkUnina.target = '_blank';
+      // linkUnina.rel = 'noopener noreferrer';
       
-      const logoUnina = document.createElement('img');
-      logoUnina.src = 'images/logos/logo_unina.png';
-      logoUnina.alt = 'Università Federico II';
+      // const logoUnina = document.createElement('img');
+      // logoUnina.src = 'images/logos/logo_unina.png';
+      // logoUnina.alt = 'Università Federico II';
       
       linkUnina.appendChild(logoUnina);
       
