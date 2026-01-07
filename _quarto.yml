@@ -16,7 +16,7 @@ website:
     title: " "
     left:
       - text: "HOME"
-        href: index.qmd
+        href: home.qmd
       - text: "PROGRAMMA"
         href: programma.qmd
       - text: "ORGANIZZAZIONE"
