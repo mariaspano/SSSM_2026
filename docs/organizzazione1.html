@@ -195,9 +195,24 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p><a href="mailto:cuccurullocorrado@gmail.com" class="staff-contact">cuccurullocorrado@gmail.com</a></p>
 </div>
+<div class="staff-card">
+<div class="staff-photo">
+<p><img src="images/staff/maria-spano.jpg" class="img-fluid"></p>
 </div>
-<hr>
-<div class="staff-grid">
+<div class="staff-name">
+<p>Maria Spano</p>
+</div>
+<div class="staff-role">
+<p>Ricercatore di Statistica Sociale</p>
+</div>
+<div class="staff-role">
+<p>Dipartimento di Scienze Economiche e Statistiche</p>
+</div>
+<div class="staff-role">
+<p>Università degli Studi di Napoli Federico II</p>
+</div>
+<p><a href="mailto:maria.spano@unina.it" class="staff-contact">maria.spano@unina.it</a></p>
+</div>
 <div class="staff-card">
 <div class="staff-photo">
 <p><img src="images/staff/walter-giordano.jpg" class="img-fluid"></p>
@@ -236,10 +251,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="staff-card">
 <div class="staff-photo">
-<p><img src="images/staff/maria-spano.jpg" class="img-fluid"></p>
+<p><img src="images/staff/luca-daniello.jpg" class="img-fluid"></p>
 </div>
 <div class="staff-name">
-<p>Maria Spano</p>
+<p>Luca D’Aniello</p>
 </div>
 <div class="staff-role">
 <p>Ricercatore di Statistica Sociale</p>
@@ -250,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="staff-role">
 <p>Università degli Studi di Napoli Federico II</p>
 </div>
-<p><a href="mailto:maria.spano@unina.it" class="staff-contact">maria.spano@unina.it</a></p>
+<p><a href="mailto:lucadaniello@unina.it" class="staff-contact">luca.daniello@unina.it</a></p>
 </div>
 </div>
 <hr>
@@ -259,20 +274,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="comitato-organizzatore">Comitato Organizzatore</h2>
 <div class="info-box">
 <p><strong>Coordinatrice:</strong> Prof.ssa Maria Spano</p>
-</div>
-<div class="staff-card">
-<div class="staff-photo">
-<p><img src="images/staff/luca-daniello.jpg" class="img-fluid"></p>
-</div>
-<div class="staff-name">
-<p>Luca D’Aniello</p>
-</div>
-<div class="staff-role">
-<p>Ricercatore in Scienze Sociali e Statistiche</p>
-</div>
-<div class="staff-role">
-<p>Università degli Studi di Napoli Federico II</p>
-</div>
 </div>
 <div class="staff-grid">
 <div class="staff-card">
@@ -364,20 +365,22 @@ ul.task-list li input[type="checkbox"] {
       linkDises.rel = 'noopener noreferrer';
       
       const logoDises = document.createElement('img');
-      logoDises.src = 'images/logos/dises.svg';
+      // Usa il path relativo alla posizione del file HTML
+      const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
+      logoDises.src = basePath + 'images/logos/dises.svg';
       logoDises.alt = 'DiSES';
       
       linkDises.appendChild(logoDises);
       
-      // // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
-      // const linkUnina = document.createElement('a');
-      // linkUnina.href = 'https://www.unina.it';
-      // linkUnina.target = '_blank';
-      // linkUnina.rel = 'noopener noreferrer';
+      // SECONDO: UNINA (con link)
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
       
-      // // const logoUnina = document.createElement('img');
-      // // logoUnina.src = 'images/logos/logo_unina.png';
-      // // logoUnina.alt = 'Università Federico II';
+      const logoUnina = document.createElement('img');
+      logoUnina.src = basePath + 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
       
       linkUnina.appendChild(logoUnina);
       
@@ -770,7 +773,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
     <div class="nav-footer-right">
 <div class="footer-socials">
-<p><a href="mailto:sssm@bibliometrix.com" title="Email"><i class="bi bi-envelope-fill"></i></a> <a href="#" target="_blank" title="Twitter"><i class="bi bi-twitter-x"></i></a> <a href="#" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a> <a href="#" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
+<p><a href="mailto:sssm@bibliometrix.com" title="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://x.com/bibliometrix" target="_blank" title="Twitter"><i class="bi bi-twitter-x"></i></a> <a href="https://www.instagram.com/bibliometrix/" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a> <a href="https://www.linkedin.com/company/bibliometrix/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
 </div>
 </div>
   </div>

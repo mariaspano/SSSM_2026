@@ -88,7 +88,6 @@ La Summer School offre due categorie di quote per garantire l'accessibilità a d
 - 🔬 RTD-A (Ricercatori a Tempo Determinato tipo A)
 :::
 
-*Per accedere alla quota ridotta è necessario presentare documentazione che attesti lo status.*
 :::
 
 ::: {.price-card style="border: 3px solid #054577;"}
@@ -261,20 +260,22 @@ Non perdere l'opportunità di partecipare alla IV Edizione della Summer School i
       linkDises.rel = 'noopener noreferrer';
       
       const logoDises = document.createElement('img');
-      logoDises.src = 'images/logos/dises.svg';
+      // Usa il path relativo alla posizione del file HTML
+      const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
+      logoDises.src = basePath + 'images/logos/dises.svg';
       logoDises.alt = 'DiSES';
       
       linkDises.appendChild(logoDises);
       
-      // // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
-      // const linkUnina = document.createElement('a');
-      // linkUnina.href = 'https://www.unina.it';
-      // linkUnina.target = '_blank';
-      // linkUnina.rel = 'noopener noreferrer';
+      // SECONDO: UNINA (con link)
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
       
-      // const logoUnina = document.createElement('img');
-      // logoUnina.src = 'images/logos/logo_unina.png';
-      // logoUnina.alt = 'Università Federico II';
+      const logoUnina = document.createElement('img');
+      logoUnina.src = basePath + 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
       
       linkUnina.appendChild(logoUnina);
       

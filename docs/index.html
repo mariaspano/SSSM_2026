@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="hero">
 <section id="summer-school-in-science-mapping" class="level1 hero-title hero-container">
-<h1 class="hero-title">SUMMER SCHOOL IN SCIENCE MAPPING</h1>
+<h1 class="hero-title">SUMMER SCHOOL <br> IN SCIENCE MAPPING</h1>
 <div class="hero-subtitle">
 <p>AI-Enhanced Knowledge Synthesis: SLR, Content Analysis e Text Analysis in un unico ecosistema</p>
 </div>
@@ -224,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="certificazione" class="level3 feature-card">
 <h3 class="anchored" data-anchor-id="certificazione">📜 Certificazione</h3>
-<p>Attestato di partecipazione (40 ore) + OpenBadge rilasciato da Bestr.</p>
+<p>Attestato di partecipazione (40 ore) e OpenBadge rilasciato da <a href="https://bestr.it/badge/show/5667" target="_blank">Bestr</a></p>
 </section>
 <section id="esperienza-completa" class="level3 feature-card">
 <h3 class="anchored" data-anchor-id="esperienza-completa">🍕 Esperienza Completa</h3>
@@ -257,11 +257,11 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="giorno-2---martedì-26-maggio" class="level3">
 <h3 class="anchored" data-anchor-id="giorno-2---martedì-26-maggio">📅 Giorno 2 - Martedì 26 Maggio</h3>
-<p><strong>Analisi del Dominio e Metriche</strong> - Sources, Authors e Documents analysis - Metriche bibliometriche avanzate - Novità Bibliometrix 4.0 - Laboratorio pratico</p>
+<p><strong>Analisi del Dominio e Metriche</strong> - Sources, Authors e Documents analysis - Metriche bibliometriche avanzate - Novità Bibliometrix 5.0 - Laboratorio pratico</p>
 </section>
 <section id="giorno-3---mercoledì-27-maggio" class="level3">
 <h3 class="anchored" data-anchor-id="giorno-3---mercoledì-27-maggio">📅 Giorno 3 - Mercoledì 27 Maggio</h3>
-<p><strong>Network Analysis e Strutture Concettuali</strong> - Network analysis e visualizzazioni - Co-citation, bibliographic coupling, collaboration networks - Strutture concettuali di conoscenza - 🏛️ Visita culturale + 🍝 Social Dinner</p>
+<p><strong>Network Analysis e Strutture Concettuali</strong> - Network analysis e visualizzazioni - Co-citation, co-word and collaboration networks - Strutture concettuali di conoscenza - 🏛️ Visita culturale + 🍝 Social Dinner</p>
 </section>
 <section id="giorno-4---giovedì-28-maggio" class="level3">
 <h3 class="anchored" data-anchor-id="giorno-4---giovedì-28-maggio">📅 Giorno 4 - Giovedì 28 Maggio</h3>
@@ -282,8 +282,8 @@ ul.task-list li input[type="checkbox"] {
 <strong>Prof.&nbsp;Corrado Cuccurullo</strong> - Professore Ordinario di Economia Aziendale, Università Federico II<br>
 <strong>Prof.&nbsp;Walter Giordano</strong> - Professore Associato di Business English, Università Federico II<br>
 <strong>Prof.&nbsp;Michelangelo Misuraca</strong> - Professore Associato di Statistica Sociale, Università di Salerno<br>
-<strong>Dott.ssa Maria Spano</strong> - Ricercatore di Statistica Sociale, Università Federico II</p>
-<p><a href="organizzazione.html" class="cta-link">Scopri tutto lo staff</a></p>
+<strong>Prof.ssa Maria Spano</strong> - Ricercatore di Statistica Sociale, Università Federico II</p>
+<p><a href="organizzazione1.html" class="cta-link">Scopri tutto lo staff</a></p>
 </div>
 <hr>
 </section>
@@ -372,22 +372,24 @@ maria.spano@unina.it</p>
       linkDises.rel = 'noopener noreferrer';
       
       const logoDises = document.createElement('img');
-      logoDises.src = 'images/logos/dises.svg';
+      // Usa il path relativo alla posizione del file HTML
+      const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
+      logoDises.src = basePath + 'images/logos/dises.svg';
       logoDises.alt = 'DiSES';
       
       linkDises.appendChild(logoDises);
       
-      // // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
-      // const linkUnina = document.createElement('a');
-      // linkUnina.href = 'https://www.unina.it';
-      // linkUnina.target = '_blank';
-      // linkUnina.rel = 'noopener noreferrer';
+      // SECONDO: UNINA (con link)
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
       
-      // const logoUnina = document.createElement('img');
-      // logoUnina.src = 'images/logos/logo_unina.png';
-      // logoUnina.alt = 'Università Federico II';
+      const logoUnina = document.createElement('img');
+      logoUnina.src = basePath + 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
       
-      // linkUnina.appendChild(logoUnina);
+      linkUnina.appendChild(logoUnina);
       
       // Aggiungi in ordine: prima DiSES, poi UNINA
       logosDiv.appendChild(linkDises);
@@ -778,7 +780,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
     <div class="nav-footer-right">
 <div class="footer-socials">
-<p><a href="mailto:sssm@bibliometrix.com" title="Email"><i class="bi bi-envelope-fill"></i></a> <a href="#" target="_blank" title="Twitter"><i class="bi bi-twitter-x"></i></a> <a href="#" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a> <a href="#" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
+<p><a href="mailto:sssm@bibliometrix.com" title="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://x.com/bibliometrix" target="_blank" title="Twitter"><i class="bi bi-twitter-x"></i></a> <a href="https://www.instagram.com/bibliometrix/" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a> <a href="https://www.linkedin.com/company/bibliometrix/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
 </div>
 </div>
   </div>

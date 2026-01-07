@@ -77,11 +77,26 @@ Università degli Studi della Campania "Luigi Vanvitelli"
 :::
 [cuccurullocorrado@gmail.com](mailto:cuccurullocorrado@gmail.com){.staff-contact}
 :::
+
+::: {.staff-card}
+::: {.staff-photo}
+![](images/staff/maria-spano.jpg)
+:::
+::: {.staff-name}
+Maria Spano
+:::
+::: {.staff-role}
+Ricercatore di Statistica Sociale
+:::
+::: {.staff-role}
+Dipartimento di Scienze Economiche e Statistiche
+:::
+::: {.staff-role}
+Università degli Studi di Napoli Federico II
+:::
+[maria.spano@unina.it](mailto:maria.spano@unina.it){.staff-contact}
 :::
 
----
-
-::: {.staff-grid}
 ::: {.staff-card}
 ::: {.staff-photo}
 ![](images/staff/walter-giordano.jpg)
@@ -122,10 +137,10 @@ Università degli Studi di Salerno
 
 ::: {.staff-card}
 ::: {.staff-photo}
-![](images/staff/maria-spano.jpg)
+![](images/staff/luca-daniello.jpg)
 :::
 ::: {.staff-name}
-Maria Spano
+Luca D'Aniello
 :::
 ::: {.staff-role}
 Ricercatore di Statistica Sociale
@@ -136,8 +151,9 @@ Dipartimento di Scienze Economiche e Statistiche
 ::: {.staff-role}
 Università degli Studi di Napoli Federico II
 :::
-[maria.spano@unina.it](mailto:maria.spano@unina.it){.staff-contact}
+[luca.daniello@unina.it](mailto:lucadaniello@unina.it){.staff-contact}
 :::
+
 :::
 
 ---
@@ -146,21 +162,6 @@ Università degli Studi di Napoli Federico II
 
 ::: {.info-box}
 **Coordinatrice:** Prof.ssa Maria Spano
-:::
-
-::: {.staff-card}
-::: {.staff-photo}
-![](images/staff/luca-daniello.jpg)
-:::
-::: {.staff-name}
-Luca D'Aniello
-:::
-::: {.staff-role}
-Ricercatore in Scienze Sociali e Statistiche
-:::
-::: {.staff-role}
-Università degli Studi di Napoli Federico II
-:::
 :::
 
 ::: {.staff-grid}
@@ -261,20 +262,22 @@ Università degli Studi di Napoli Federico II
       linkDises.rel = 'noopener noreferrer';
       
       const logoDises = document.createElement('img');
-      logoDises.src = 'images/logos/dises.svg';
+      // Usa il path relativo alla posizione del file HTML
+      const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
+      logoDises.src = basePath + 'images/logos/dises.svg';
       logoDises.alt = 'DiSES';
       
       linkDises.appendChild(logoDises);
       
-      // // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
-      // const linkUnina = document.createElement('a');
-      // linkUnina.href = 'https://www.unina.it';
-      // linkUnina.target = '_blank';
-      // linkUnina.rel = 'noopener noreferrer';
+      // SECONDO: UNINA (con link)
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
       
-      // // const logoUnina = document.createElement('img');
-      // // logoUnina.src = 'images/logos/logo_unina.png';
-      // // logoUnina.alt = 'Università Federico II';
+      const logoUnina = document.createElement('img');
+      logoUnina.src = basePath + 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
       
       linkUnina.appendChild(logoUnina);
       

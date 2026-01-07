@@ -6,7 +6,7 @@ format: html
 ::: {.hero}
 ::: {.hero-container}
 
-# SUMMER SCHOOL IN SCIENCE MAPPING {.hero-title}
+# SUMMER SCHOOL <br> IN SCIENCE MAPPING {.hero-title}
 
 ::: {.hero-subtitle}
 AI-Enhanced Knowledge Synthesis: SLR, Content Analysis e Text Analysis in un unico ecosistema
@@ -131,7 +131,7 @@ Confrontati con ricercatori, dottorandi e professionisti da tutta Italia.
 
 ::: {.feature-card}
 ### 📜 Certificazione
-Attestato di partecipazione (40 ore) + OpenBadge rilasciato da Bestr.
+Attestato di partecipazione (40 ore) e OpenBadge rilasciato da [Bestr](https://bestr.it/badge/show/5667){target="_blank"}
 :::
 
 ::: {.feature-card}
@@ -172,13 +172,13 @@ Alla fine della Summer School sarai in grado di:
 **Analisi del Dominio e Metriche**
 - Sources, Authors e Documents analysis
 - Metriche bibliometriche avanzate
-- Novità Bibliometrix 4.0
+- Novità Bibliometrix 5.0
 - Laboratorio pratico
 
 ### 📅 Giorno 3 - Mercoledì 27 Maggio
 **Network Analysis e Strutture Concettuali**
 - Network analysis e visualizzazioni
-- Co-citation, bibliographic coupling, collaboration networks
+- Co-citation, co-word and collaboration networks
 - Strutture concettuali di conoscenza
 - 🏛️ Visita culturale + 🍝 Social Dinner
 
@@ -207,9 +207,9 @@ Alla fine della Summer School sarai in grado di:
 **Prof. Corrado Cuccurullo** - Professore Ordinario di Economia Aziendale, Università Federico II  
 **Prof. Walter Giordano** - Professore Associato di Business English, Università Federico II  
 **Prof. Michelangelo Misuraca** - Professore Associato di Statistica Sociale, Università di Salerno  
-**Dott.ssa Maria Spano** - Ricercatore di Statistica Sociale, Università Federico II
+**Prof.ssa Maria Spano** - Ricercatore di Statistica Sociale, Università Federico II
 
-[Scopri tutto lo staff](organizzazione.html){.cta-link}
+[Scopri tutto lo staff](organizzazione1.html){.cta-link}
 :::
 
 ---
@@ -311,22 +311,24 @@ paologaeta4@libero.it
       linkDises.rel = 'noopener noreferrer';
       
       const logoDises = document.createElement('img');
-      logoDises.src = 'images/logos/dises.svg';
+      // Usa il path relativo alla posizione del file HTML
+      const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
+      logoDises.src = basePath + 'images/logos/dises.svg';
       logoDises.alt = 'DiSES';
       
       linkDises.appendChild(logoDises);
       
-      // // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
-      // const linkUnina = document.createElement('a');
-      // linkUnina.href = 'https://www.unina.it';
-      // linkUnina.target = '_blank';
-      // linkUnina.rel = 'noopener noreferrer';
+      // SECONDO: UNINA (con link)
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
       
-      // const logoUnina = document.createElement('img');
-      // logoUnina.src = 'images/logos/logo_unina.png';
-      // logoUnina.alt = 'Università Federico II';
+      const logoUnina = document.createElement('img');
+      logoUnina.src = basePath + 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
       
-      // linkUnina.appendChild(logoUnina);
+      linkUnina.appendChild(logoUnina);
       
       // Aggiungi in ordine: prima DiSES, poi UNINA
       logosDiv.appendChild(linkDises);

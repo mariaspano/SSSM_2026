@@ -190,7 +190,6 @@ ul.task-list li input[type="checkbox"] {
 <li>🔬 RTD-A (Ricercatori a Tempo Determinato tipo A)</li>
 </ul>
 </div>
-<p><em>Per accedere alla quota ridotta è necessario presentare documentazione che attesti lo status.</em></p>
 </div>
 <div class="price-card" style="border: 3px solid #054577;">
 <div class="price-type">
@@ -348,20 +347,22 @@ ul.task-list li input[type="checkbox"] {
       linkDises.rel = 'noopener noreferrer';
       
       const logoDises = document.createElement('img');
-      logoDises.src = 'images/logos/dises.svg';
+      // Usa il path relativo alla posizione del file HTML
+      const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
+      logoDises.src = basePath + 'images/logos/dises.svg';
       logoDises.alt = 'DiSES';
       
       linkDises.appendChild(logoDises);
       
-      // // SECONDO: UNINA (con link) - ALL'ESTREMA DESTRA
-      // const linkUnina = document.createElement('a');
-      // linkUnina.href = 'https://www.unina.it';
-      // linkUnina.target = '_blank';
-      // linkUnina.rel = 'noopener noreferrer';
+      // SECONDO: UNINA (con link)
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
       
-      // const logoUnina = document.createElement('img');
-      // logoUnina.src = 'images/logos/logo_unina.png';
-      // logoUnina.alt = 'Università Federico II';
+      const logoUnina = document.createElement('img');
+      logoUnina.src = basePath + 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
       
       linkUnina.appendChild(logoUnina);
       
@@ -753,7 +754,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
     <div class="nav-footer-right">
 <div class="footer-socials">
-<p><a href="mailto:sssm@bibliometrix.com" title="Email"><i class="bi bi-envelope-fill"></i></a> <a href="#" target="_blank" title="Twitter"><i class="bi bi-twitter-x"></i></a> <a href="#" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a> <a href="#" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
+<p><a href="mailto:sssm@bibliometrix.com" title="Email"><i class="bi bi-envelope-fill"></i></a> <a href="https://x.com/bibliometrix" target="_blank" title="Twitter"><i class="bi bi-twitter-x"></i></a> <a href="https://www.instagram.com/bibliometrix/" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a> <a href="https://www.linkedin.com/company/bibliometrix/" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a></p>
 </div>
 </div>
   </div>
