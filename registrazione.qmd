@@ -19,7 +19,7 @@ La procedura di iscrizione si articola in **4 step fondamentali**:
 
 Compila il form online con i tuoi dati:
 
-[🔗 **Compila il Form di Pre-Iscrizione**](https://forms.gle/LINK_DA_INSERIRE){style="display: inline-block; background: #054577; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 16px; margin: 20px 0;"}
+[🔗 **Compila il Form di Pre-Iscrizione**](https://k-synth.com/survey/index.php/187849?lang=it){style="display: inline-block; background: #054577; color: white; padding: 15px 40px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 16px; margin: 20px 0;"}
 
 **Informazioni richieste:**
 - Nome e Cognome

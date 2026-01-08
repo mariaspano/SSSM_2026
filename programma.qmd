@@ -6,7 +6,8 @@ format: html
 La Summer School si articola in **5 giornate intensive** di formazione teorica e pratica sui principali aspetti della bibliometria e del Science Mapping, con particolare focus sulle novità di **Bibliometrix 5.0**, **TALL (Text Analysis for All)** e **Content Analysis**.
 
 ::: {.info-box}
-📥 **Scarica il programma completo:** [Programma SSSM 2026 (PDF)](#)
+<!-- 📥 **Scarica il programma completo:** [Programma SSSM 2026 (PDF)](#) -->
+Il programma completo sarà disponibile a breve
 
 📧 **Per informazioni:** sssm@bibliometrix.com
 :::
@@ -194,7 +195,7 @@ La Summer School si articola in **5 giornate intensive** di formazione teorica e
 - **Integrazione Bibliometrix + TALL:** pipeline avanzate
 - Focus sui progetti di ricerca dei partecipanti
 
-**Guest speakers:**
+**Attività di mentoring:**
 - Prof. Alessandro Cirillo (Università Federico II)
 - Prof. Giulio Fortuna (Università di Salerno)
 
@@ -238,25 +239,32 @@ La Summer School si articola in **5 giornate intensive** di formazione teorica e
 Professore Ordinario di Statistica Sociale
 Dipartimento di Scienze Economiche e Statistiche (DiSES)
 Università degli Studi di Napoli Federico II
-[massimo.aria@unina.it](mailto:massimo.aria@unina.it)
+<!-- [massimo.aria@unina.it](mailto:massimo.aria@unina.it) -->
 
 **Prof. Corrado Cuccurullo**
 Professore Ordinario di Economia Aziendale
+Dipartimento di Scienze Economiche e Statistiche
+Università degli Studi della Campania "Luigi Vanvitelli"
+<!-- [cuccurullocorrado@gmail.com](mailto:cuccurullocorrado@gmail.com) -->
+
+**Prof.ssa Maria Spano**
+Ricercatore di Statistica Sociale
 Dipartimento di Scienze Economiche e Statistiche (DiSES)
 Università degli Studi di Napoli Federico II
-[cuccurullocorrado@gmail.com](mailto:cuccurullocorrado@gmail.com)
 :::
 
 ::: {.staff-mini}
 **Prof. Walter Giordano**
-Professore di Lingua Inglese e Traduzione
+Professore Associato di Business English
+Dipartimento di Scienze Economiche e Statistiche (DiSES)
 Università degli Studi di Napoli Federico II
 
 **Prof. Michelangelo Misuraca**
 Professore Associato di Statistica Sociale
+Dipartimento di Scienze Aziendali - Management & Innovation Systems/DISA-MIS
 Università degli Studi di Salerno
 
-**Dott.ssa Maria Spano**
+**Dott. Luca D'Aniello**
 Ricercatore di Statistica Sociale
 Università degli Studi di Napoli Federico II
 :::
@@ -271,7 +279,7 @@ I partecipanti riceveranno:
 - 💾 Dataset per le esercitazioni
 <!-- - 💻 Script R e tutorial -->
 - 📋 Bibliografia di riferimento
-- 🎓 Certificato di partecipazione (40 ore) + OpenBadge rilasciato da Bestr
+- 🎓 Certificato di partecipazione (40 ore) e [OpenBadge rilasciato da Bestr](https://bestr.it/badge/show/5667){target="_blank"}
 - 🔗 Accesso alla community Bibliometrix
 
 ---
@@ -321,7 +329,7 @@ Al termine della Summer School i partecipanti saranno in grado di:
 Per informazioni sul programma:
 
 **Email:** sssm@bibliometrix.com
-**Coordinatrice:** Dott.ssa Maria Spano
+**Coordinatrice:** Prof.ssa Maria Spano
 
 ---
 
