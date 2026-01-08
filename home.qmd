@@ -288,7 +288,12 @@ RTD-B, Ricercatori, Professori, Professionisti
 maria.spano@unina.it
 
 ### 🏨 Alloggi
-**Paolo Gaeta**  
+Strutture convenzionate nel centro di Napoli  
+Servizio navetta incluso da Piazza Vittoria
+
+[Vedi strutture](alloggi.html){target="_blank" style="color: #054577; font-weight: 700;"}
+
+Referente: **Paolo Gaeta**  
 <!-- Tel: +39 333 812 3130   -->
 paologaeta4@libero.it
 :::

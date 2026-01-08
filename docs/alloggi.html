@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strutture Convenzionate - SSSM 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-blue: #054577;
+            --primary-blue-light: #0766a3;
+            --gradient-start: #0066cc;
+            --gradient-end: #00ccff;
+            --white: #ffffff;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-700: #374151;
+            --gray-800: #1f2937;
+        }
+
+        body {
+            font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--gray-50) 0%, var(--white) 100%);
+            color: var(--gray-800);
+            line-height: 1.6;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(5, 69, 119, 0.3);
+        }
+
+        .header h1 {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header p {
+            font-size: 18px;
+            opacity: 0.95;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Info Box Principale */
+        .info-main {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(5, 69, 119, 0.1);
+            border-left: 6px solid var(--primary-blue);
+        }
+
+        .info-main h2 {
+            color: var(--primary-blue);
+            font-size: 28px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .info-main p {
+            font-size: 17px;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .website-link {
+            display: inline-block;
+            background: var(--primary-blue);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(5, 69, 119, 0.3);
+        }
+
+        .website-link:hover {
+            background: var(--primary-blue-light);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(5, 69, 119, 0.4);
+        }
+
+        /* Grid Strutture */
+        .structures-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .structure-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(5, 69, 119, 0.1);
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .structure-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+        }
+
+        .structure-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(5, 69, 119, 0.2);
+            border-color: var(--primary-blue-light);
+        }
+
+        .structure-name {
+            color: var(--primary-blue);
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .structure-address {
+            color: var(--gray-700);
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 0;
+        }
+
+        /* Sezione Contatti */
+        .contact-section {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+            color: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            margin: 60px 0;
+            text-align: center;
+            box-shadow: 0 10px 40px rgba(5, 69, 119, 0.3);
+        }
+
+        .contact-section h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            font-weight: 800;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .contact-box {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .contact-box:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.4);
+            transform: translateY(-5px);
+        }
+
+        .contact-box i {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .contact-box h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            word-break: break-word;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mappa e Zone */
+        .zone-info {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+            box-shadow: 0 4px 15px rgba(5, 69, 119, 0.1);
+            border-left: 6px solid var(--gradient-end);
+        }
+
+        .zone-info h3 {
+            color: var(--primary-blue);
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .zone-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            margin: 10px 10px 10px 0;
+        }
+
+        /* Stats */
+        .stats-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .stat-box {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(5, 69, 119, 0.1);
+            border-top: 4px solid var(--gradient-end);
+        }
+
+        .stat-number {
+            font-size: 48px;
+            font-weight: 800;
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            color: var(--gray-700);
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .structures-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .info-main {
+                padding: 25px;
+            }
+
+            .contact-section {
+                padding: 35px 25px;
+            }
+        }
+
+        /* Alert Box */
+        .alert-box {
+            background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+            border-left: 5px solid #10b981;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            display: flex;
+            align-items: start;
+            gap: 15px;
+        }
+
+        .alert-box i {
+            font-size: 28px;
+            color: #10b981;
+            flex-shrink: 0;
+        }
+
+        .alert-content h4 {
+            color: #065f46;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .alert-content p {
+            color: #047857;
+            margin: 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1><i class="bi bi-buildings"></i> Strutture Convenzionate</h1>
+        <p>Summer School in Science Mapping 2026 | Napoli, 25-29 Maggio</p>
+    </div>
+
+    <!-- Container Principale -->
+    <div class="container">
+        
+        <!-- Info Box Principale -->
+        <div class="info-main">
+            <h2><i class="bi bi-info-circle-fill"></i> Come Prenotare</h2>
+            <p><strong>La Summer School ha stipulato convenzioni con numerose strutture ricettive nel cuore di Napoli.</strong></p>
+            <p>Tutte le strutture sono situate nella <strong>zona di Chiaia</strong>, elegante quartiere centrale di Napoli, a pochi minuti a piedi da <strong>Piazza Vittoria</strong> (punto di partenza del servizio navetta per il Complesso Universitario).</p>
+            
+            <div class="alert-box">
+                <i class="bi bi-bookmark-star-fill"></i>
+                <div class="alert-content">
+                    <h4>Procedura di Prenotazione</h4>
+                    <p>Visita il sito <strong>www.dimorra.it</strong>, seleziona la <strong>zona Chiaia</strong> e prenota utilizzando il <strong>codice sconto SSSM2026</strong> per accedere alle tariffe convenzionate.</p>
+                </div>
+            </div>
+
+            <a href="http://www.dimorra.it" target="_blank" class="website-link">
+                <i class="bi bi-globe"></i> Vai al Sito di Prenotazione
+            </a>
+        </div>
+
+
+
+        <!-- Elenco Strutture -->
+        <h2 style="color: var(--primary-blue); font-size: 32px; margin: 60px 0 30px 0; text-align: center;">
+            <i class="bi bi-building"></i> Elenco Completo delle Strutture
+        </h2>
+
+        <div class="structures-grid">
+            <!-- Arcoleo Prestige -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-house-door-fill"></i>
+                    ARCOLEO PRESTIGE 1
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Arcoleo, 37
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-house-door-fill"></i>
+                    ARCOLEO PRESTIGE 2
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Arcoleo, 37
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-house-door-fill"></i>
+                    ARCOLEO PRESTIGE 3
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Arcoleo, 37
+                </div>
+            </div>
+
+            <!-- Hello Chiaia -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-house-heart-fill"></i>
+                    HELLO CHIAIA
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Chiaia, 32
+                </div>
+            </div>
+
+            <!-- Gramsci -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    GRAMSCI LUXURY APARTMENT
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Viale Gramsci, 24
+                </div>
+            </div>
+
+            <!-- Andrea's Home -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    ANDREA'S HOME LUXURY APARTMENT
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Vico San Guido, 16
+                </div>
+            </div>
+
+            <!-- Corte dei Borboni -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-crown-fill"></i>
+                    LA CORTE DEI BORBONI "Carlo III"
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 116
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-crown-fill"></i>
+                    LA CORTE DEI BORBONI "Ferdinando IV"
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 116
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-crown-fill"></i>
+                    LA CORTE DEI BORBONI "Francesco II"
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 116
+                </div>
+            </div>
+
+            <!-- New Corte -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    NEW CORTE 1
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 97
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    NEW CORTE 2
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 97
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    NEW CORTE 3
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 97
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    NEW CORTE 4
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 97
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    NEW CORTE 5
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 97
+                </div>
+            </div>
+
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    NEW CORTE 6
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 97
+                </div>
+            </div>
+
+            <!-- Poerio 89 -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    POERIO 89
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via C. Poerio, 89
+                </div>
+            </div>
+
+            <!-- Privilege Chiaia -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-star-fill"></i>
+                    PRIVILEGE CHIAIA
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Chiaia, 171
+                </div>
+            </div>
+
+            <!-- Residence Castel dell'Ovo -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-building"></i>
+                    RESIDENCE CASTEL DELL'OVO
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Santa Lucia, 143
+                </div>
+            </div>
+
+            <!-- Sognando Napoli -->
+            <div class="structure-card">
+                <div class="structure-name">
+                    <i class="bi bi-heart-fill"></i>
+                    SOGNANDO NAPOLI
+                </div>
+                <div class="structure-address">
+                    <i class="bi bi-geo-alt"></i>
+                    Via Gennaro Serra, 24
+                </div>
+            </div>
+        </div>
+
+        <!-- Sezione Contatti -->
+        <div class="contact-section">
+            <h2><i class="bi bi-telephone-fill"></i> Contatti per Info e Prenotazioni</h2>
+            <p style="font-size: 18px; margin-bottom: 20px;">Per maggiori informazioni e assistenza nella prenotazione, contatta:</p>
+            
+            <div class="contact-grid">
+                <div class="contact-box">
+                    <i class="bi bi-person-circle"></i>
+                    <h3>Referente</h3>
+                    <p><strong>Paolo Gaeta</strong></p>
+                </div>
+
+                <div class="contact-box">
+                    <i class="bi bi-phone-vibrate-fill"></i>
+                    <h3>Telefono</h3>
+                    <a href="tel:+393338123130">+39 333 812 3130</a>
+                </div>
+
+                <div class="contact-box">
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:paologaeta4@libero.it">paologaeta4@libero.it</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div style="background: linear-gradient(135deg, #033554 0%, #054577 100%); color: white; text-align: center; padding: 30px 20px; margin-top: 60px;">
+        <p style="margin: 0; font-size: 14px;">
+            <strong>Summer School in Science Mapping 2026</strong> | 25-29 Maggio 2026 | Napoli
+        </p>
+        <p style="margin: 10px 0 0 0; font-size: 13px; opacity: 0.9;">
+            Organizzata da K-Synth e DiSES - Università degli Studi di Napoli Federico II
+        </p>
+    </div>
+
+</body>
+</html>

@@ -24,7 +24,8 @@ Il Complesso dista circa 10 minuti di autobus dalla stazione metropolitana di Na
 :::
 
 ::: {style="margin: 40px 0;"}
-![Murales Scientiarium Magister - Monte Sant'Angelo](images/venue/msa-murales.jpg){style="width: 100%; border-radius: 15px; box-shadow: 0 10px 30px rgba(5, 69, 119, 0.2);"}
+![Murales Scientiarium Magister - Monte Sant'Angelo](images/venue/msa-murales.jpg){.venue-image}
+<!-- {style="width: 100%; border-radius: 15px; box-shadow: 0 0px 0px rgba(5, 69, 119, 0.2);"} -->
 :::
 
 ---
@@ -124,6 +125,8 @@ Per maggiori informazioni e prenotazioni, contattare:
 
 📧 Email: [paologaeta4@libero.it](mailto:paologaeta4@libero.it)  
 📱 Cell: +39 333 812 3130
+
+[🏨 **Vedi tutte le strutture convenzionate**](alloggi.html){style="display: inline-block; background: #054577; color: white; padding: 15px 35px; border-radius: 25px; text-decoration: none; font-weight: 700; margin-top: 20px;" target="_blank"}
 :::
 
 ---
