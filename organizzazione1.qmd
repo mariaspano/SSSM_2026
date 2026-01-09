@@ -218,7 +218,7 @@ Università degli Studi di Napoli Federico II
 Dario Sacco
 :::
 ::: {.staff-role}
-Dottorando
+Dottorando in Statistica e Scienze Sociali
 :::
 ::: {.staff-role}
 Università degli Studi di Napoli Federico II
@@ -233,7 +233,7 @@ Università degli Studi di Napoli Federico II
 Alessandra D'Alessio
 :::
 ::: {.staff-role}
-Dottoranda
+Dottoranda in Economia e Statistica
 :::
 ::: {.staff-role}
 Università degli Studi di Napoli Federico II
