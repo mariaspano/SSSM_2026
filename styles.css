@@ -255,11 +255,11 @@ body.nav-fixed {
     right: 0;
     bottom: 0;
     background-image: url('./network-background.svg');
-    background-size: contain;       /* mantiene proporzioni ottime */
+    background-size: cover;       /* mantiene proporzioni ottime */
     background-repeat: no-repeat;
     background-position: top center;
     transform: translateX(-50%);    /* centra perfettamente */
-    width: 70%;                    /* un po’ più larga del container */
+    width: 100%;                    /* un po’ più larga del container */
     /* height: auto; */
     opacity: 0.25;                       /* OPACITÀ NETWORK: Aumenta per più visibile (max 0.3) */
     z-index: 0;
@@ -350,17 +350,20 @@ body.nav-fixed {
 
 .hero-edition {
     font-size: 22px;
-    color: rgba(255, 255, 255, 0.9);
+    /* color: rgba(255, 255, 255, 0.9); */
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-bottom: 20px;
     padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1); */
     border-radius: 50px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     display: inline-block;
+    background: #1B4370 !important;  /* Blu solido */
+    border: 4px solid #0a5e8a !important;
+    color: white !important;
 }
 
 /* LOGHI HERO - I tre loghi in alto */
@@ -438,6 +441,7 @@ body.nav-fixed {
     letter-spacing: -1px;
     text-align: left;
     max-width: 900px;
+    font-variant: small-caps;
 }
 
 .title-line-1, .title-line-2 {
@@ -532,6 +536,14 @@ body.nav-fixed {
     font-weight: 700;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+.hero-info-value-sub {
+    font-size: 0.8em;      /* leggermente più piccolo */
+    font-weight: 400;     /* più leggero */
+    opacity: 0.85;        /* elegante, coerente col design */
+  }
+
 
 /* BOTTONE CTA HERO - Il grande bottone "Iscriviti Ora" */
 .hero-cta {

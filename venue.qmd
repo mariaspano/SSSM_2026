@@ -131,7 +131,7 @@ Per maggiori informazioni e prenotazioni, contattare:
 
 ---
 
-## 🎨 Cosa Visitare a Napoli
+<!-- ## 🎨 Cosa Visitare a Napoli
 
 Napoli offre innumerevoli attrazioni culturali, storiche e gastronomiche. Ecco alcuni suggerimenti per il tempo libero:
 
@@ -246,7 +246,7 @@ Napoli dispone di:
 [🔗 Info trasporti ANM](https://www.anm.it)
 :::
 
-:::
+::: -->
 
 
 

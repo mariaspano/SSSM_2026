@@ -6,16 +6,17 @@ format: html
 ::: {.hero}
 ::: {.hero-container}
 
-# SUMMER SCHOOL <br> IN SCIENCE MAPPING {.hero-title}
+# Summer School <br> in Science Mapping {.hero-title}
 
 ::: {.hero-subtitle}
 AI-Enhanced Knowledge Synthesis: SLR, Content Analysis e Text Analysis in un unico ecosistema
 :::
 
-::: {.hero-edition-row}
 ::: {.hero-edition}
 IV Edizione Italiana
 :::
+
+::: {.hero-edition-row}
 
 ::: {.hero-info}
 ::: {.hero-info-item}
@@ -32,7 +33,8 @@ Date
 Sede
 :::
 ::: {.hero-info-value}
-Napoli
+Università degli Studi di Napoli Federico II <br>
+<span class="hero-info-value-sub">Complesso Universitario di Monte Sant’Angelo</span>
 :::
 :::
 :::
