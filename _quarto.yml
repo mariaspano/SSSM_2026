@@ -27,19 +27,18 @@ website:
         href: registrazione.qmd
       - text: "EDIZIONI PRECEDENTI"
         menu:
-        - text: "SSSM 2023 - I Edizione Italiana"
-          href: "https://www.bibliometrix.org/home/index.php/school/previous-editions/sssm-2023"
-          target: "_blank"
-        - text: "SSSM 2024 - II Edizione Italiana"
-          href: "https://www.bibliometrix.org/home/index.php/school/previous-editions/sssm"
-          target: "_blank"
-        - text: "SSSM 2025 - III Edizione Italiana"
-          href: "https://www.bibliometrix.org/home/index.php/school/previous-editions/sssm-2025-iii-edizione-italiana"
-          target: "_blank"
-        - text: "SSSM 2025 - I International Edition"
-          href: "https://www.bibliometrix.org/home/index.php/school/previous-editions/sssm-eng-2025"
-          target: "_blank" 
-
+          - text: "SSSM 2023 - I Edizione Italiana"
+            href: "https://www.bibliometrix.org/home/index.php/school/previous-editions/sssm-2023"
+            target: "_blank"
+          - text: "SSSM 2024 - II Edizione Italiana"
+            href: "https://www.bibliometrix.org/home/index.php/school/previous-editions/sssm"
+            target: "_blank"
+          - text: "SSSM 2025 - III Edizione Italiana"
+            href: "https://www.bibliometrix.org/home/index.php/school/previous-editions/sssm-2025-iii-edizione-italiana"
+            target: "_blank"
+          - text: "SSSM 2025 - I International Edition"
+            href: "https://www.bibliometrix.org/home/index.php/school/previous-editions/sssm-eng-2025"
+            target: "_blank"
   
   page-footer:
     left: |
