@@ -237,7 +237,6 @@ body.nav-fixed {
     position: relative;
     background: transparent;
     /* SFONDO HERO: Gradiente blu - questo è il grande banner in homepage */
-    
     padding: 0px 0px 0px;
     overflow: hidden;
     min-height: 100vh;
@@ -348,22 +347,24 @@ body.nav-fixed {
     padding: 0 3;
 }
 
+/* IV EDIZIONE - Stile locandina con sfondo blu solido - VERSIONE UNIFICATA */
 .hero-edition {
-    font-size: 22px;
-    /* color: rgba(255, 255, 255, 0.9); */
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    font-size: 30px !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    /* text-transform: uppercase; */
+    letter-spacing: 4px !important;
+    padding: 10px 280px !important;
     margin-bottom: 20px;
-    padding: 10px 20px;
-    /* background: rgba(255, 255, 255, 0.1); */
-    border-radius: 50px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
+    background:#033554  !important;  /* Blu solido come locandina */
+    border: 4px solid #0a5e8a !important;  /* Bordo blu scuro spesso */
+    border-radius: 50px !important;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 25px rgba(5, 69, 119, 0.4) !important;
     display: inline-block;
-    background: #1B4370 !important;  /* Blu solido */
-    border: 4px solid #0a5e8a !important;
-    color: white !important;
+    font-variant: small-caps !important;  /* MAIUSCOLETTO come locandina */
+    -webkit-text-fill-color: #ffffff !important;
+    
 }
 
 /* LOGHI HERO - I tre loghi in alto */
@@ -434,43 +435,28 @@ body.nav-fixed {
     font-family: var(--font-display);
     font-size: 64px;
     font-weight: 900;
-    color: var(--white);
+    font-variant: small-caps;
+    margin-top: -30px;
     margin-bottom: 0px;
     line-height: 1.2;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     letter-spacing: -1px;
     text-align: left;
     max-width: 900px;
-    font-variant: small-caps;
-}
-
-.title-line-1, .title-line-2 {
-    display: block;
-    background: linear-gradient(135deg, var(--white) 0%, var(--gradient-end) 100%);
-    /* GRADIENTE TITOLO: Da bianco a cyan */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    animation: titleShimmer 4s ease-in-out infinite;
-}
-
-@keyframes titleShimmer {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.85; }
 }
 
 /* SOTTOTITOLO HERO */
 .hero-subtitle {
-    font-size: 24px;
+    font-size: 30px;
     color: rgba(255, 255, 255, 0.95);
     margin-bottom: 0 !important;
+    letter-spacing: 0.5;
     font-weight: 400;
     line-height: 1.6;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     max-width: 800px;
     text-align: left;
 }
-
 /* Container per IV Edizione + Info inline */
 .hero-edition-wrapper {
     display: flex;
@@ -484,7 +470,7 @@ body.nav-fixed {
 .hero-edition-row {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: 30px;  /* Aumentato da 25px */
     flex-wrap: wrap;
     margin-bottom: 0 !important;
     margin-top: 0 !important;
@@ -499,50 +485,57 @@ body.nav-fixed {
 .hero-info {
     display: flex;
     justify-content: flex-start;  /* Allineati a sinistra */
-    gap: 20px;
+    gap: 30px;  /* Aumentato da 20px */
     flex-wrap: wrap;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
 
+
+
+/* INFO CARDS - Date e Sede più grandi */
 .hero-info-item {
-    background: rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.15) !important;  /* Più opaco */
     backdrop-filter: blur(20px);
-    padding: 20px 30px;
-    border-radius: 10px;
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 25px 40px !important;  /* Aumentato da 20px 30px */
+    border-radius: 15px !important;  /* Più arrotondato */
+    border: 3px solid rgba(255, 255, 255, 0.4) !important;  /* Bordo più spesso e visibile */
     transition: all 0.3s ease;
-    min-width: 160px;
+    min-width: 300px;  /* Aumentato da 160px */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15) !important;  /* Ombra più forte */
 }
 
 .hero-info-item:hover {
-    background: rgba(255, 255, 255, 0.18);
-    border-color: rgba(255, 255, 255, 0.4);
-    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.22) !important;  /* Hover più evidente */
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    transform: translateY(-5px);  /* Più movimento */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25) !important;
 }
 
 .hero-info-label {
-    font-size: 13px;
-    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px !important;  /* Aumentato da 13px */
+    color: rgba(255, 255, 255, 0.9) !important;  /* Più visibile */
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 8px;
-    font-weight: 600;
+    letter-spacing: 6px !important;  /* Più spaziato */
+    margin-bottom: 10px !important;  /* Più spazio */
+    font-weight: 800 !important;  /* Più bold */
 }
 
 .hero-info-value {
-    font-size: 22px;
+    font-size: 30px !important;  /* Aumentato da 22px */
     color: var(--white);
     font-weight: 700;
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);  /* Ombra più forte */
+    line-height: 1.3;
+    letter-spacing: 4px;
 }
 
-
 .hero-info-value-sub {
-    font-size: 0.8em;      /* leggermente più piccolo */
-    font-weight: 400;     /* più leggero */
-    opacity: 0.85;        /* elegante, coerente col design */
-  }
+    font-size: 0.75em !important;  /* Leggermente più piccolo */
+    font-weight: 400;
+    opacity: 0.9;  /* Leggermente più visibile */
+    letter-spacing: 2px;
+}
 
 
 /* BOTTONE CTA HERO - Il grande bottone "Iscriviti Ora" */
@@ -1687,19 +1680,19 @@ footer.footer,
 }
 
 .hero-cta {
-    margin-top: 25px !important;  /* Era 30px */
+    margin-top: -15px !important;  /* Era 30px */
 }
 
 /* BORDI CARD - IV Edizione, Date, Sede */
-.hero-edition {
-    font-size: 18px !important;  /* Ridotto da 22px */
-    padding: 12px 25px !important;  /* Ridotto da 10px 30px */
-    background: rgba(255, 255, 255, 0.15) !important;  /* Più visibile */
-    border: 2px solid rgba(255, 255, 255, 0.4) !important;  /* Bordo più visibile */
-    border-radius: 15px !important;  /* Meno arrotondato */
+/* .hero-edition {
+    font-size: 18px !important;  
+    padding: 12px 25px !important;  
+    background: rgba(255, 255, 255, 0.15) !important;  
+    border: 2px solid rgba(255, 255, 255, 0.4) !important;  
+    border-radius: 15px !important;  
     backdrop-filter: blur(15px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Ombra leggera */
-}
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+} */
 
 .hero-info-item {
     background: rgba(255, 255, 255, 0.15) !important;  /* Più visibile */

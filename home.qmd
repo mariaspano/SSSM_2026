@@ -17,7 +17,6 @@ IV Edizione Italiana
 :::
 
 ::: {.hero-edition-row}
-
 ::: {.hero-info}
 ::: {.hero-info-item}
 ::: {.hero-info-label}
