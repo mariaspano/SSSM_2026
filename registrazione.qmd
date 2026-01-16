@@ -115,6 +115,15 @@ La Summer School offre due categorie di quote per garantire l'accessibilità a d
 :::
 :::
 
+::: {.info-box style="margin-top: 30px;"}
+**📌 Nota:** Per gli iscritti alle seguenti associazioni è previsto uno sconto del **15%** sulla quota di iscrizione, da indicare al momento dell'ammissione:
+- **AIDEA** - Associazione Italiana di Economia Aziendale
+- **ASA** - Associazione di Statistica Applicata
+- **SIS** - Società Italiana di Statistica
+:::
+
+
+
 ::: {.info-box style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); margin-top: 50px;"}
 ### ✨ La Quota di Iscrizione Include:
 
@@ -241,6 +250,7 @@ Non perdere l'opportunità di partecipare alla IV Edizione della Summer School i
 
 [📝 Compila il Form di Pre-Iscrizione](https://k-synth.com/survey/index.php/187849?lang=it){style="display: inline-block; background: white; color: #054577; padding: 20px 50px; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 18px; margin-top: 30px;"}
 :::
+
 
 ```{=html}
 <script>
