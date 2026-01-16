@@ -116,13 +116,12 @@ La Summer School offre due categorie di quote per garantire l'accessibilità a d
 :::
 
 ::: {.info-box style="margin-top: 30px;"}
-**📌 Nota:** Per gli iscritti alle seguenti associazioni è previsto uno sconto del **15%** sulla quota di iscrizione, da indicare al momento dell'ammissione:
-- **AIDEA** - Associazione Italiana di Economia Aziendale
-- **ASA** - Associazione di Statistica Applicata
-- **SIS** - Società Italiana di Statistica
+**📌 Nota:** Per gli iscritti alle seguenti associazioni è previsto uno sconto del **15%** sulla quota di iscrizione, da indicare al momento dell'ammissione: <br>
+- **AIDEA** - Associazione Italiana di Economia Aziendale <br>
+- **ASA** - Associazione di Statistica Applicata <br>
+- **SIS** - Società Italiana di Statistica <br>
+- **AIA** - Associazione Italiana di Anglistica
 :::
-
-
 
 ::: {.info-box style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); margin-top: 50px;"}
 ### ✨ La Quota di Iscrizione Include:
