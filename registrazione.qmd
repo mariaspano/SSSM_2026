@@ -120,7 +120,8 @@ La Summer School offre due categorie di quote per garantire l'accessibilità a d
 - **AIDEA** - Associazione Italiana di Economia Aziendale <br>
 - **ASA** - Associazione di Statistica Applicata <br>
 - **SIS** - Società Italiana di Statistica <br>
-- **AIA** - Associazione Italiana di Anglistica
+- **AIA** - Associazione Italiana di Anglistica <br>
+Lo stesso sconto del 15% è inoltre riconosciuto agli studenti, dottorandi e personale afferente all’**Università degli Studi di Napoli Federico II**
 :::
 
 ::: {.info-box style="background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); margin-top: 50px;"}
@@ -233,7 +234,7 @@ Ricevuta bonifico SSSM2026 - [TUO NOME E COGNOME]
 ### 👩‍💼
 ### Coordinatrice
 
-**Dott.ssa Maria Spano**
+**Prof.ssa Maria Spano**
 
 [maria.spano@unina.it](mailto:maria.spano@unina.it)
 :::

@@ -37,14 +37,23 @@ Il Complesso dista circa 10 minuti di autobus dalla stazione metropolitana di Na
 ::: {.info-box}
 Il Complesso Universitario di Monte Sant'Angelo dista **12km** dall'Aeroporto Internazionale di Napoli.
 
-**Con il bus Alibus:**
+**Opzione 1 - Con Metro Linea 6 (CONSIGLIATA - Arrivo diretto):**
+
+1. Prendi il pullman della linea [Alibus](https://www.anm.it) di fronte all'uscita degli Arrivi
+2. Scendi alla fermata **Piazza Municipio**
+3. Prendi la **Metropolitana Linea 6** direzione Mostra
+4. Scendi alla fermata **Monte Sant'Angelo** (capolinea)
+5. Il Complesso Universitario è a 5 minuti a piedi
+
+**Opzione 2 - Con Metro Linea 2 + Bus:**
 
 1. Prendi il pullman della linea [Alibus](https://www.anm.it) di fronte all'uscita degli Arrivi
 2. Scendi alla fermata **Piazza Garibaldi** (Stazione Centrale)
-3. Entra nella Stazione Centrale e prendi la **Metropolitana Linea 2** direzione Pozzuoli
+3. Prendi la **Metropolitana Linea 2** direzione Pozzuoli
 4. Scendi alla fermata **Campi Flegrei**
 5. Prendi uno degli autobus: **R6, 180, 51**
-6. In 15 minuti arrivi al Complesso di Monte Sant'Angelo
+6. In 15 minuti arrivi al Complesso
+
 
 [📍 Aeroporto Capodichino](https://www.google.com/maps/place/Aeroporto+di+Napoli-Capodichino/@40.8860,14.2908,15z){.map-link}
 
@@ -60,7 +69,15 @@ Stazionamento taxi di fronte agli Arrivi. Tariffa prestabilita: circa **25€**
 ::: {.info-box}
 Il Complesso di Monte Sant'Angelo dista **13km** dalla Stazione Centrale.
 
-**Con la metropolitana:**
+**Opzione 1 - Con Metro Linea 1 + Linea 6 (CONSIGLIATA):**
+
+1. Dalla Stazione Centrale prendi la **Metropolitana Linea 1** direzione Piscinola
+2. Scendi alla fermata **Municipio**
+3. Cambia con la **Metropolitana Linea 6** direzione Mostra
+4. Scendi alla fermata **Monte Sant'Angelo** (capolinea)
+5. Il Complesso Universitario è a 5 minuti a piedi
+
+**Opzione 2 - Con Metro Linea 2 + Bus:**
 
 1. Dalla Stazione Centrale prendi la **Metropolitana Linea 2** direzione Pozzuoli
 2. Scendi alla fermata **Campi Flegrei**

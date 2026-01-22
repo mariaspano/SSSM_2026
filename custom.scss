@@ -91,7 +91,7 @@ $spacer: 1rem !default;
   
   .navbar-nav .nav-link {
     color: white !important;
-    padding: 12px 28px;
+    padding: 10px 20px;
     border-radius: 50px;
     font-weight: 600;
     text-transform: uppercase;
@@ -389,7 +389,7 @@ body {
 
 @media (max-width: 640px) {
   .navbar .navbar-logo {
-    height: 50px;
+    height: 40px;
   }
   
   // Nascondi loghi su mobile per risparmiare spazio
