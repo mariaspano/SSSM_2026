@@ -1,0 +1,237 @@
+---
+title: ""
+format: html
+---
+::: {style="text-align: center; margin: 40px 0;"}
+## Programma Dettagliato ![](images/logos/bibliometrix-logo.png){width="100px"}
+:::
+
+---
+
+## Lunedì, 26 Maggio 2026
+
+::: {.day-program}
+
+### Sessione mattutina (11:30 – 13:00)
+
+**Saluti istituzionali** – *Prof. Antonio Acconcia, Direttore del DiSES*
+
+**Introduzione generale**
+- Data Science per la bibliometria
+- SAAS workflow: tipologie di SLR
+- Bibliometrix e Biblioshiny
+- Biblioshiny vs altri software di science mapping
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+<!-- **Docenti:** Prof. Massimo Aria, Prof. Corrado Cuccurullo -->
+:::
+
+---
+
+### Sessione pomeridiana (14:00 – 17:30)
+
+**I Metadati**
+- Principali database bibliografici a confronto
+- Query e criteri di inclusione ed esclusione su vari database
+- Biblioshiny: Overview e Filtri
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+<!-- **Docenti:** Prof. Massimo Aria, Prof.ssa Maria Spano -->
+:::
+
+---
+
+### Dalle 19:00
+🍹 **Aperitivo Napoletano!!!**
+
+:::
+
+---
+
+## Martedì, 27 Maggio 2026
+
+::: {.day-program}
+
+### Sessione mattutina (9:00 – 13:00)
+
+**Biblioshiny: Focus on domain**
+- Sources analysis: riviste più influenti
+- Authors analysis: produttività e impatto
+- Documents analysis: articoli più citati
+- Metriche bibliometriche: h-index, g-index, m-index
+- Impact factor e indicatori alternativi
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+**Docenti:** Prof. Corrado Cuccurullo, Prof. Michelangelo Misuraca
+:::
+
+---
+
+### Sessione pomeridiana (14:00 – 17:30)
+
+**Esercitazioni:**
+- Strutturare una query
+- Collection overview
+- Identificazione di trend e pattern
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+**Docenti:** Dott.ssa Alessandra Belfiore, Dott. Luca D'Aniello
+:::
+
+:::
+
+---
+
+## Mercoledì, 28 Maggio 2026
+
+::: {.day-program}
+
+### Sessione mattutina (9:00 – 13:00)
+
+**Network Analysis**
+- Fondamenti di network analysis
+- Co-citation analysis
+- Bibliographic coupling
+- Collaboration networks
+- Algoritmi di clustering e community detection
+
+**Strutture e strategie linguistiche di una SLR**
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+**Docenti:** Prof. Massimo Aria, Prof. Walter Giordano
+:::
+
+---
+
+### Sessione pomeridiana (14:00 – 17:30)
+
+**Strutture concettuali di conoscenza:**
+- **Co-word network**
+- **Factorial analysis**
+- **Mixed approach**
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+**Docenti:** Prof. Corrado Cuccurullo, Prof.ssa Maria Spano
+:::
+
+---
+
+### Dalle 16:00
+🏛️ **Visita agli scavi di Oplontis - Villa Poppea**  
+🍽️ **Social Dinner**
+
+:::
+
+---
+
+## Giovedì, 29 Maggio 2026
+
+::: {.day-program}
+
+### Sessione mattutina (9:00 – 13:00)
+
+**Strutture Intellettuali di conoscenza**
+- Intellectual structure: co-citation e historiograph
+- Social structure: collaboration patterns
+
+**Strutture Sociali di conoscenza**
+
+**Da Biblioshiny a TALL – Text Analysis for All**
+
+**Esercitazione**
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+**Docenti:** Prof. Massimo Aria, Prof. Michelangelo Misuraca
+:::
+
+---
+
+### Sessione pomeridiana (14:00 – 17:30)
+
+**Esercitazione**
+
+**Focus sui lavori di ricerca dei partecipanti con il supporto di:**
+
+::: {style="background: #f0f9ff; padding: 20px; border-radius: 10px; border-left: 4px solid #0a5e8a; margin: 20px 0;"}
+**Alessandro Cirillo** – Professore Associato di Economia Aziendale, Università degli Studi di Napoli Federico II
+
+**Giulio Fortuna** – Professore di Medicina Orale, Università degli Studi di Salerno
+:::
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+**Docenti:** Prof. Corrado Cuccurullo, Dott. Agostino Gnasso
+:::
+
+:::
+
+---
+
+## Venerdì, 30 Maggio 2026
+
+::: {.day-program}
+
+### Sessione mattutina (9:00 – 13:00)
+
+**Presentazione dei lavori di gruppo**
+
+**Consegna degli attestati**
+
+::: {style="color: #0a5e8a; font-weight: 600; margin-top: 15px;"}
+**Docenti:** Prof. Massimo Aria, Prof. Corrado Cuccurullo, tutto lo staff
+:::
+
+:::
+---
+
+---
+
+::: {.info-box}
+💡 **Il programma potrebbe subire lievi modifiche** per ottimizzare l'esperienza didattica in base al livello e agli interessi dei partecipanti.
+:::
+
+```{=html}
+<script>
+// Inserisce i loghi UNINA e DiSES nella navbar con link
+(function() {
+  window.addEventListener('load', function() {
+    const navbar = document.querySelector('.navbar-container');
+    
+    if (navbar) {
+      const logosDiv = document.createElement('div');
+      logosDiv.className = 'navbar-right-logos';
+      
+      // PRIMO: DiSES (con link)
+      const linkDises = document.createElement('a');
+      linkDises.href = 'https://www.dises.unina.it';
+      linkDises.target = '_blank';
+      linkDises.rel = 'noopener noreferrer';
+      
+      const logoDises = document.createElement('img');
+      const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
+      logoDises.src = basePath + 'images/logos/dises.svg';
+      logoDises.alt = 'DiSES';
+      
+      linkDises.appendChild(logoDises);
+      
+      // SECONDO: UNINA (con link)
+      const linkUnina = document.createElement('a');
+      linkUnina.href = 'https://www.unina.it';
+      linkUnina.target = '_blank';
+      linkUnina.rel = 'noopener noreferrer';
+      
+      const logoUnina = document.createElement('img');
+      logoUnina.src = basePath + 'images/logos/logo_unina.png';
+      logoUnina.alt = 'Università Federico II';
+      
+      linkUnina.appendChild(logoUnina);
+      
+      // Aggiungi in ordine: prima DiSES, poi UNINA
+      logosDiv.appendChild(linkDises);
+      logosDiv.appendChild(linkUnina);
+      
+      navbar.appendChild(logosDiv);
+    }
+  });
+})();
+</script>
+```

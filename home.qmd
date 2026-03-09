@@ -132,7 +132,7 @@ Confrontati con ricercatori, dottorandi e professionisti da tutta Italia.
 
 ::: {.feature-card}
 ### 📜 Certificazione
-Attestato di partecipazione (40 ore) e [OpenBadge rilasciato da Bestr](https://bestr.it/badge/show/5667){target="_blank"}
+Attestato di partecipazione (40 ore) e [Open Badge ufficiale dell’Università degli Studi di Napoli Federico II (UNINA) tramite la piattaforma Bestr](https://bestr.it/badge/show/5667){target="_blank"}
 :::
 
 ::: {.feature-card}

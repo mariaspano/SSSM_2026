@@ -122,7 +122,6 @@ Il programma completo sarà disponibile a breve
 
 - Fondamenti di network analysis
 - Co-citation analysis
-- Bibliographic coupling
 - Collaboration networks
 - **Algoritmi di clustering** e community detection
 - Strutture e strategie linguistiche per scrivere una SLR
@@ -133,7 +132,7 @@ Il programma completo sarà disponibile a breve
 
 ::: {.session}
 ::: {.session-time}
-14:00 - 16:00
+14:00 - 17:30
 :::
 ::: {.session-content}
 **Strutture Concettuali di Conoscenza**
@@ -143,13 +142,13 @@ Il programma completo sarà disponibile a breve
 - Factorial analysis (CA, MCA)
 - **Mixed approach:** integrazione tecniche qualitative e quantitative
 
-<!-- **Docenti:** Prof. Corrado Cuccurullo, Dott.ssa Maria Spano -->
+<!-- **Docenti:** Prof. Corrado Cuccurullo, Prof.ssa Maria Spano -->
 :::
 :::
 
 ::: {.session}
 ::: {.session-time}
-16:00 - 19:00
+19:00
 :::
 ::: {.session-content}
 🏛️ **Visita culturale:** .....

@@ -137,7 +137,7 @@ Slides, dataset, script R, bibliografia selezionata
 ::: {}
 **🎓 Certificato di Partecipazione**
 
-40 ore di formazione + OpenBadge Bestr
+40 ore di formazione + [Open Badge ufficiale dell’Università degli Studi di Napoli Federico II (UNINA) tramite la piattaforma Bestr](https://bestr.it/badge/show/5667){target="_blank"}
 :::
 
 ::: {}
