@@ -14,6 +14,27 @@ Il programma completo sarà disponibile a breve
 
 ## Giorno 1 - Lunedì 25 Maggio 2026
 
+::: {.session}
+::: {.session-time}
+11:00
+:::
+::: {.session-content}
+**Registrazione dei partecipanti**
+:::
+:::
+
+::: {.session}
+::: {.session-time}
+11:30
+:::
+::: {.session-content}
+**Apertura lavori**
+
+- Saluti istituzionali — Prof. Antonio Acconcia (Direttore DiSES) e Prof. Antonino Squillace (Delegato del Rettore alla VQR)
+- Presentazione del programma e dei partecipanti
+:::
+:::
+
 ::: {.day-program}
 ::: {.day-title}
 🎓 Introduzione alla Bibliometria e SAAS Workflow
@@ -21,13 +42,11 @@ Il programma completo sarà disponibile a breve
 
 ::: {.session}
 ::: {.session-time}
-11:30 - 13:00
+12:00 - 13:00
 :::
 ::: {.session-content}
-**Apertura lavori e introduzione**
+**Introduzione alla Bibliometria**
 
-- Saluti istituzionali
-- Presentazione del programma e dei partecipanti
 - Data Science per la bibliometria
 - SAAS workflow: tipologie di Systematic Literature Review
 - **Novità Bibliometrix 5.0** e panoramica Biblioshiny
@@ -151,9 +170,11 @@ Il programma completo sarà disponibile a breve
 19:00
 :::
 ::: {.session-content}
-🏛️ **Visita culturale:** .....
+🏛️ **Visita culturale — Percorso in zattera alla Galleria Borbonica** (ore 19:00, durata ~1h30)
 
-🍝 **Social Dinner** (ore 20:00)
+*Un viaggio tra storia e mistero nelle profondità di Napoli: antiche cisterne, cunicoli nel tufo e rifugi della Seconda Guerra Mondiale.*
+
+🍝 **Social Dinner** (ore 20:30)
 :::
 :::
 :::
