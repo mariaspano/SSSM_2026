@@ -266,6 +266,7 @@ Università degli Studi di Napoli Federico II
       const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
       logoDises.src = basePath + 'images/logos/dises_white.png';
       logoDises.alt = 'DiSES';
+      logoDises.style.filter = 'brightness(0) invert(1)';
       
       linkDises.appendChild(logoDises);
       
