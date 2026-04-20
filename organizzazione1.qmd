@@ -7,7 +7,7 @@ format: html
 ::: {.partner}
 ::: {.partner-header}
 ::: {.partner-logo}
-![](images/logos/dises_white.png)
+![](images/logos/dises.svg)
 :::
 ::: {.partner-title}
 ### DIPARTIMENTO DI SCIENZE ECONOMICHE E STATISTICHE
@@ -264,9 +264,8 @@ Università degli Studi di Napoli Federico II
       const logoDises = document.createElement('img');
       // Usa il path relativo alla posizione del file HTML
       const basePath = window.location.pathname.includes('/SSSM_2026/') ? '/SSSM_2026/' : '/';
-      logoDises.src = basePath + 'images/logos/dises_white.png';
+      logoDises.src = basePath + 'images/logos/dises.svg';
       logoDises.alt = 'DiSES';
-      logoDises.style.filter = 'brightness(0) invert(1)';
       
       linkDises.appendChild(logoDises);
       
