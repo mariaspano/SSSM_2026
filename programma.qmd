@@ -23,18 +23,6 @@ Il programma completo sarà disponibile a breve
 :::
 :::
 
-::: {.session}
-::: {.session-time}
-11:30
-:::
-::: {.session-content}
-**Apertura lavori**
-
-- Saluti istituzionali — Prof. Antonio Acconcia (Direttore DiSES) e Prof. Antonino Squillace (Delegato del Rettore alla VQR)
-- Presentazione del programma e dei partecipanti
-:::
-:::
-
 ::: {.day-program}
 ::: {.day-title}
 🎓 Introduzione alla Bibliometria e SAAS Workflow
@@ -42,14 +30,15 @@ Il programma completo sarà disponibile a breve
 
 ::: {.session}
 ::: {.session-time}
-12:00 - 13:00
+11:30 - 13:00
 :::
 ::: {.session-content}
-**Introduzione alla Bibliometria**
+**Apertura lavori e Introduzione generale**
 
+- Saluti istituzionali — Prof. Antonio Acconcia (Direttore DiSES) e Prof. Antonino Squillace (Delegato del Rettore alla VQR)
 - Data Science per la bibliometria
-- SAAS workflow: tipologie di Systematic Literature Review
-- **Novità Bibliometrix 5.0** e panoramica Biblioshiny
+- SAAS workflow: tipologie di SLR
+- Bibliometrix e Biblioshiny
 - Biblioshiny vs altri software di science mapping
 
 <!-- **Docenti:** Prof. Massimo Aria, Prof. Corrado Cuccurullo -->
@@ -63,11 +52,10 @@ Il programma completo sarà disponibile a breve
 ::: {.session-content}
 **Database bibliografici e strategie di ricerca**
 
-- I Metadati: struttura e tipologie
-- Principali database bibliografici a confronto (Scopus, Web of Science, OpenAlex, etc.)
-- Query e criteri di inclusione/esclusione
-- Biblioshiny: Overview e Filtri
-- **Esercitazione pratica:** Costruire query efficaci
+- I Metadati
+- Principali database bibliografici a confronto
+- Query e criteri di inclusione ed esclusione su vari database
+- Overview e Filtri
 
 <!-- **Docenti:** Prof. Massimo Aria, Prof.ssa Maria Spano -->
 :::
@@ -75,7 +63,7 @@ Il programma completo sarà disponibile a breve
 
 ::: {.session}
 ::: {.session-time}
-19:00
+Dalle 19:00
 :::
 ::: {.session-content}
 🍹 **Aperitivo di Benvenuto Napoletano**
@@ -95,14 +83,7 @@ Il programma completo sarà disponibile a breve
 9:00 - 13:00
 :::
 ::: {.session-content}
-**Focus on Domain: Analisi descrittiva**
-
-- Sources analysis: riviste più influenti
-- Authors analysis: produttività e impatto
-- Documents analysis: articoli più citati
-- Metriche bibliometriche: h-index, g-index, m-index
-- Impact factor e indicatori alternativi
-- **Novità Bibliometrix 5.0:** nuovi indicatori e visualizzazioni
+**Focus on Domain**
 
 <!-- **Docenti:** Prof. Corrado Cuccurullo, Prof. Michelangelo Misuraca -->
 :::
@@ -113,12 +94,10 @@ Il programma completo sarà disponibile a breve
 14:00 - 17:30
 :::
 ::: {.session-content}
-**Esercitazioni pratiche**
+**Esercitazioni**
 
-- Strutturare una query di ricerca completa
-- Collection overview: analisi esplorativa del dataset
-- Identificazione di trend e pattern
-- **Laboratorio:** Analisi guidata su casi reali
+- Strutturare una query
+- Collection overview
 
 <!-- **Docenti:** Dott.ssa Alessandra Belfiore, Dott. Luca D'Aniello -->
 :::
@@ -137,13 +116,13 @@ Il programma completo sarà disponibile a breve
 9:00 - 13:00
 :::
 ::: {.session-content}
-**Network Analysis e visualizzazioni**
+**Network Analysis e Strutture Concettuali di Conoscenza**
 
-- Fondamenti di network analysis
-- Co-citation analysis
-- Collaboration networks
-- **Algoritmi di clustering** e community detection
-- Strutture e strategie linguistiche per scrivere una SLR
+- Network Analysis
+- Strutture concettuali di conoscenza:
+  - Co-word network
+  - Factorial analysis
+  - Mixed approach
 
 <!-- **Docenti:** Prof. Massimo Aria, Prof. Walter Giordano -->
 :::
@@ -154,12 +133,12 @@ Il programma completo sarà disponibile a breve
 14:00 - 17:30
 :::
 ::: {.session-content}
-**Strutture Concettuali di Conoscenza**
+**Strutture Intellettuali e Sociali di Conoscenza**
 
-- Co-word network: keyword co-occurrence
-- Thematic maps e evolution
-- Factorial analysis (CA, MCA)
-- **Mixed approach:** integrazione tecniche qualitative e quantitative
+- Strutture Intellettuali di conoscenza
+- Strutture Sociali di conoscenza
+- Strutture e strategie linguistiche di una SLR
+- Esercitazione
 
 <!-- **Docenti:** Prof. Corrado Cuccurullo, Prof.ssa Maria Spano -->
 :::
@@ -167,14 +146,14 @@ Il programma completo sarà disponibile a breve
 
 ::: {.session}
 ::: {.session-time}
-19:00
+Dalle 18:45
 :::
 ::: {.session-content}
-🏛️ **Visita culturale — Percorso in zattera alla Galleria Borbonica** (ore 19:00, durata ~1h30)
+🏛️ **Visita Culturale — Percorso in zattera alla Galleria Borbonica**
 
 *Un viaggio tra storia e mistero nelle profondità di Napoli: antiche cisterne, cunicoli nel tufo e rifugi della Seconda Guerra Mondiale.*
 
-🍝 **Social Dinner** (ore 20:30)
+🍝 **Social Dinner**
 :::
 :::
 :::
@@ -191,13 +170,11 @@ Il programma completo sarà disponibile a breve
 9:00 - 13:00
 :::
 ::: {.session-content}
-**Strutture Intellettuali e Sociali**
+**Integrazione tra Bibliometria, Content Analysis e Text Mining**
 
-- Intellectual structure: co-citation e historiograph
-- Social structure: collaboration patterns
-- **Da Biblioshiny a TALL (Text Analysis for All)**
-- Introduzione al text mining e NLP per la bibliometria
-- **Content Analysis:** analisi qualitativa dei contenuti
+- Content Analysis: analisi quali-quantitativa di un articolo scientifico
+- Da Biblioshiny a TALL — Text Analysis for All
+- Esercitazione
 
 <!-- **Docenti:** Prof. Massimo Aria, Prof. Michelangelo Misuraca -->
 :::
@@ -208,16 +185,12 @@ Il programma completo sarà disponibile a breve
 14:00 - 17:30
 :::
 ::: {.session-content}
-**Laboratorio TALL e Content Analysis**
+**Esercitazione**
 
-- **Esercitazione guidata:** uso di TALL per text analysis
-- Content analysis applicata: workflow completo
-- **Integrazione Bibliometrix + TALL:** pipeline avanzate
-- Focus sui progetti di ricerca dei partecipanti
+Focus sui lavori di ricerca dei partecipanti con il supporto di:
 
-**Attività di mentoring:**
-- Prof. Alessandro Cirillo (Università Federico II)
-- Prof. Giulio Fortuna (Università di Salerno)
+- Prof. Alessandro Cirillo — Professore di Economia Aziendale, Università degli Studi di Napoli Federico II
+- Prof.ssa Francesca Manes-Rossi — Professore di Economia Aziendale, Università degli Studi di Napoli Federico II
 
 <!-- **Docenti:** Prof. Corrado Cuccurullo, Dott. Agostino Gnasso -->
 :::
@@ -236,14 +209,10 @@ Il programma completo sarà disponibile a breve
 9:00 - 13:00
 :::
 ::: {.session-content}
-**Presentazione lavori di gruppo**
+**Presentazione dei lavori di gruppo**
 
-- Esposizione progetti sviluppati durante la settimana
-- Discussione e feedback
-- Q&A finale
-- **Best practices** per pubblicare una SLR
-- Risorse e community Bibliometrix
-- Consegna attestati di partecipazione
+- Presentazione dei lavori di gruppo
+- Consegna degli attestati
 
 <!-- **Docenti:** Prof. Massimo Aria, Prof. Corrado Cuccurullo, tutto lo staff -->
 :::
@@ -268,25 +237,36 @@ Università degli Studi della Campania "Luigi Vanvitelli"
 <!-- [cuccurullocorrado@gmail.com](mailto:cuccurullocorrado@gmail.com) -->
 
 **Prof.ssa Maria Spano**
-Ricercatore di Statistica Sociale
+Professore di Statistica Sociale
 Dipartimento di Scienze Economiche e Statistiche (DiSES)
 Università degli Studi di Napoli Federico II
 :::
 
 ::: {.staff-mini}
 **Prof. Walter Giordano**
-Professore Associato di Business English
+Professore di Lingua Inglese e Traduzione
 Dipartimento di Scienze Economiche e Statistiche (DiSES)
 Università degli Studi di Napoli Federico II
 
 **Prof. Michelangelo Misuraca**
 Professore Associato di Statistica Sociale
-Dipartimento di Scienze Aziendali - Management & Innovation Systems/DISA-MIS
-Università degli Studi di Salerno
+Dipartimento di Scienze Aziendali — Management & Innovation System
+Università di Salerno
 
 **Dott. Luca D'Aniello**
 Ricercatore di Statistica Sociale
+Dipartimento di Scienze Economiche e Statistiche (DiSES)
 Università degli Studi di Napoli Federico II
+:::
+
+---
+
+## 🗂️ Comitato Organizzatore
+
+::: {.staff-mini}
+**Coordinatrice:** Prof.ssa Maria Spano
+
+Dott.ssa Alessandra Belfiore · Dott. Carlo Alabiso · Dott. Agostino Gnasso · Dott.ssa Alessandra D'Alessio · Dott. Luca D'Aniello · Dott. Dario Sacco
 :::
 
 ---
