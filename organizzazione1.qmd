@@ -80,7 +80,7 @@ Università degli Studi della Campania "Luigi Vanvitelli"
 
 ::: {.staff-card}
 ::: {.staff-photo}
-![](images/staff/maria-spano.jpg)
+![](images/staff/maria-spano.png)
 :::
 ::: {.staff-name}
 Maria Spano
@@ -137,7 +137,7 @@ Università degli Studi di Salerno
 
 ::: {.staff-card}
 ::: {.staff-photo}
-![](images/staff/luca-daniello.jpg)
+![](images/staff/luca-daniello.png)
 :::
 ::: {.staff-name}
 Luca D'Aniello
