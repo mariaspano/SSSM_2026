@@ -23,10 +23,6 @@ La Summer School si articola in **5 giornate intensive** di formazione teorica e
 :::
 
 ::: {.day-program}
-::: {.day-title}
-🎓 Introduzione alla Bibliometria e SAAS Workflow
-:::
-
 ::: {.session}
 ::: {.session-time}
 11:30 - 13:00
