@@ -32,9 +32,15 @@ La Summer School si articola in **5 giornate intensive** di formazione teorica e
 11:30 - 13:00
 :::
 ::: {.session-content}
-**Apertura lavori e Introduzione generale**
+**Saluti istituzionali e apertura lavori**
 
-- Saluti istituzionali — Prof. Antonio Acconcia (Direttore DiSES) e Prof. Antonino Squillace (Delegato del Rettore alla VQR)
+- Prof.ssa Maria Spano — Coordinatrice SSSM
+- Prof. Antonio Acconcia — Direttore DiSES
+- Prof. Antonino Squillace — Delegato del Rettore alla VQR
+- Prof. Massimo Aria · Prof. Corrado Cuccurullo — Comitato Scientifico
+
+**Introduzione generale**
+
 - Data Science per la bibliometria
 - SAAS workflow: tipologie di SLR
 - Bibliometrix e Biblioshiny
@@ -82,7 +88,12 @@ Dalle 19:00
 9:00 - 13:00
 :::
 ::: {.session-content}
-**Focus on Domain**
+**Focus on domain**
+
+- J-AU-DOC Approach
+  - Journals (J)
+  - Authors (AU)
+  - Documents (DOC)
 
 <!-- **Docenti:** Prof. Corrado Cuccurullo, Prof. Michelangelo Misuraca -->
 :::
@@ -231,8 +242,8 @@ Università degli Studi di Napoli Federico II
 
 **Prof. Corrado Cuccurullo**
 Professore Ordinario di Economia Aziendale
-Dipartimento di Scienze Economiche e Statistiche
-Università degli Studi della Campania "Luigi Vanvitelli"
+Dipartimento di Scienze Economiche e Statistiche (DiSES)
+Università degli Studi di Napoli Federico II
 <!-- [cuccurullocorrado@gmail.com](mailto:cuccurullocorrado@gmail.com) -->
 
 **Prof.ssa Maria Spano**
@@ -253,7 +264,7 @@ Dipartimento di Scienze Aziendali — Management & Innovation System
 Università di Salerno
 
 **Dott. Luca D'Aniello**
-Ricercatore di Statistica Sociale
+Professore di Statistica Sociale
 Dipartimento di Scienze Economiche e Statistiche (DiSES)
 Università degli Studi di Napoli Federico II
 :::
