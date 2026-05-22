@@ -6,7 +6,7 @@ format: html
 La Summer School si articola in **5 giornate intensive** di formazione teorica e pratica sui principali aspetti della bibliometria e del Science Mapping, con particolare focus sulle novità di **Bibliometrix 5.0**, **TALL (Text Analysis for All)** e **Content Analysis**.
 
 ::: {.info-box}
-📥 **Scarica il programma completo:** [Programma SSSM 2026 (PDF)](programma_SSSM2026.pdf)
+📥 **Scarica il programma completo:** [Programma SSSM 2026 (PDF)](programma_SSSM2026.pdf){target="_blank"}
 
 📧 **Per informazioni:** sssm@bibliometrix.com
 :::
